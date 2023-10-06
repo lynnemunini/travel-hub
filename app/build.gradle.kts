@@ -3,6 +3,9 @@ plugins {
     id("org.jetbrains.kotlin.android")
     kotlin("kapt")
     id("com.google.dagger.hilt.android")
+    // Add the Google services Gradle plugin
+    id("com.google.gms.google-services")
+
 }
 
 android {
@@ -53,6 +56,15 @@ dependencies {
 
     // Splash Screen
     implementation("androidx.core:core-splashscreen:1.1.0-alpha02")
+
+    // Import the Firebase BoM
+    implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
+    // Analytics
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    // Add Firebase Authentication
+    implementation ("com.google.firebase:firebase-auth-ktx")
+
+    implementation ("androidx.activity:activity-ktx:1.8.0")
 }
 
 // Allow references to generated code

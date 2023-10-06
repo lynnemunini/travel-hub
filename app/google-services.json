@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "787860199462",
+    "project_id": "travelhub-19ea6",
+    "storage_bucket": "travelhub-19ea6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787860199462:android:9e3ca89d01df779cfc2ee7",
+        "android_client_info": {
+          "package_name": "com.grayseal.travelhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787860199462-kmishsta5cchqr2cgjunbcdu2aah3i1p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grayseal.travelhub",
+            "certificate_hash": "f5afd9fb454e46ebdfc47db9279add006f847369"
+          }
+        },
+        {
+          "client_id": "787860199462-hn8c94bmo76kharadfml0q2nomnlupiu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvdMMl0NY4-N75pbQiqIzyVI7LCe1xGxo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787860199462-hn8c94bmo76kharadfml0q2nomnlupiu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
