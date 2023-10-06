@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashTheme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/accentColor</item>
+        <item name="android:statusBarColor">@color/accentColor</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/destination</item>
+        <item name="postSplashScreenTheme">@style/AppTheme</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar.Bridge">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="android:colorAccent">@color/accentColor</item>
+        <item name="colorAccent">@color/accentColor</item>
+    </style>
+</resources>

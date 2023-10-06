@@ -1,0 +1,2373 @@
+[
+    {
+        "_id": "6514294ac87ba10e2c114f43",
+        "user": {
+            "_id": "6512fbd2c87ba10e2c1124e3",
+            "firstName": "Milos",
+            "lastName": "Mixer",
+            "isPhoneNumberVerified": false,
+            "followers": 0,
+            "following": 0,
+            "hasPassword": true,
+            "created": "2023-09-26T00:00:00.000Z",
+            "timeStamp": 1695712531166,
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 0,
+            "country": "",
+            "hasPaymentMethod": false,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "M8IKDKN7WF",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "isBusinessOwner": false,
+            "interests": [],
+            "__v": 0,
+            "address": "",
+            "bio": "Best host",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "favouriteFoods": "",
+            "gender": "Female",
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D"
+        },
+        "name": "Kinangop Heights",
+        "created": "2023-09-27T13:08:26.000Z",
+        "price": {
+            "currency": "KES",
+            "amount": 10
+        },
+        "description": "Kinangop Heights",
+        "location": {
+            "lat": -1.2892786,
+            "country": "",
+            "lng": 36.7869311,
+            "name": "Kilimani",
+            "street": "",
+            "city": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.7869311,
+                -1.2892786
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695820106785,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Pool Table",
+            "Indoor Fireplace",
+            "Wifi",
+            "Cable TV",
+            "Extra Blankets",
+            "Beddings"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkOut": "12:00",
+            "rules": [],
+            "checkIn": "11:00"
+        },
+        "details": {
+            "beds": 2,
+            "bath": 2,
+            "guests": 3,
+            "bedroom": 2
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/211cf36fe68a08d480e520920e8184e7?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=WRYINQ3MPLt%2FyMpuAN0WkIiy%2B%2BZE6vf69mDV8hvVtJQb1NEJ33I9Y2VD6RsXn431T%2B04%2Fp%2FNoEwTSte4w5VADev4xRlWTZvc5EBQxCBnYNpTmfl5A6608XzyICFied0%2B9ym%2FB4krCDtgXxQpD2nac%2FBTGWmqvYqWpFHmyLdFyVulhPlXtWOlxQ2MyP0%2FkpramA3o%2B0TA4utBJM%2F%2BUu21Ogh8YXzqcE%2B093Jxj%2BXA7js0Bb4%2FIkPhxSWKk4JYcTMEFVWBWSBZ2bBvZlVeHRDtX%2Bz%2BGVY7FFKocKTHtTAGnqdvCZoQJs8uAqaBem%2BEzDNdAqJ%2FrxFcR4xC%2FGpikMg%2BXg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/c4db8116e4987b4fc2993a06dce1708c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=AV8azu92i2xnxK%2F6IINPEQkXEIseTZE4TMJixU1GNNiSBEj8fMTdBarOAhWsW0Yex%2FZKqjoU3mbjpfPsEE2r7o6j%2FvOPP4xXfZ3B6WeyE%2FZjIwZIDs6nqkqkUYJqzNiFiKI27aTID33OdDcsWWTGYBNLaxPvPi8YWAwyvk9uYypIyLR%2BRi1dYGBk3yTQ1jRno8%2BaYuHaeLfYPXEakwHfvqr7PZa7ht2yK49OogREKP2ZGWGSBAFQiz5DaJaLs6J5NLErDpNtVIi%2F%2B0byysWU%2FrGgll1KjpRkMFTJR%2BwddJHklX8TSVoPH%2FBGyJLZVuWSH5kkxdmfl1sohpRUEZ10Zw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/1ae1ed55f8a954f0efe073cccbf180fd?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Tur0TPXJnv0fI045t61ADWLo32QyTxnOjbsGV4fatzwhCUpUxjnEyBHJS7gAlbJcgDiyi6Os6F4hPU2cyiIa6Nq0rSJ60ZuekdW32TF74wqBONa4tBxjbwWawmfRgMzFMROqUw6YnQ7Sl0I%2ByXotmbuQIDQd9oGQJwUaLYbx%2FB1a0O3qtKpzl5XTuwl4XOM5NFGJMR2JOCFU9eLhdKl8fPRaxL%2FR2KbGjWrV8Zn3un4qg3qEc3Wh7JOseepJ8xIrQE2HsdxJFusZQTr6wLYeX5OCh2jgRptI3nvAF1pB5QBWNDKOWVcmgR%2FS0f%2FZLH6WACPPxHALF9KgegpuGV%2BveQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/991add9b70188e5aa514d8f71f9572c2?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=rvmQOLjnO575tXpZSg630M%2B0aRg54mbwsdPT%2BhmXp9IYGMYdHsHc6QIHeImnLjrDfPm8Le4u%2F1ohBYeIZWdwV%2Fz6RsmBhhUtBGEs2jICGfzgItrYG6q67RzX9yXdnYPs3ZkAuc7clQZOtokWsVUPKGSYmoIrR5heWd2k5XdzfMawwFV%2B9hhMn3TkX0dGiNPZ2scXp1nXWrZeiSDmSaelWoQqU9woGfRb0ncPWOFBI6gRWruEodDDDcOjNHEgxt5SzwD7mYG4eaGGJf1qJhkF%2FP35SCFmY%2BhrWYbrwATC3GlOqPZu6YT%2F4WfBFYnxJ3UH%2F3r9pK6i%2FQs%2FMSpO6jbrOA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/5c358aee0d8fb2ef0375e5618c1ecceb?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=tsO2JmeVaTO5JSoty0v2X2%2FbkrBm7KZ32xsRNC1%2Fjr%2B6NReoaP5gt%2BhnrbcCoKfaufJXu1zziywVXM0V8zwtJtAjcNKeLQsM2tiVHIM4O7MZ91hW6vqdNSql2gmI%2Fzdk%2Bj2vTr7Y7r08FpuW0i1%2FUhLYv%2F27AW8W3ftF6H%2F2%2FmLat%2B3fy3d2%2BVv4zffmzWoSJjSrQEn6DrvM9KYK5b4LE4Fj5A%2FB0mHMNSwsRkpEaNIu8yxI9ajb6a%2BviHsDMO9vljPaDhVj5h1uFix3ipumYe5FwV0rlyCqxDUOqL7vB%2BfY0GzvdUDNz2H5sIN2v5HS%2BWKep6df0fP6jw6OQkp%2FMQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/70030534d529cc0b574c7cee34dec523?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=bAdfMEHlfkUDOfJp2Ffl%2FtM%2FA%2FpWdArEkJ8sCW0ozcj9oXwghWvGYtCedyIHGeTeJdIEsFLIJMlgHqVNqQOs%2BzGjdXT9ESK7ioHAdv5uNZEfXzEdbwHLL%2FFYIVSmi%2FfCK6xaD%2B8%2F7bvgth9BCPdH0P2Bwo4DKwTrtI8QeJJIck2tf4BRL8DmmTF3a6NF3r4rR18R00UJVeEUg82GhN1lQsFe1pRJmU%2B4E0I1U4LFaJnGY%2Bg0R%2FQpzHA47op0KQAZnLnSEQ%2Fs1sDtHJ0Gllt09uLG3kdAjxnKbpteCRo0JALrJe5aV0ar47cHgtw6uiFZu4GG4Sf4i1XjLgBr%2BI%2BuGA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/07fca7f4c2b22f583e0ec43901dc9b4b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=x1PM22rQaYeLwsMRBR%2FDiZ72xf9rMHHhp495JBF0aQPbn9Cmw%2FN4RhGc2JPpJcff7DDJxdNefNkhInPb2skH3bnoE72b0zQVIUQPPzdoHi75z7peNwA%2B%2FrXlOG5IyeKiRDuvgVk2UmOI7ZnyiGI774pSH3zltAPdaWboG%2B15CPAm0L0BgNIQlPD84k8V18t0PdZw0xVGYtnt48Un9cnA3tVC%2BDQ4Dlx5wBluY9l%2FPG%2FgGb8tFf3qyujMCidsOfGjiFMqf%2FBD7Lq9HNFbV77UWj3uH9Ezs0cQnLYtFlVDynGYdzaosg5QpRC%2Fuxa2eLNaBEXAq7cwE7%2FkrqVCZHpnjg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b92da41057bca6983f0ea1498d8d435c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ruCxxkFcJX10ewiFv86nlpJUhOEvdnly%2F0VeaormoTVBGMX7ylfYMRpa4miTgAYaorT5rS6FHGHv3ZyritYa4TzNcQYzcQmAJRXLUDxft27z%2BgZqaogNcieLhfgzam9iLk8BHW2PZO5WnJ6u3So593HIcTB51IUpGWgAiFHm512ZLcAGmyeUxJKjrJMB5g5efFif5uDVwUeWLrdeVqUzQASeU2qgaToTVxD0Ug5%2BLhrOwJis%2Fhw0q%2Fe9HxCAqdCW3ZTnX0WjZKo%2FHUtNw%2BsbDIqgiIV%2BkrD8aLxV4XON1A3E14rSVgwAwn9MWaQ1IVYpX6pXuygiXZtXe4f2jmMnmg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/200df792765f01970896c0a4bf1c8c2d?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=FBKB9E5%2Bc4aNgnIsQ1WjqtrRvQ9HmMmYZJgVpWfxpTk6bKxAuBwpEdQDK59mvp1i8M8GHauPh6s6C8QKVuuM8gSg2vQktXhNHP7lS8yWWdBon2yLbAFSv0d0ESDQDDwFn2pXClgCJTJg9BSYx3zQajJmZqGXPL06C85PqTMZAWOH%2FhyDACwumOfwU6FOvTmN%2BrHX6gUgr%2BzwfP56yDTFc5ia26gpNQBa7kPOHkbh702xuO872JuaiC98NDQ50Gn9SD7%2FFMrxaTDiFVwIPrtyPfCCtjJdIM2rdXVszzCp0GQB9Y9OU1%2FHsCjso2qPjMTBRalgeGk%2F7dGNaN6ibNOjqw%3D%3D"
+        ],
+        "bookedDates": [
+            "10/05/2023",
+            "10/05/2023",
+            "10/12/2023",
+            "10/19/2023",
+            "10/26/2023",
+            "11/02/2023",
+            "11/09/2023",
+            "11/16/2023",
+            "11/23/2023",
+            "11/30/2023",
+            "12/07/2023",
+            "12/14/2023",
+            "12/21/2023"
+        ],
+        "tags": [
+            "Food",
+            "Travel",
+            "New"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "65119c57f5480dd1642dafdd",
+        "user": {
+            "_id": "648ad62821080bab8c10dc1f",
+            "firstName": "Collins Muthinja",
+            "isPhoneNumberVerified": false,
+            "followers": 0,
+            "following": 0,
+            "profilePictureURL": "https://platform-lookaside.fbsbx.com/platform/profilepic/?asid=4200183990207324&height=50&width=50&ext=1689412391&hash=AeQnArrXLXuuinmSA9k",
+            "hasPassword": false,
+            "created": "2023-06-15T09:11:09.112Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 0,
+            "hasPaymentMethod": false,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "L6657U00PS",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "interests": [],
+            "__v": 0,
+            "isBusinessOwner": true,
+            "dateOfBirth": "2000-09-20T00:00:00.000Z"
+        },
+        "name": "Mombasa Haven",
+        "created": "2023-09-25T14:42:31.000Z",
+        "price": {
+            "amount": 2,
+            "currency": "KES"
+        },
+        "description": "Mombasa Haven",
+        "location": {
+            "lat": -1.2920659,
+            "lng": 36.8219462,
+            "name": "Nairobi"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.8219462,
+                -1.2920659
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695652951858,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental",
+        "space": "EntirePlace",
+        "amenities": [
+            "Playground",
+            "Wifi",
+            "CothingStorage",
+            "Beddings",
+            "HairDryer",
+            "FirstAidKit",
+            "LuggageDropoff",
+            "LongTermStay"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "checkOut": "12:00"
+        },
+        "details": {
+            "bedroom": 1,
+            "beds": 1,
+            "bath": 1,
+            "guests": 2
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/28e842c677308c25d4bf42cde63b31ee?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=JAMFRAWHxUcXdnbKUNMWT9OghqBGwz8PxK7Ouwg%2BsZGFTysxUR1a2FoyaNLx8djf%2FDb3ZQAely5PFmXfDCE86eqQdtDYpr8ij6W7TeW67GPfby%2BGWIO3moQ5EejDtHN3ePR%2FeLXERUrrk6Yp2ZoXfIUIcXiNNlrvoqe9vurt5%2FktkosEteuppz673Lh0L4H%2BjCgg5oR1k3r%2FPFfFQv8%2BveSd9fjUKcaJbkLusBTPTdWyV7BlAR0vvbRXphwhmpIoPXpgvxY2AIPcUAzLnHLwcgrfQjPullf5ZnSi1OOLn%2BCx0LRqaEhXXrWhZN6qItCg%2BP0lmPN4zQaquHW1xdEaLA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/e53b1fdda9f50dbbb1d4501f394e0756?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=RwIJc7s3o68xQAz5M345d4P1ypwVgyjp96Hph1dtkNVaXEvVQTP2wxo2pz7yBX9duk%2BTrV3FbYFwImPJubaSs7BmyqFbPSn0meT3G%2F4bq9RG5yswAi0pistm6mNioAl4rRL4iDY47PhLHZ%2FYKeYv3TviLBAkuCXQNkRBeAijkRast%2BzWsFIPP3gjZRZM0RdhjAGaT3LKLjws12X76EAGofpsoN3B8jK37OzbU%2FkbzRTXuTxFz1wPDspXnaZelsFqw8H9G6QND2OZBGH0%2FCdAjQVj1sG2H7hh07UxSkp58p4Kae8FEkR2Ia4uwBWYspmDMDzA48%2BYXNPb2IQ84ERchQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/5fc09e0c7acbbbd002b3d2082f6133c6?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=e0QvIlSd%2FQQdmSfYZFkOmZmuGdmeh5xAqSrIVaU8Mjv2wbc988bsGOcjvUtQW3aF2gJFZHdMs9pAPMbvZDnUkF7tg5xXtE%2FHYfUUgzKRreZZ4S9VbgFuIYnCk%2FcEG6RE6I3yAdKxohIiv1hK%2FYcq3r8CreToGpcJ02ivfhDlkoBnxQi4%2F9FBQqTik4PQPIwyscqGUDmkv5gxKg90hpQfW30oJfgML6ezNWVDnblvGDFVcwQ7BSyFFdwzI7FIqFop804EispMVoFIUt0hER90dGcYtg4anbvfi3qZgCSzc4zwK%2BEfaHPemTJwZ%2Fkw2ngOBbXYbG3BkxyALk6%2BuIjQOQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/9a2dfff7b69283bbc9700f8831c4030a?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=GDjrT1cT8iSzxqiB8qmKg4yqdEy%2FYJ5bO1ZCQ%2BGfFFuzO980fHg%2F90JqOh%2BszlTUonI6UjqGcnOSVEUY7ZZnRZDg%2BuNFFgtKjbMvxoLsyRJcpoUQV5sUdYJtW%2F84i7Wxxdff2N%2F7dd7nSDRPwJedSai42fMQTMFh91RYoWStCR8M2bifjnISkS9GI3l%2BW7T4hvSJJCU%2FSiu4SgLiEuRym5tmnfu1dQpKr8%2FU2E4HJF76zZ2uGu6MQ9pdmVAbFG8cQ98XxwculDeB8PEy8iO7CNWwBskgvmdYJRqDz%2FkEkCSFv6X6y5S6GaGQcDfoR4Par%2BlIk1cJMgs1%2FoAS8qBR2w%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b63520e184f02ec3bf5cb9d1ff8a0e54?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=JF3jX6YTJ2gob0NpfX%2Fy3wezeru25pnJfSOK3K7gHrbtQh7JpL3YOrDJwEKkL8X2IcpDwQ3cLbxjhDsTHuCnXN2ZovYYsW%2B7TEsmX8%2FTFoRCjzbMb9a34Cd0tGYve%2B%2BEjUrPxXzlnmS259FHZoX%2B4%2F%2Fw21JiF0OfAY%2F4b53U4VXupKUDkGf%2BWbPbt%2BxhiylCdK79qMBuCE3HlMqpr9P%2FpjHd42ebLCewKKOr%2FTx0pVHS%2BOutLj0j7rC7WeAvvlDYLGrQeJMMSSgLX3r3Y0r%2BZXEAsWJkOSmv9Fr8R5L89tA%2BAtIeUZ%2FqhrDEee3J8Np2H5x3aVxLn8rF322B9t9Meg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3b760c28fc254f7e97faf0bc38f203d8?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ImhpaTYiBbSVEXfRaZPs7gfMhq1tNYsPRX7LT1E4Dku3pnHloUYltl%2FN1uUkwI%2BRH8qr8NEQGFAlaufNJCBZnV8UqxpAajbCDcMMl0T%2BNei5vDxtpGkcUP19rcxV177llHa8VwGqlw%2FIAgSvMl%2BFzZRcyDFPYitpvuYRHDYdLgoCu4shtyYfocdJtAKPSoiEKQheb17ZwaBW1vi0jhTJ011WUZ3SZtyTzGuPq%2BwDhanxpqJ%2BdVphWWuNXC0jjtYXCrH6tN1%2BnAtCLGtZUINTfRZx2k%2BW8hm8pft2F6c2aIMZ8vWbfroaeNWT%2Fg3eG49EAUgZUpRPxz2IZ3k4p41ryQ%3D%3D"
+        ],
+        "bookedDates": [
+            "09/26/2023",
+            "12/28/2023",
+            "10/06/2023",
+            "10/13/2023",
+            "10/20/2023",
+            "10/27/2023",
+            "11/03/2023",
+            "11/10/2023",
+            "11/17/2023",
+            "11/24/2023",
+            "12/01/2023",
+            "12/08/2023",
+            "12/15/2023"
+        ],
+        "tags": [
+            "Wildlife"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650ad9edfa1d926aa9d0e23a",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "fg",
+        "created": "2023-09-20T11:39:25.000Z",
+        "price": {
+            "amount": 3,
+            "currency": "KES"
+        },
+        "description": "fg",
+        "location": {
+            "city": "",
+            "country": "",
+            "lat": -1.0387569,
+            "lng": 37.0833753,
+            "name": "Thika, Kenya",
+            "street": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                37.0833753,
+                -1.0387569
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695198237174,
+        "noOfRates": 0,
+        "type": "House",
+        "uniqueType": "Cabin",
+        "space": "An Entire Place",
+        "amenities": [
+            "Pool",
+            "ExerciseEquipment",
+            "Hangers",
+            "Beddings",
+            "CableTV"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 1,
+            "bedroom": 1,
+            "beds": 1,
+            "guests": 1
+        },
+        "emergencyBooking": {
+            "bookable": false,
+            "descripition": "",
+            "discountPercentage": 10,
+            "selfCheckin": true
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/5514ae2263bad8e34fcafbc05af37bd9?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=rlBBjgziiHdvw320LnfHFYji5NnD7f8%2BrOwC6ASwV9LpMEB0cP%2FMs71CEkxJriU5YAWFPmAtS03O4dMKMkdhgz95%2BljHVV0QxkJ9ozapmQyj1Dqjx2IryVdTqNIfgtEsKINeOF0Dd%2BP8iOnlsu9luAbGYT43lfjPGPKQ2bGk%2Btm4aREh2TtywqYIfdqFqFLMk1pG5uOl2z2FaCE8x5YEOp8yNevtkvskgJ1Y1CGHgp4W6EMpySeWbMFKh0BCwDtZVsBQm%2BWCz7LIX6B42WiewwUrv%2B%2FC1AoTjdbD79x6BE%2FbeZ60Z0ohBZvDWm1nG%2B7xQPjBEP2AbC7OnwG0hTd4Qw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/877679dc7cffda71d9e39e2331fb5aa5?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=tLmmy7rAqHzBjzD0vt3wxWIZ%2FCNool5xEC2bkYo2aXtUplRg88TGFLh%2FuHSb1ABKAABdB1zQZO35sMUAXVCpL1ITwdVJsddOS9C8KIs12ZF71zr%2FDa%2FpbHsUU3u%2B4Aa1YNdsq%2FtXJj%2BhTs5E18yMD7RC06GzRAXP88xeHJd8oyOAV1zOOmkUUW%2Fa1O72iJTbDbQ0%2FVyfCyYVgo9%2FRT4ENDLeTjZg3E8DNLNeF7KBF3MD0HKKctXQSbJ3yzo%2BF1hBaeUHhYYWue3f0QsSBVjRwwolwBIHc%2B6WoSb7Qwz7NNnb7rmLE3uHbhVhqpLWISW5KTa%2FcqAR4iTK8SbTRVtvJw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/83e1873ab1937e83fd507c1e8464d342?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=I79eoP7uUZoHZblpCg8pMMFksaCpiEEpJ0yqgUrDjRUIyC4bhQxKcn5v57N8KGEjQQdx9WyqoWPd%2F6X8iGe6k%2F%2F3EISrSDHLOvbzcy3nmlVT9nkHjO%2B9PD6Xkn%2F%2BgqloMG%2BK3H%2BCoVisz%2F05c6dcj8QXP0WuRj9c9fsEnDezlf2Ox51KtHMZ7cr6f6BqPeahvT4K7tLWgHGrPZ887rqJaMreivw%2FfnriJWLE7hwvaxcyQ%2FAypqVnPQOA%2FXP%2BuUaVhfy7vJg%2B9GJLXretYTRZvIoJ360YR91gIR3wcPjjx3HGEx661Yo8N9GVkcAb8VT%2B%2B9D7yaQhozFKyMJ6KEM62Q%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3bd53ab261f12bf26b2033981ce8d352?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=SyNW1sqaAs9pKLRWx2dGPd1LhMwSV0VlPPZzkWW6tfyEfb1QjvoKS0UrjpwZj8GMKgK%2BOP%2BnbQ%2B%2Bwp6mq%2BecWkz5lbC2usDPE53cSEHHWCNXJuToHxE21rTp016WGwfuPNfrjnT5riFda27oM7XpaDiEEqHS2OBfY0zq1iFbCYmr2f9JjJ%2FnFf0iujNWPAUwrIGu2VOjCoDNCy5cq4rtUAhA%2F4yECTuU6uFzAyol6UmAI58tU54HQnxXlCB%2FBeVLSvVEQHPmvaX5xcUGa1Tz8QeH%2Frzg8Qa5xlaWrxt3vbj%2BX837XiLkywFkRTV9hkg4DVOa6GTlkU92Z7xxnKnkYA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/afdcd408e1b1a69587330c7adf436e9e?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=LwD02717%2BNhxF3i1w0wsLfkQv3xmy9317Wl9iLbZwTBABWGidZrNgN203GGuIzrXR7Nti0y6kKcabHV1ldtA8IlYAMFcxx5BPWTwAjMxwC3NDCm50oRm%2BvL59HRM4TGGzrJ%2FYNsnhPUkbzHpk0wZoYcU4IAI0H2N%2Be51gshG87IpyVW1JCIuRCj7eqOKix5hUUPqKXZk4lvd9kEKSUaKaGrt0pl3H9xU%2F2ZlcqUSJ%2FmXR4I8LOStnSefX%2FniCzeV7Tmi3IgcSM63aZXwczLJfv9avqpcIzP7tfyp%2F75GNgea5uWjzI3NKKto3c4Z%2FBo%2FZrBUmayFtycerlcK554CBA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/fe551b290bc6da4c622b745e8add90f2?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=VAocsMuR0tekxhIcxrhtRVjYhZ5G9jTzZeEbrPDfJO90YTAhhYqCvHkNiauQeEJGGIIqdm%2FEr8D1rg%2Fs7reGGxEp61bAnrFY1ra7MFlMtg6uVskLVqh7OlWZzIr01z3fR%2F8RYpz9iM9VuwJINAYpfKs4TzAGQOJZT1YqvW%2F2i%2FHsgaj3gO6Zfc%2BoQ2Krw%2FMryzLLsRN9N8qX6gfahZ%2BzS3lATNtNRBDxZZ5RNXiTb2KOm%2FHD9P%2Biqls6BLcB3GklEmFD6z1fQWWvUdhpfvQL8sgmHx%2BpMkv0mEEmtz2dhRraITuZY6kVY0AXaImXn3Jp3ui9oLYvfux7CfSdJ1IHsw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/34f5171d877bd9349014f63bf025db6b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=NYBEPnsklzdBiWiDOPneiI2kh36RWat%2FLjMbba8BLcDPqWV5QINLB8Goaw0zx77kN0AJspSyI%2Fqa65DWrInD7geCIwAUkaWymaxKmgBoNzGhg3kXSA75edHSAfUdMONhjvjS2bI1eR4XDi5dku3i0bh%2BQFgLqmpQKoreDtm52sps7b9zdewcyyH1aiBsltB%2F682YvtKZP9DLVG9wmGFRfTX%2FMPkjWq1R%2FXJPCSqjkx9DA1MVUJixXgThNY4n6ngjwCuvAtbkvOsbbzlkqCRq53NSMlKh517rz5jr9MnGeraK58%2FRI79bCNSbzzSQfU2laFk3KjZu3ecQsnMBQujFIg%3D%3D"
+        ],
+        "bookedDates": [
+            "09/26/2023",
+            "09/27/2023",
+            "12/22/2023",
+            "12/29/2023",
+            "10/07/2023",
+            "10/14/2023",
+            "10/21/2023",
+            "10/28/2023",
+            "11/04/2023",
+            "11/11/2023",
+            "11/18/2023",
+            "11/25/2023",
+            "12/02/2023",
+            "12/09/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650ad8c2fa1d926aa9d0e1e5",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "test",
+        "created": "2023-09-20T11:34:26.000Z",
+        "price": {
+            "amount": 2,
+            "currency": "KES"
+        },
+        "description": "test",
+        "location": {
+            "city": "",
+            "country": "",
+            "lat": -1.2184586,
+            "lng": 36.88690640000001,
+            "name": "Roysambu, Nairobi, Kenya",
+            "street": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.88690640000001,
+                -1.2184586
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695198237174,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "An Entire Place",
+        "amenities": [
+            "Pool",
+            "OutdoorDiningArea",
+            "ExerciseEquipment"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 2,
+            "bedroom": 1,
+            "beds": 1,
+            "guests": 1
+        },
+        "emergencyBooking": {
+            "bookable": false,
+            "descripition": "",
+            "discountPercentage": 50,
+            "selfCheckin": true
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/6141657d007ac16ac8a1b0f825a7985e?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=YHd5qTsBLx%2B1yAkNI4cQltzcO3QNMCIGaGc9LAmuNUsuUud2RNvSmYyZ%2FrafJPk6mhOmaGFhoJxO5%2BqvUcQ939E4bes5G4XQNbtn1lNbhVgz1gx6N3Lwp9U7E4fkFxXyIahfQYAQDNphvHBF7%2Feu0SOCEl7lX5%2FJd7iqsiD1yHc1l4880TLTNcOIwf9qwrNqi8R1rXquGPEBXu%2FDMzILf4RQ%2BoBOfgf8kCxheayS1%2Bdcv4Tx%2BZwt6tXrvah%2B1yVd289Kcn3%2FbGa%2B29a8VSSncqXiw3B2nG9DkBYr5yW%2BwOdT5m5rUpFHcSLB1PAKGdO2SVF59ueYdsUPiCrJJUYluQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/739e640cb98149427a571154a990cf20?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=r1jt%2Ba%2BYeYg7eu7rp57%2FfMcm3NpgYaoyHPB3sgFhhmdu6Gd8e3DLJyYRrIQ62woWAd3tMb7yGvm6i%2B5AIkBGAEQmwS8EUJWTEcBkRI7ACAO7bukFiffsdTNAC2m9GH0AFK7e%2F7y2GK6P%2BHD1%2BIWnly63lUsRZ0nHdj1FvZSYX%2FP1YpfunXUykpXZA23y6vYyx2R0SYVPXtXdmCthaNaIH0Cp%2FV%2BDYXt6h7Ai0xLQ4TCF9oAI%2FlCxthFwovJALAaOQwoXR%2FM9BwNan4caMbX4mCxevtFuNK8OG6b9ahiTyJa%2FWG%2F26D4cQ%2FsrmDxIpAitagCVUytsosG0k0Vj%2FxYKQw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/0ff74c8f39850158904dabf96b65b734?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=fTOnObPgoLdoe68KQqGYl6zfNaXv0sGxU5%2FVjVYwSWQPXb72yW3hwMZWq1WBfN5tqS1XujTlD%2FzSIRvFc46MJiCWPw34EF5K%2B8v05e7cc7caDfBS1H2GJXRW3Tn28%2FJ%2F8C2sPuG7Pqa6jX8Glb%2FbLBnS8jnNlqtbhu28BciJ8SKCOENi1WYB8JKb5ikjYoKVq40xZowT3MNSxt5jinuPS2nCQuY8pdiE4msTyQa7gugmlWc7zH%2FwA4oQo74gYhQ%2Bu75fWD8m6PwLyEi2om2XI5s35QqGaUTaQLo8KwZ%2BV8ZTjtNhocEOVOAp52vOWzfQtgr48HPjakg9n3zL6TpiMw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/14b644d4de9bf8f31c73c8128ddef695?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=iHA80qXs%2BU09TQPtYi1QrFpFTIRWJkd44NGD377ivXwreTTIrGLK8%2Fu5A9gJyvC77AWjkFZIrJc1yE7qmBQkF6tsSq%2F1H9mURuyJq939HtF5w2wll%2BoP8HyxZswJCNGsINY%2BFUOfekIf4Nhx9%2BNDxN2j0aaI%2Fwxe6oUdd1Mp2jeAANfHXM6yyDNyU%2Bp9swWGNz6bC4G51lFwUKGmiuy%2Fl2NSP9OZkrWtr8zlPy2unG0Hif5ctmEiStujsBBNsYF2y2ygBNAXL8VRuQ%2Fc70RPIuxkQ9VZCnRPD2btq%2By1zyQhXVh%2FolpIseRjEr8Ap4kCrryPT7s%2FQ1Iuo0JwiHozhA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/c56afb3c4389b191601c224415702bf6?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=vw2w%2BKP4PdznfzbMiaHbAar1brsOjvEmTiIppUA5z3jUmZCcvAL9%2Fert76kuiVs5sh%2B9w7jDqJwuy75Vl0sHViWi%2B9qfRfV4QE%2FFvbFCwmNo7zjzH5PIoexOVN7AWVXS5MvXItZXoN22mXWpAPzPlNVbN2kPPCUUOwfWWR%2BhI49cQlWw773S5lE11bFbTQ9xl%2FUqN6IkEn4aoS35LzSiqx3T%2FDXFfA1tGlQ48Ozv9xWbOwgZbMqa6snrAINQhSflsLocTyTNg0FCDJsLias8Z4v5rhhdpb2Eu9BOL43UdBEM1jJZ0is%2FzcbVzDiQHvg0L7ztAhVl5EiR4onpNAV7og%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/9358cb9d516c4ca269aca04cef541eac?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ZiSpr8P5Yzl86VlfX3qFUjgPDOXZf9vb8XZibF1zA953fqTwA6%2BCuEbA919GuwF2CuAPecj0PeoKqU14fslhaC5EzuYMv9YVNtFxfjefwQl3HKrA%2F%2F6LnbxihMM%2FjdnhYSFVVBWnuQJvwYF9Piq6EMQg121rq3rtBZUrWg4z369eqfcOkZRq%2Bz1VFPx1cimywSgPHzZ8J8kEFRV76SVtVLOIQtFF5CguU8jRBIukxG4iduKCAjoyYE8pd5W2abMNnkH4nyc7LlXYDj1EBse1sVpKGUAQ%2Byi4%2B8nRn6sSagM%2BxD1iu1UCjXqy%2BiOIje25rgUQQ5GiratTKok5Cg06eQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/1dcb215a868855c7aa13b3423ed234b2?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=A%2FYv8nqSdeO7qQlEaSHAhdiST9m5i%2BJBmkFTeRxmMYK%2B1vWgl17q%2FbCtfvIuRc4p%2FDA7aUFqMP6SUDiAok%2FtnO%2BjNcl%2BTdlKwT5r9331tiVs8aqES4UQEwd8qzIAdoF4GoXoSUiO2sQNGCWhzB2HjW2LNggr6mwrXj7a9HXu1Rpo7fxQKADxltqYigazPlN2sl0mAcQA%2Bvgp3OCBUHyyNqASwk4DQbBnSHiEtpoCQ6WdLhbnQFup0UuSwuoJgszuPjPJ2xqrODxxw1moDlxINzvL7l45B6tP9PZVVuQ3bgRovT55TpGIU2463TT4M%2BC221GDu0RHEoVouJV5rRMWUg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/34d31179b2f2c12207c5da08c5f62365?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=sBafk0hAcFT9iywn0VW3hgHcZOAbTBHjdC24o1zwwOLqqdWYIM2WbHlUCKfpmDzVhrUAGVtRFHqRiYKFIcQ0oBzQIUOi%2BPaTtZfOjhB1Zck39JgEP9LcvBEY8ZVz%2FOg3Ve3lRg8nqd8KPsGzXBcgVjX2xJgQti8c3bxP86WccW3sz3j6fKKL%2B0FA5OmyzCPgRGNUCfgOZvEx4fS7CODezX6s8qmavavXd5qoUNK6fFWdRs7D8rgmPCcm2JflYvNhypa3GqLIcz0T3%2B9oCUYw7vGW4guw5R7VBoC100D%2Fnhfd9XRq6pWKy0Nbx4fCha3T%2BXLFPOyE7Aa05qzmfYX4WQ%3D%3D"
+        ],
+        "bookedDates": [
+            "09/25/2023",
+            "12/16/2023",
+            "12/23/2023",
+            "12/30/2023",
+            "10/08/2023",
+            "10/15/2023",
+            "10/22/2023",
+            "10/29/2023",
+            "11/05/2023",
+            "11/12/2023",
+            "11/19/2023",
+            "11/26/2023",
+            "12/03/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650c2c7ffa1d926aa9d11bfc",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "dream villa",
+        "created": "2023-09-21T11:43:59.000Z",
+        "price": {
+            "amount": 100,
+            "currency": "Ksh"
+        },
+        "description": "dream villa",
+        "location": {
+            "city": "",
+            "country": "",
+            "lat": -1.2892786,
+            "lng": 36.7869311,
+            "name": "Kilimani",
+            "street": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.7869311,
+                -1.2892786
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695198237174,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Condo",
+        "space": "An Entire Place",
+        "amenities": [
+            "Pool",
+            "MosquitoNet",
+            "CableTV",
+            "HotWater",
+            "Refrigerator",
+            "PortableFans",
+            "PaidParking"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 1,
+            "bedroom": 1,
+            "beds": 1,
+            "guests": 1
+        },
+        "emergencyBooking": {
+            "bookable": false,
+            "descripition": "",
+            "discountPercentage": 99,
+            "selfCheckin": true
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/fbd2982cf1fcd062af5d8b2733b00910?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=RM1v3eAjMExqweiZYHjX%2FnrVGYASA1d8HPKcmtSdN0wYbpvAa7FFtvkxLd3CEcN%2BC6lDCX%2FpHMOGoilevYvBBSKRWD%2BIsjez%2FMIGMr%2BXE5VBC3XPnAFx9aKWdnbEpOhuBhZaNcPebmbQlRrJu4e97D0LbasF7y550zmVlWKIlh6aCe0ZVcw8QzSf760tz%2FVPSYq37T1TSDPSoHvYcH5Ojek4fviFG%2F0NyUP7MXdY0NpcWH0r0TKDz08fx9%2FsnJPhGvYHEcGS5SWf4mMO%2F7JkKaxxXjTB%2BS%2B9WteYvRM8rPBcKxFk40CB%2BUA%2B7WFs5QMtjCHvZlOvxFHGK3kpHLT4gA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/506fb1eb544fb72c7bbaacc18e839462?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=m23Xlk%2FaKXE%2Fe5%2F%2BSIiuYkTHcOWp2LWhXFfVU3uLgi2356egOlOHgtYxoSjXiD307YJF7HXYkzbGxQDyi5C%2Fgqf0lrHGQjovvT4q8XbhRfp0SmeMwpSzdCIWS3Xq450oqO6u2ov%2BS1%2FEegc06X4dzL4FXEi7MDkoS1KnIWzzM1yk2sym9uMknNjHNzoMuP4fwIZ4gxdgWh6X6hWUnO0Gyl4ee2v1M72p%2FVyzpHp8mKihGJmyNzdR04N1DDd%2BNkAKUqjskt74tTDCmzgD6Z2J1ItPp3zLO74pv9M82GTxbMwJKFcDtdHCu%2BCeIH3XXsxPQ9fLvpcVkiujg8jTw2MVJQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/fc1074e108012b6f100425d06d3f47bb?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Nida%2B8%2Bg61BaNj565IygCRdY8dljCyK788RjgANSWcnNKhdWD1JWMht2qBqKsdJeScwGzy4SWFwsZ6qOulEAet35uZLza5ssfEUCTDLSpERgWL3f%2BUThQZVpjEwVu0Xv9vpxJwsu%2BkbPjo3HhplMSTQXdUkMpy2ay%2BDvwCvwxoB%2FSSXQKPlkyqLloKnhXHgr%2F%2BK2badYT5ebr1hiHm6Fp6QXnv9Uxto5KFMJicL1KPXrdOKG7Ln3%2B6iV8ntDLZv5bMaDKMtE91RL%2BgqLxxMgB%2BD2EkTBGt8x61VaF%2B24mOAv8EKrCLX2QiwNi6lRaf8IpwBOcMNerTVW1qJ64wQJNQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b1ab4bfbdba3c5bec24b3cad4cf2c96e?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=gWjxqmbNHdvTnmEnZ7nHhg4gzaGv64lzPt29vobvTw83s%2FBhmUpILM%2BfkydM7Uvc0kWpLykoChloN3yIEG7QSYH2rIrcvJtPBs0EXy5gR90sr8QDsRSfsYfgV8z5009rymLjnEOhcRhZtCsR24ZwsQVab2myTB2vPCyuIMYgwEXSTjNK5NkjCEveK2XbRaCP102WkHXgHgacrM1fCMvjtxIcar5wy379pM8d7ZAnB5VcvWj7YsmN%2Fa5JNulla0YdZjxr01VHpAUQOxOdgIpPPSohEk86%2B36CNknQxdE0W1Jl7OZ1Q2BmTU2ijRjxeCv2r%2FM6iHHfqkzHEfkQcsEhsg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/292078791e74a307c28a81c4d0dc5253?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=b6Wf97cUkGS%2BLOe9eaPRB9Tr5f1AnFTHx4e9562O3IQsojf5G1kAUpm%2B9BZtlwNyBYXllqPHYbcyq9OPNJyRZpkVj%2FBMPRD%2BND9FyVwN7aZrtQAEyi978Yiv%2B8KA%2BPs7T%2FJBcSf%2Fp0l93JnCPzP0NC2TnQ4kZ4rwJgOpbskIORzrZLX%2BBMh8kfBqtZZjd8jJjcUssFoYwztU9%2FG2yJLVfz5XsjShT%2Fve0PiL4bkuUQEJIz8V575Tru6EyWwx4d6dIfxZYYrzJTyOUYb8FbKARzhzlDIUnPmIJWtzeabbAsRNCedXNxpuRcGvrBN4jAwXvUA%2Bt3mtBHS9Z0Ub889hjg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/f0ee01261309dec8794a79acb9abbaa8?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=xjJa1rUL1ZPftAviIMCvaaABgk2LiHTSmsORaAGrJ1r9dZIwF%2FoTrAEO6cB5Z9oWKaSYlD%2Bu7CYm6VlleMy31qqVeaXfnilCOM7KH6vTJpb1VDAwOQTAD3dmFVzPVrfPM6LGAvqyCTeFujT14fnNnKbZRIXmC9GBePA%2FjCW9N2btZm5WhMztzNSU%2BCZINbf1eqZWPAopXVERLrIASrggZeoayvsIiMF54QT3v4DtDHOelbvVnIEheJrj%2FBtRDpEgkubJbSrR%2Fzzx3UBDekhiZNkvseaSW6ML7TcL4IBKN92rl7p3albhNPni%2BVQCx3veSIHkpcLz6P6GdT%2FDolgbhw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/2c5f38ed2b40e0774f23c41f631176d1?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=IQ%2FFRqIKIcD%2BKrhrwaCLDlde4FSht7UQXAu7kZjS93YD6t5%2BheQ0aY21N0Nnnncm%2FR0X2Ut%2FZ1GbOhbk6uFMk94dBhF1VXJ8Q1zru7DQo9F%2BrJzFufS%2BVpTLQXSj34%2FDZpIko5IcXvoTVvh1GDq06CzF1Oyp4qEi26XG4XkYSq4%2BIorRYHAESJ6iaM8uV3hCyMmeqgJ7AxNHJzyfJ9lHd%2Ftf6OsIF4i6T9edLbFRnHwVvbhHZ1AWf2Q3ssF5eM4LNN6UCDTmhtR8BJE2xboU%2B%2FwjCx9sIZv8M%2FuLUhKLPyiYdb28u%2BnOAeIv3A5pveLxCa6syFKtA1mzyMsPXf2tVg%3D%3D"
+        ],
+        "bookedDates": [
+            "09/26/2023",
+            "12/10/2023",
+            "12/17/2023",
+            "01/01/2024",
+            "01/08/2024",
+            "01/15/2024",
+            "01/22/2024",
+            "01/29/2024",
+            "02/05/2024",
+            "02/12/2024"
+        ],
+        "tags": [
+            "New",
+            "Travel",
+            "Wildlife",
+            "Tourism",
+            "Tag1"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650ae0d6fa1d926aa9d0e5a7",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "f",
+        "created": "2023-09-20T12:08:54.000Z",
+        "price": {
+            "amount": 2,
+            "currency": "KES"
+        },
+        "description": "f",
+        "location": {
+            "lat": -1.14825,
+            "lng": 36.9604534,
+            "name": "Ruiru"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.9604534,
+                -1.14825
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695198237174,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "An Entire Place",
+        "amenities": [
+            "Hot Tub",
+            "Pool Table",
+            "Exercise Equipment"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 2,
+            "bedroom": 2,
+            "beds": 2,
+            "guests": 1
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/9ef31f108767bb59e0e6a92e6099ce54?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=XanGtOqC%2BgPVW%2FhUdlnNdeulIPBuC5mL0Gmc26P9NrOR98WWXXQRNgMYhSaY6%2BzhFfhCJMRNt8LQLhSFENy2URCpMN8bL%2FDXCul60ExxM87mbVAM2I5KOtHTt27Iuh9HlB21IPgXPidErkS7VJQt0JnFPrVhDCSupCzRH89SWPZyRtc1s17m4Kfu1WYetJA45BMAJhhD0Q88Lac1XIwmLQnPAlot38n4GNmLpBuDi%2B1Gmt7gX6%2BKgdBG2YbDz%2B%2FbFiihLcc0fWzsrquyY1raXSx%2FZGoxNMFSwm%2BVG%2Bgw4IGb527mtEH7CRkLKsmpCV6wE56RmuuiG0aYp%2FCbRbn8Hg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/26d537e74212319f65c5eb81b2a4785d?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=dIzMNEhFQ0p38n59w5sPWbcxgEQgkHbpMjFaIgShiymbUYxQvl1VIQJw3xY19ohSrjvi6OHxFXfzV53Ifr6qI2jgz0FiOIBwZQlA3h%2BpF6xmPXxowU%2FqaBzwNAzBojbd2t8nU%2BqPvWoGxCRmNLjXoLRbpHMd948bt2iYHygZrZzvBn7X0lhfcfEN2ShwCG53ss0zGMSgTKD9mXBgea7Z4gL%2B8BeH54iCowLHBnzowoLj%2BSeS32BFT7vfM6L1hYNlpfByPBmCdn6TniD4ULNb4jH%2BJrtevgd06T1kcbVexP%2Fmjv2LpF3xLA%2FfabkSm4NX0Yqj%2B%2Fr%2FPs7KScHgEvXuoA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/62fed907016baaefaddb9de59d53f2cf?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=b%2BdcuFlwgzBP3fHNdd9Ha3jt%2Bant9%2Bf3gJlfb3dPgQE351Zgr4X2%2BpUpJDKNkh3McZtrgPN2gaUefEiPna0hxgyM%2FPY2fmxYv0hNem6ZBBVlxpuzFLJH9cKhkpoYMOX%2FnS62D8gn53P6eo%2FW%2B8RokeFKfvlIUp5Dkj741P1zvGeXsLXmx2ixPWiC1kkGQdnDP1AMTPgkWJG0HXm8M2vuKmRJiskejMffn%2Bfd5mbuKmWIWNq%2BBl19Sl5TLjFzVpP7pF8yf%2BmISWUSHfGn0u%2FypPBmVOxvHw6MG0nCwBNs7S48y6YUgYDmJ5qFXg8r5D2hNQKrPjGA3opt9bYi2K%2FDHA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/f1a38fd21437d0ed7ac8c450d2c71bb0?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=EF8kezkPmn78Dqsjo3XQ9eSQ9v9A2lFqE7AZa%2BfWOLybHir76wPJg590R2c8c5OKRI8mNmHACIWs2Uchirc2FXVk%2FhJTsz0%2FxRg2RqGFl2QYG%2BOQAOuaUPmd2bgcEJ9PQEzz58esr0EI%2F4IfGgv6Zy8XhV%2FccwmZn0JJWhmy7XaWeH20AcUjDSV6HG4HTwryJNH8zVLe0t44Y5SvYg%2F3%2FQ9pjdcXfptG6TtMCQW7hN3xa%2FaJDPDuPR6Bs5TwLAaSPnt4r3xGeAQSBtmxH70G7DSJq4q9074OkwG9PUktyAuAvN0LJYbIi3ZQFydurHQyb6RqfYyN2sbpziZcMkMQVw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/8e62acf9165fc4c96b8a7e455c2c0d3d?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=xnsbG%2FARnKCELIViXmNkcSSxaET6lxYMsHvSN5%2FeBskFSqgh7FH5zkp5S6F0qoTAwvf8IjMCHHWjK7oIPEAn0YFgni06u2soD%2BXBpFgODvaqz3cwQxXEcr26y3IsyBaHt7%2BKBXpFk3F4Tf%2F2sFlBY9D5U7Aa7O1xH%2F1AFSIJugWxjTzHk4l1Z4VGBDH7cAChH4Ev4LhglR80LQcySXpUyMOHueuiX2VHN8F7MvFW8qp5NvZoJbOGvUwA321xI6yVHOMMdwaSR2dTLghqvccriGvD9WfQX3X8y%2FbF%2BfzqbAyDD4IsHOIcVwU2flEZd4Th0E8djSTcYIJKqiJzZMZQUA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/9fa567c7f204beffc355c4dd05e12d25?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=rMcusoq9%2BIMlHMoANxNPlcFv2HDQZ7x0XG0FyOnBG1jrS5Z5Sa4NogNDMkoBVe7mZK7k7KpdVJCFUc%2BqrD52pYDLrJ681p51TdJNbN7weRk8xTD9e4g2tlMSUk1yDldDaCNTt3TvMUUpkHahNcgGh9uXHFtKgt2K2Sj2fnFkuFtVHcGpkpavoRIIgz2LJ0l1X6uG%2FiAybDMjlyyMiNO6NF6WQoNwyepj0%2Fft7%2B%2Ff7rOPJC2tFQ2UwXZmAago99xStvRrefKCGcXyhBh4Vf75eOtjn09%2B%2FwFw1ZKSM19MAYJWBrTBxWNbXv80LwIsN5bplo5c6n7Nn9w4jRLiH8828w%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/fadad5d043b7757ef61bc0bdb1ab9ded?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=EPZXhlb1S90AuzpxNFfLfDEAEJUdpK9nAHjlnld5LJbMg0DldB6N2f%2BLpH%2BJcZl6eH%2Bmb%2B0VaPeHrgh9jzU7snbviMQr2I4xa5YmkKIKA3uyzA0CBhzR%2BGuFrh69OB64ZuZPWLG0xkTk8QVrX9IlcUnI3lpP%2Bi9yL8D%2BevZxbunzO0wwT8%2F8tc4rRJ1aNFxK9QQKdVSQAq9FaTig7iXnBMxJsWM%2FT17addb3NKtTHmhPd7x%2Fw01VTUiI%2F3LkicvcOAycFcV2q1xi3Ac1pakkZmJL0cAE6qUmQZrT%2BQJoNdBtIcMWxrJAV9aexRDEZ2RZVx%2FqZDhtZqQzmC6PXnTJtQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/76cb18d72a47b56fa08c8b06f9021974?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=GuFiZkrGVIExKxfWmv9hB9HDB3HciVc81Iz%2B4roMyT3f2SsIL775tYTaMso3Rqk3%2B%2F3fN%2Fg7v2RZvxzcgC04gQYLNZmH48sblMcbXtJ6gwDcwpg1iE%2FQclr0K0z7qskRwXGCEve69zI%2FdynVu36BrDJK0Tn5TnG7IqXpRKlPIogJRS0Oj5NorT%2BymSHz2tflYzESK%2FqWu9Y02yHNwPVXXrZLp3iIlxvG5wU209R28065figqHSdZNTaCrVtr1aJPhN%2BZSCiUcYSdB0tIRnU%2FvisdILyjAEMcthTqbTMDacVEJwkErmfwP1L49aSZU0aI4IMx9vXbXxcTjgWgZ2qpUA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/edea11f7f210d1ab51563c0b245358f3?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=hEf%2FNqVm1CCbAzAXWJawgDqX5F3b455Lv9C%2F4oJuuTfNAqNi%2Bd%2FaAQKC%2Bsa1uXzdM%2Bj9PMWU2Hab3TU4fmsIdd1LoF2KK5BB2XYqDIkyPjf7svTXmJqlWhV%2Bh%2FVGK9Z0MVsWOwX7qMsCKqWRBj2s2GSZvXd15ybudzhn7CdCUiZTrtBICb0LaXkbp0EFg%2FD%2Bb7i6xlA9aPzDfLPm7xp5rVEbGK2SyXqd5a7uTeSqu6FtVhgiKGnIR4NyX3y0WBA2b5Cy2b%2BxBjjIUpAQLXApJ0XK4MN90qRHlM2PcgRv%2BH6%2B0t3dAXOubTzxScwk52xfspeOqnwt2%2B2WVs4MlL4b6w%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [
+            "Tag 1",
+            "New",
+            "Food",
+            "Travel",
+            "Wildlife",
+            "Tourism"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 2,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6509d8e5aa1b23fd17f6f7b6",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "Mix Panel",
+        "created": "2023-09-19T17:22:45.000Z",
+        "price": {
+            "amount": 1,
+            "currency": "KES"
+        },
+        "description": "Mix Panel",
+        "location": {
+            "lat": -1.14825,
+            "lng": 36.9604534,
+            "name": "Ruiru, Kenya"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.9604534,
+                -1.14825
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695116604978,
+        "noOfRates": 1,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "An Entire Place",
+        "amenities": [
+            "Pool",
+            "Washing Machine",
+            "Cable TV",
+            "Toiletries",
+            "Glasses",
+            "Paid Parking",
+            "CCTV Security Camera",
+            "Money Vault",
+            "Luggage drop off"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 1,
+            "bedroom": 1,
+            "beds": 1,
+            "guests": 1
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/028e7aca7c540323bff121767db51168?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=KdrHuHsyrFNJkvRDOtAEZigXVZyFI3VcBOdrR9T%2BO%2BEPYtg%2Fk%2B1cd8r8LQ4L5USHMsAeNSJtRYS4uXIN6Q0iadJ3S5%2FvE0Pl%2BpmfUimXQ3RlXjjJec1z%2F5No%2F%2BDsQ4VfXT%2FeOlOGryswhBl%2FMu0w81Kw6v5P%2Bynr2I8Q%2FUFk%2BrwnRds7cKZ5c%2BXENmtzF%2Bo8dzzY%2BImgNhJsVau5h2RYnYSJpyrd63hrXA3TI3zxpv%2BKbHjL0Lcs0M0F3mgJAJzHRiFYVdv4VEdgr8YfyMxoyRkX33kL9dQuEKKZCBJRcjKOXWOnGINzvg%2B3ToR71bYO0g0t1EAvu%2BmOkdCQsk1EHw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/308c9b0d3fcbc524de2a73626b5aa5cc?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=fJTyeYKO9W6%2FFd6WXYm6sHUeEldBA%2BDC8vgqRDHvgxgFcIn%2BVKyKsILTJfHos4%2FyXgCPHtgCEF1%2Bg%2BfbVYr5G0ykyPo5Rz2E7%2FrEMMD6qtXFAwH6DC7qpyf7%2FVILyCAgJEy%2FgjFrW8zVzX%2BUlAh4wnvQa1dbB8FT344pLMP%2FHuUiULAoLhtO5EjxdPdRhBCuTT0yno9YQrv8%2FdJ2WC%2FPFbPgLDQDI9sFM8r54A%2BjMTbXC7ctvq%2FpYql3Tw3PWha4LnH1HFy4yilRpQktgk%2FdpojBqadfk%2Fc0PKUrHLOpJDzQ%2Fsfot7hpEXGGJAbNlB9JPI5gUCgmWXUO6TGnehKGiA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/1a823d3135d62dbe188d36e01cb45ae7?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=MD9tr81JxHTJ0xvfQUroPFCCLDTv29ws8xXWOcFo4f4xKlbzfMq%2Fuk%2F%2FD1Kb%2BJqqrs4xr%2FjWXjCQbmEs9sX66xsVqsVue8OxJi%2F6fbF9fCFKVn7L1Xw%2BPzWAqEvrPDsUeZKL7F4pq0Hu%2Fh15Guq%2F8Ub0KMXko3cPujjOyN4xVFhLhqDkG2kMWvpWXVbpD0JRlHFilkFWPgM7a6B374itHvIsgmeDbT25%2B7we7WROg%2FUi88L1piEGJ2PNw%2BspYT4kpROLyGXf%2Bkp%2FgZX075HeRw9%2F3a0SY4DcoTpD6eEogvQ0KOjf9hQ0BRCwuw86XpvdErsoJzP9EAjFtoiu1UimeQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/40593632b9baf5f12aaa556686140748?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=A1oyycGu6Tu2gbJExmcakOwX1Ixgb2f46icD%2FokEShn9HaJfjZX7xlvdXJaPbVn6LNOPfRCBVSESr0K113Mgy7Yyvs1pCMyMYGmKCeGJOgEsDADfOAbKJuPWEahweVNboQ4t85BgoHDld4x4v8sVWr3N%2FlLxmeM7LAvuWD3EgDiQWRUgYNLOGcjiclLLRkL9MYsDLD6WzE%2F9mLus1IERqd5sM%2BlORstSRSz4f7awM3r4kKOWa892G%2FqQvGzSJIWE0eIeZJuYA%2BH5xmt%2BHYnYV3wcLp67sYks%2FToKowETm8pHcw39ay8kAtJv2OVmKz7OboYQpmoQYtgZJxNru%2B5mkw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/ca05bf34f37ebf996e0e2b4e936dd0c9?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Cx8bM8c5cx20gRbH3ZyXu8HZQtDTafHCQiGNonCw5so0b4kHTehILy%2B0kgTdhAljlSnfwPHp%2Bx2nTp0TuiMiD1O0azLysZ5ppcxs1Xu6pCj5dG9y3KRaG9joxOe2znzVPJYjC6l4vxgHPdq5EmEoOt2FAiAtunsNcxx9bb2AhHrumjD4UbroNbnBrNJzJSqFQqBq4BaSTGSJDzPot6fUjMl6%2Fv901nsAgDTuaWiJzCRc7HK%2BHJICBP0RbwGwU%2BFMwlqe5EwNbVBJXxKa6bGp6QCKVFPe5slfySfXh4bkz3DV%2FX5jTLjIM14ofbKdkKpgD4WNZ%2FcTC309IrYdfB5F5w%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3cf90256d09ec8dad94534518fa804fb?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=CJnaQpK8hsLJ0CfvfxHCcy83njjZCJcjMZUHtUVv8kKoqo6P5qOdj2ZQgib5dmz5BHhBf9MAcxKhHMxJyzUCX%2BrubXBSetZpobx3V4vDufo%2FAIH7h4YQK%2FJiTs4kWGOEYGxGMnXCR6EoLD5nKdLo3GwY%2BUfiTAQKJF9MAZPeM%2Fr6Rxvh6tKCKFNvg%2BDOUcyhwF7MONNLNhudeeq65%2Fae%2FnuOpmThiXLPNFz%2F7hQiKaxj7oMeMKlfg5lEEWe8c7BTSTHTXrynHPNMfEZZ5xAWnSC1HFfbepH%2F7CXIndchZoNNX%2Blr7eO5uc0tG%2Ft190b3GFDEOWQx1EQIA1jNi6Y1iA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/f6faf516cc60f0dfa56952ec5095aed3?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=RijmAEC2whxg5he%2BNSHG2e%2FB6FrmKHuusLCLO%2FtYdwVCxoOdr8ZyZb2yv0Qd3K2eE1UCgRAHvFhFoCGuYN9I1XjfLoIAcE70aSQv53QWsIek0RRJR5YcvUtnZhQF6FktH3bGfqdeDB7T8%2Fr6hSXUtAWwgzzQ20%2BW%2B0mJz8Q%2BJNbi0TlFIRSxZmkmVXUh63jwiDhIDhuP5Ismx7REfRDRQj%2ByCWq3cvhQ%2BcGRA5kb76amF3qq%2BR26fuLORgUaFDDgk6jQkuazI1iahOoATVPwGrahOh5fK64CQkbajFBmNdxdHoFPorrGQAGS37yKNdoi%2FO6c1PG55Kj1wYeEK%2FRbZw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/8b8c7641a160d09676155779358ed264?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=jllTdPOkIzMhxlanRRqSTX%2BXXpo%2FyHhcvRMT67TJ4N6FevRiD02FLtmdGYvcmHggZv18M9B5XuQGYu80GnHqhJrklaZ%2BDw0ujK%2FV4Um%2Ba7P3%2BowoAf%2BAJFFDKYZN%2FKC2iFGM4%2BtmfIm1AHH7jrWT0Eb9S%2BXWo99dl5dzCxw2zCeAtcV%2FggS9WB0xm3ybUDHSF7bHDm3HUDhi9sN6TZ1NVyF2mgSeTQoWofSKz1oLn%2BG5pU%2Fr0%2FMQg38hkaq5ThQyAddYxSnQYj3Ng1kPAcJ9pzCmGLxqrPbydnv83Gj4%2Bgj1OfDak3wkpUX9Wnm66%2BD7bH4K8poJ%2Bos%2BqnD4MYUzWQ%3D%3D"
+        ],
+        "bookedDates": [
+            "10/22/2023",
+            "11/25/2023",
+            "10/27/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 3,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "65082e276ce4f77f1dba2e1b",
+        "user": {
+            "_id": "64c7ce9da71d085698076af7",
+            "firstName": "Brian",
+            "lastName": "Nduhiu",
+            "isPhoneNumberVerified": false,
+            "followers": 0,
+            "following": 0,
+            "hasPassword": true,
+            "created": "2023-07-31T15:07:26.000Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 19,
+            "country": "Kenya",
+            "hasPaymentMethod": false,
+            "type": "ADMIN",
+            "package": "NONE",
+            "referralCode": "ERSZ71XZZQ",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "interests": [],
+            "__v": 0,
+            "isBusinessOwner": true,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/Modern-Beach-House-Design-4.1552835287.7363.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=A%2FO3GZuHEIxcox9rYf%2BqdM79B9SlzdAlZ1EZ5kQ3KOPSODBawTpXKutMpRVwiHfeBxU8jMcIZnkcXXKEsA8%2Fjwt%2FluxTnO0btQhFfCt73qstsfwSNZc%2FL%2BAZybar6ZyMTIsgLj4tXxdfZ%2BOYJnvg3NUbGnchhGF5xdOIOTdiCdjNeCcBQ4lR358cwXRNNrOEAnW%2BTpn8clAZwV9jW1s8ZLsEgyTWt7lUDtEnXYVjVx2E86dH9HJkbmWtZwDbtwVwGEwk4rp9ZPZ0zUd6v8eeBkgD25gtSdqfWqFWlmXfbCzNyApFj1ohEOlWMlfvhhQz3o1dbn%2BvfCr6P1tkfNgbCQ%3D%3D",
+            "timeStamp": 1695032261446
+        },
+        "name": "Sol",
+        "created": "2023-09-18T11:01:59.000Z",
+        "price": {
+            "amount": 1,
+            "currency": "KES"
+        },
+        "description": "Sol",
+        "location": {
+            "lat": 0.007441499999999999,
+            "lng": 37.0722303,
+            "name": "Nanyuki"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                37.0722303,
+                0.007441499999999999
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695032263839,
+        "noOfRates": 0,
+        "type": "House",
+        "uniqueType": "Cabin",
+        "space": "EntirePlace",
+        "amenities": [
+            "Pool",
+            "HotTub",
+            "BBQGrill",
+            "Wifi",
+            "Kitchen",
+            "FreeParking",
+            "LongTermStay"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "checkOut": "12:00"
+        },
+        "details": {
+            "bedroom": 2,
+            "beds": 1,
+            "bath": 1,
+            "guests": 3
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/825ceca8bb28edc73749140edb0ffb5c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=DROOwkzKuqw5%2Bn4QGXX7adLcaYHwXWdmTuCOIiwf0WVKi7kQJhwp7Cxfl%2FzdOYEVEcbjd4sfo793oulBzVdA9Z2JopnDlj9t85Bs9CiK4wWSTG0%2FNMzK%2Ff6aiazGK94rD1b3MGksGfoMUOyptAZq2bDKABJZ3tB9tQMrU4zfUtMQf4LxtxYDRxKL5p%2FY2Fjqp%2FPCs3xlJAwcSTeOhBUR73XHDleeSWRXs9j50kQ01sJ27NKstg9bnUvNDg2lBz51EAaLZKvdoM83AKnYFtnYW73leLZ2IaXyTjZ8s%2BdbevB5%2BXdlJN84p%2FoGAMAWrPES7IOJ%2FMhUobdKpazO9qBNKA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/0df8c260cc11358369fae5421a0f75cc?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=xQe9KzmsdTgiAzZnnvDoIvrjM2Lx7eJS7LNcD2iqtXpswVJTDbb4qR4shhkCO%2Bf5qhYbyMCRHCI%2Fxam1q2l%2BVYjBrMcflepvDHVTZL5hCtsigAnk%2BZiZrcq2BWmG2mC04iXMmU86anky6xfYSs17E5%2FkU6D%2BpXK1apTlgGy7KCs03t4pn0fVIxSK1tob7dRng%2BRIezu04poJD67nKscQM5SGLAWyf0Tk3C07SR2VvuA2aTqg%2F0d9ST%2BLyfL6BXHGBEF93cS1znsGIs4pNSMXBZldYpfZ%2FYZ5IzXJaGbJ0dA%2BexszCp1YkQjQMvCPCz8cbaeFWgauLAhf4sEqAHZ8Sg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/179f526bc6a08c1b527a5bc52e17181a?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=C6r3qDzwGgVKSlHMo%2BKsAjeJFgtHuVbtmrYZTisXfdl0Yi1A2gJcYefJq%2F6FNnAhzRqg4%2BpT5KX%2FzEQho55o9JOOZ%2BskEWl7m0SCk7DhLI7Fdzur01W8jBy%2F%2Fb3jYmdWa7KfqFjzlZ1fNtCrzJ6BqjrcE2twk%2ByCiUi711G%2F9lmtB2jnpp8imRy8w1R6790xp4pcf96NVGFD0sC8bCJIJ3GX%2BZHPeDGJ6e%2FUsW2VLu6zUBQbtCHyd442M8l9CdyMYKlcGyMk6ZBK%2FmJayf18y55XP4HoNkzvIPYpNNeFn4atPZNYchecH87Ou2BpgmcbdVAbPCAZ6vasJpcV7eu2cQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/4db61b1d53b4370f1aec4b6146923d67?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=P0DaZcxU0i8%2FjlHYADEgXLiV7%2FeMHfpeA2cbJrgCdFIPxRy7gSkuuaG7b%2F7ZIBy1zElPqfbWeJZ5vw3b%2B0JuOYFx6MQn%2Brw2gTR8pQvjjsB0%2F9S4CgQpYCEdGoJtdCdyFbQSYzodo7v6nil66vVe4kq%2FsPJXje9UL0ZSL7XXi5xiQX1pcDKP36VoaADXt41Q%2FI7tfBmwvJv2SKhQxsilfSkjdO7xWJ8BGPKUm3szgUHgLU1I56OntYo%2FjUSMUe3gVaWAIcnUWYe1QrPVLF%2BatjT%2BaSLg6RYSRfAf9wUxZSuFP2PZ2xT9YQ1oqVLCmyUvNdiI4Es5ySl8jPYEP%2F5DAA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b05cfffae634d5076c63c93e1aaba24c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=W%2BewAPjGF8BeObp7YD9e7q0Z1C5nx%2B2Q4h04g1yADrIekZW2DBWKkLl8f7AHKYO98FvVCN%2FObLzc2wlvoGgMvcz%2BNavOlZiR0%2BoUWVnnA1f8J%2B%2BkuMvGzDsltd6jG74maXSVt1dxKlkZntG8Yu8TuwhD5oJFvh6KSk9sWq5cLCnlj4POetnPeM%2Fs53KtfOfTuc3KM5L6V4kR5i%2Br15HWripQwelZCcNywz52OJjaZhz7SiCOg2mVBmey7q20S3qAX7xbkKxJM4rzWZ2mpR2h66PgxxvdE26LhbzrZMFcarGZ52846yX1wYDHgQE4w%2BFSsiPId7mE%2FKSzgYdHKKPhSw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/7a7a7e0146594a5f59e704dfbcff9b8c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=iahPh9HK2zQylORBTP8VeF69MSfJkQG9PCRCU%2BGeSQsIx2f%2FWAMzjsGir4aAk3j0rL2Jh0p%2BH7kUWMzMSD%2FwdX8BxRVcibTiiza7GMAScIno1k3PNc0rddkbUQ5mj9T7upcGo%2F3%2F3WZ6S4OcNZYo3WAkCY1%2Fevrk9bXFSAnC9CJ6UV69xRObkyf%2FXCXYB5ozT6Sag2GYcvfcf2PpX3Ai8NDB%2BG7axCCsRwxh39QFJnD8Gn8WHdi%2F9v%2B5r4EjlpaWBgfOOxfH7%2BMfA127j8IthZt50ZWgH8P82nsoaCaIZR2l9p1Oi%2BkHhqzHMDuTPEaUVrUdZaCsi2jwJK71aneOwQ%3D%3D"
+        ],
+        "bookedDates": [
+            "11/15/2023",
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650866696ce4f77f1dba4de8",
+        "user": {
+            "_id": "640ecfe140716b599b0bcb89",
+            "firstName": "Melissa",
+            "lastName": "Muthoni",
+            "followers": 0,
+            "following": 0,
+            "created": "2023-03-11T15:38:06.562Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 21,
+            "country": "",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "9PWF7RWIZU",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "address": "PO Box 31743",
+            "bio": "Pro Traveller\n",
+            "favouriteFoods": "Fries, Chicken, Eggs",
+            "gender": "Female",
+            "interests": [],
+            "isPhoneNumberVerified": true,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "hasPassword": false,
+            "dateOfBirth": "2000-09-20T00:00:00.000Z",
+            "isBusinessOwner": false,
+            "timeStamp": 1695712531166,
+            "status": "ACTIVE"
+        },
+        "name": "Highta",
+        "created": "2023-09-18T15:02:01.000Z",
+        "price": {
+            "amount": 2,
+            "currency": "KES"
+        },
+        "description": "Highta",
+        "location": {
+            "street": "",
+            "country": "",
+            "lat": -1.2675001,
+            "name": "Westlands",
+            "city": "",
+            "lng": 36.812022
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.812022,
+                -1.2675001
+            ]
+        },
+        "rating": 5,
+        "timeStamp": 1695032263839,
+        "noOfRates": 1,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Fire Pit",
+            "Outdoor Dining Area",
+            "Indoor Fireplace",
+            "Beddings",
+            "Iron",
+            "Clothing Storage",
+            "Mosquito Net"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "rules": [],
+            "checkOut": "12:00"
+        },
+        "details": {
+            "bedroom": 2,
+            "guests": 2,
+            "beds": 2,
+            "bath": 2
+        },
+        "emergencyBooking": {
+            "discountPercentage": "15",
+            "descripition": "",
+            "selfCheckin": true,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/303fb23556538f4d73e4fa7476d4d95b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=lNmgiN7LE%2FZCN0mwdquWriE98%2FjC%2FIMeJ30%2FxghzkF16aqbRcD%2FJitmv0FGH2K9VJZ9V%2FgsA5qgMHnLQRpMJhlZOgg23Fhc9zsR8ppDyer2t%2BFtlZToMS%2BRLFxuQmj5jngtDGzIzC0JBeTjs7AQKeTYdfg4lIaG8TTm8KubwlPQ4Y4l2Jzo0hvLwGaNQ%2FVTHbVGlrF%2BbaUHBX2zVK6CdNeeNSf8632gSdhJ116db0vYB%2BwjjJI2m9mAdDilxhunDYc4xypiX8buyjVS8WUBNS4aSOjhR6vI%2FCydYQRAKdgJ46Ju1vF1KGN8P80txtOsD7CiqFzfHsCmeNtoFIVZkEg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/28595a05ffcf4928c7c71592a4ba3949?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=JVfqV7JJoPNpSN%2B0IzdjDVPJ1Aah1Mq7fw1%2Bjn7qExjmv6wce8YbSnUPoNDMEhzvCp6P63PGTFY4Uz4g6XviMSLaLKR53Zvt%2B6c5sRtP3ZC2NfOeX7r%2BgIg%2FTOvCXJgoRRnKpDndLqXia3Txte3qpzWm37bQiKtHLCWfT6wnrI30%2BSYU%2B9QhANmU2KvKzqTXYvHzBKDcuAij6uQat24lS3IneTPUe%2Beqr6sjn2OCwB28R%2FIaYZHoe9XOEtq1OfObS%2BoyTyp5kRzvf1EWLCZPkiyjVBXa0MPjClbUIwylIKxId3ywlF4L%2F87XmrEvmWQ2Phba8ywh%2BZorA9AJERixbQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/0e16884e797de43a447414f72dff958e?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=B%2FLOq2E9CgYnccbaTlO4gxZxm8egXIZ0t%2Ffs7r2adsdT0EMDu%2B5Og%2FYIZ1oWhoruP9ezZuwU0vQ0zI%2FrgVugA%2FpHGqLfA6a%2BbCvByZbwmxhaq%2FCZpon4i4OqhBp0K%2FXVTizaGkbEAUKmxGRbXBY3nGc89DBCI4QpHpgxI8G24rK%2F3lzMcLITpH7OdFXSu0Ee9m8KpcOP22VjtABMyQJQJcAOQ%2BDl53fme92hMwrVFzRGExprvEfFQyyQmoey7tGOZS1EuiKge5%2FdlKsikBTuFk5a9XgTjF5G4k9YXl4LRa%2BSDVt%2FX4JQW9q7clnTZZaSLOQaG3s88DlRK6Kw9Zu4wg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/a7a0f5a46ba8bc3ffa665901f32e7435?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=eQUJCEa4%2F8kpgKzxZopsiiTrQw6qeN37llK41Qf0dzM0t1fj1HHsSXWLKXmWfHUoo0cXqTc6dyVyyq0uV5VtKa1o%2BgTD2%2F6qBoXhxLO1lWHYb%2F%2Bzech16IfRjIxFE5afSPJECyH9wq7YvUa2vSPeDhMaQY6c6A5F6sdixdI3uUtCs%2B6TL%2F9NMgyTxvtS5tJtYBsxTPUDON2cfC2VCMiMi9RL3zH7d4yisQQ2O8wCZshnMq%2F04o17yR5Na78cxUQoFa3XdPste1i8gGynX1xPO86u51Sc77ttmow%2BlOP%2Fjo0dxRsxxsRGbtPzqciwu9yv%2B3gAINUfSMckqq%2F0ug6%2Fyw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3564bb8c0a94fa66db4096d8aa7b8179?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Dk6P2gubPt8BLZKNA6lUCQZs1BL5Mf9mh6eYrPBo%2FleZKNkIFhcR5XkZ12CqO9OOVEg4km0ssTxP7JCbDo3GMnI2PXms12GJpjBzC3X8Q6gPzSuxO3NZSmgG8h2l7gNBraSf9%2Bs486IoIw3xFBrnG4OY0k0gUMAILO%2FqyZ2LKng8OOrpLJqvHQizcBwkXADGxk5vEVomDYNJkXLiULVggpD%2FIQ9%2Bxoywss7HHeygQiOTo%2FmZdUxEiJMuVPJVzgfH4%2B1N4UYkG8F%2BKHQU7XzMQxSc6viRyhFvIi3l0HdM4Mkw7jDeJy4wP%2BO5GlMBp73h3yQBMzRbtrk%2BLJUyYg6IGw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b7fce4a08c85a434a0058da16aef90c6?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=GnT8xowec%2Bcn%2FXl8u0eIobLA9ueCIhnUK%2BPmacsrehYhWxSJvAdotYpJe1HXQFBpTiqtjKHw7dMAyxtWIzD0GP7jEwnZ3YX7PjYrTbAxwhvSPek4nzpiLULwvGblxAX56ikhBRZPI8tk%2FBOc6n3PPiydDGyHhtOEd3rQubcOU9%2BupaVwgmsdHWrY%2BDUAfSbVQKmk%2FGj9y4whf6i%2FVMm0e1ugrfThVg%2BwFuT36nTxf4pdGyFVKjiOJPySj0QNyJT7G%2FX8IcOePkSzpsQhXl9edfR8CqZJbtkOQvLEWHN9CeEDwR%2Bk%2BqrgqYco8czTlcUsiC2s9dLLKeSwrpGmEds0Jw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/65f17bd576e3ae1a854bc375318e20cb?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=FaxeJq9H%2FXlINh%2F7nYzStn1BCO9R5juOxPqcTf%2BZPwLKbd5osFXdPy%2Fj8B%2FHDXyOs1NcG%2BrKBpne%2BD57362J9mgKM0RUlmsrQ49YdkiRT5teAv3LA7GoO49SMvAFSlO5yEqIDgP1sQOuN0Cma3w33KmZsRwRYWkPiF4qdaqHDpNmMGVAPMtAabSW8Fgq8R5%2FNJXx5hp4FCDQCnk359IRJFvEHocMy%2BPmxVVGadmKoPmrZiJ8BzTmTETsPpb%2BDvotwT%2Fs2%2BRtV5PfkkrTCU9DmJqr4CRLIC%2FgKByIFzvRd3psmB8gHokf14VVul0%2F3cyMufohGcXjfzGpVSNEdK6qAw%3D%3D"
+        ],
+        "bookedDates": [
+            "09/26/2023",
+            "10/17/2023",
+            "11/08/2023",
+            "11/24/2023",
+            "10/14/2023",
+            "10/30/2023",
+            "11/10/2023"
+        ],
+        "tags": [
+            "New",
+            "Travel"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0,
+        "video": ""
+    },
+    {
+        "_id": "650826a16ce4f77f1dba2c46",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "fdffgd",
+        "created": "2023-09-18T10:29:53.000Z",
+        "price": {
+            "amount": 1,
+            "currency": "KES"
+        },
+        "description": "fdffgd",
+        "location": {
+            "city": "",
+            "country": "",
+            "lat": -1.14825,
+            "lng": 36.9604534,
+            "name": "Ruiru, Kenya",
+            "street": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.9604534,
+                -1.14825
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1695032263839,
+        "noOfRates": 0,
+        "type": "Unique Home",
+        "uniqueType": "Rental Unit",
+        "space": "An Entire Place",
+        "amenities": [
+            "Hot Tub",
+            "Pool Table",
+            "Exercise Equipment"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 1,
+            "bedroom": 1,
+            "beds": 1,
+            "guests": 1
+        },
+        "emergencyBooking": {
+            "bookable": false,
+            "discountPercentage": 10,
+            "selfCheckin": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/7331d711fde3130a7f2e113fa692d0f3?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=YyEcLwBD1N10wR9xmn8TRQX5bdd9q70L8TRYUwcz7Bv9vgs6OHYVT%2FHfiV9r9KAMTQmssWeMuzWO8h9Fk%2B7VxkByLRMsu5TaxykhgxrKsmDYFdnfe7GVxQqd6z%2F%2BGKsViQmb5zt1uNwoCRGCYHrWNsUEVHAhTNk5Mt3hM8T2Bw4uiYga2QJ%2F%2Fkc3zMpoOOrVo3oNfPQjBSi1MaP9ouiwAlu87J4UxHV8eZdktXrrTq7Uu9XCWiD2JcPAZIoYzhKLBX0I2Z7a8BVhb3NiBy0M%2FKkuqK%2FbfAWZpUi0691NUUEMGVuktwm9%2FxZWZQSTjAVmgDszBoMIxV7BprVVn4oYFg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/deedd9cd4e68a083bb8865c86dc99c91?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=BknkL6AlToPqjUJpyMOrXLa3yJgzwsLYEWslCHVmvi4llgZL1hqIEICwXcQEl5YJf66Kv8qihBiXy4wWGFyrP6BfpZEJ4u1EUmU5b4UFE6mCEgcBaZfwGCWJkfGIvXgW03Oa3qMCaLFhyu21ZfniJlRgCCcRXOc8xqXcXwCNWxQSo5hap43ghSSRMHtLtgRvEgqrO%2FDymJ3kFIWunuffENIGR41lAZr%2BTz8g4K60rpFpZ2y1%2B6PzjMzjB7nxUPZ61Ci7SximXqs5X9F7esKAGe2ma5%2BmsgrzXjfJirwI04Fqf98ywQtzdnMWu7%2FRUOY1lyw0FC8Qjj4MMWYl%2BtPQrQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/8e4a1b5f69dcb69575c7a9dd160af130?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=VTM0g8jP4ITTXUJsJjjmyt23kjoeUxhgra4g8Jc2E%2FVT6BpSKX5hm5c%2Br7y3u6IPhBYg5aU%2FOjc2omQaRAEkPeuie1liQIJ%2FTr7UJuLXUqEIw%2FBriFa4CpKwXmjx1cagwfEKzeYYF1%2FCbphBnwuFbVAnCO1ujR9U4XhHQ59RcIDTZLwYJoYY4w50XeWjn0tx%2FWlyGv%2Fm1uKIgAOo6Fms5xO4V%2F2C%2FxsDZ2K%2FNewEgScA4kXOnAW8RprOrVhXioRDh7ZBX7cDPiekCvfE6uBFN7pRR7OVDRHkf1LGH%2F%2FAAdzEw%2BfKgk2S7yHVALUFzxxA9YH4lsNcb47O4UDH8PHpQQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/4ec4c841a16e5dc64b8500a1849962fd?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=E2xgj9m60Shbo6D35oiB%2FLcogVcom3BPI40LLafJWeL10WH2YjV%2F1%2FJDWFPITwmJ%2Fr6mdTKYnsNrHnGWa7%2FkQJQ%2FZU2ufFa8IT2UuPGwncEVIvdZXQwrxljlet5FvUS0yYwyF15910OZODJD2whqmRP6R%2FKOwPyk%2FujMIweOSg1ITbTpAxdd6naJtTdk8P0lct2GklEm%2BsZlHTp8QkhzlIGDAFPQNV2ghz3A0EBfBptr7WrcVVtc9aV1YsGy2l1XX%2BxG%2FaxabPFKS1zyQBOXxd2wnvYTrbSVUeuXfMVBOdZPcp1wuX76vE5F0BJXk9%2BNva74xsEUeh3%2BCYb9GmTtzA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/1e0b5e1b71b5aaf3011a9f20421ab064?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ZTcdOiPTUB7AEkF96IXZiV4%2F2jzpRbTRHb6DcxSS3N%2F%2BjS%2BOz%2BDkn5tNw5S4WS0IACgiuXgH65OatHq4kdUd0SKKDIYEoLgwRStXYzaLnNLTrboXJBqXjVm2jtyilCt0UQKjDABr5%2BnZ6X7%2Bvx7fjBb3cT7gxCxTzBzqqC6q8aYa9omDStHP0gmenGYUx0WphTiNEzgTMCDzlBFb7xhjitRkyAO3d%2BXqM%2Fy%2FeDafLAiLRTVHkip2joKqT1ept%2FXrmPx7T6ooOf0Dv9GQQ%2Bf%2BrtnuTQPT6EvZK0bLcejRwf45YPs%2FfCjuK%2FNvCviyWuseBLEOrXfqWEuS5pkHCkz3PQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/7315d5cc12f5a63b0e3502a99039d47b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=pJO8bwoZU9gwSvIIwez3DOFL51uvs%2BHbjBUH7gjZANw7YKYBoofcwtjFbLSZMML4Nt%2BOFCdwVQix6SyA1eQhUZdAdgTUw1w8AD3rRv%2F4DgrLn73r0Y4bDj%2BNnHAVsiq%2FZQRJGMjHo63WfoFTGvJ2v3ByQlOD9czdjttZulG1AHGpP1N2RjqRmeMu0Tmu3oFix3Q6xTongAw7jDSPXLmI6jeToEV0RQtpnGZj8ajf6f860pPuk8f9v99lmk0ergreAmI%2FiEf80BWddnM8oL%2BAhkpwSWKGn2UfRHlYIFyCi%2FY6Vo8zZQlgB4IzHis77rL5TS6bD3AzBhRJgdaqcjn9GQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/6c23d6732db11f07181f4c754d9f6440?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=gYYEhx%2BhI0CqblLDvNsDhV3IhH5dxRuPov5qSTUWXKH%2FscDAKE8%2F6mwmwoifKukszsxo0Wutgv7NCrrq%2FeGmbcHmzeLQS6sERtr%2FBS4pxFISiIjfVywt8dq6RcpJcKyIH%2F1k8HwdCHZABvXbYAmuCPs6xKTccarDk9bEpj%2B9kOAitW2JKX5rmIMtYUqg9ucwDaTF9vi8HjbTo%2FvXXXWTjKBw0P2sclLER1PG15FvjCbyxLnOtAjMoAqjIZe5FKJlIq7kvXTJQSR4A0QcSOqr6qTuflJVarTKvB%2FgZNNZHmgUPB193u6zXDYvysqWXnm0i4PrnDC75nfhFdxPzDv32g%3D%3D"
+        ],
+        "bookedDates": [
+            "10/08/2023",
+            "10/20/2023",
+            "10/10/2023",
+            "11/22/2023",
+            "10/25/2023",
+            "11/14/2023",
+            "10/14/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650808dc27c9fc41025bbaf0",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "cover",
+        "created": "2023-09-18T08:22:52.000Z",
+        "price": {
+            "amount": 4,
+            "currency": "KES"
+        },
+        "description": "cover",
+        "location": {
+            "city": "",
+            "country": "",
+            "lat": -1.1018224,
+            "lng": 37.0144027,
+            "name": "Juja, Kenya",
+            "street": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                37.0144027,
+                -1.1018224
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694819797517,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Fire Pit"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 3,
+            "bedroom": 3,
+            "beds": 3,
+            "guests": 3
+        },
+        "emergencyBooking": {
+            "bookable": false,
+            "discountPercentage": 10,
+            "selfCheckin": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/deddb7de01ba05ea647068cbac063125?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=gxhZZoyInyrt2DlgrMlUrV%2BOQbT%2BRZeyzXXhqFL8xx5Mv927K2DAQin8LW48ilVJfu%2F4jNQ7FVtggWJapULmTFPNuMzxN84eJnTGkVIy3FGKn6h%2F4jEz2Fpg3BJ%2FsINugy%2B%2FUlgAMXz5mPR8K8v5CnG63kKf4tTg39aLy83Xdsb9ulUzla6B%2BlR9V7WBs%2BYedeDnF5njaXG5Uiv7Ky97kWj8kcHqNlJAesS1DsIkIExI2NeWm%2BAX8xa9qIFqVdmJ2Th33YzZLn66wb5nJmplAMTRgXBuqtAdSy5Se1ySDyEl2%2FV2AGiSpNaiTAY9jNYlW3Hc35l%2BOQXZbc26Y2F7FA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/2a4707ad74d0e0fcef35b68bc585637b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=kDapJslqcQQkY%2Fdi0MgVONx%2FjmGuWQFWfEi0V37t60Vznlh4J%2FKLWUneU9KBPZvkuM5nSITUFPUNYrW54VM6OYW6l%2Fg8djLUOnqzPMPe21ynAXUJE9j6SbyCEvVZu20yP5RwuxaczbuiT2kZ7NnAGrn%2FEnx7jz%2FGM%2Fn2W4OmaGzQkG7%2BPkGMK6eY%2FQqQFejLOCMcTImRbLIf4G5cQpgdc%2FtVv4K7YojHzkDt61W72U8%2B7ZBpmGHORIk0qDkF8uIyuJIE%2FYVdKZMMZcQdl5fA3vt%2BdpkLOOTJqcELFeY%2FXqTRhEMtekLltj%2B2HxL8SzhK4xu2WBnmV4MEXleaHm9Q2A%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/985329560600bd5040ac9bcc116a4547?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=sujhfJq4pkeI5QHPBclesfm88xRxqvr04QJKp2ilRp6gAyO7YiTXsI2romK3zyQmPseZy467zBFUezLsr0ZJjXIypq31rA%2Bj8wq9yREMmB4NADWznOqQz6Tg0kt4IAFoKPlaXdR6t6lJ0DQLu%2BuXjqDBf8PHsMmNxZ9VrpKEypEFY4%2F3wZqy4QQcfNAGHbqnatJf5sUyLAsuudKT5NLSxhJMbHYGVj1uqCDowW6J1Ws76bhyQtx5zzxw0bDbzef2g2RiKsORIzFIsLa33oYiIqU%2Fhd4vBT1dTeQsg8gXfV%2B21QkLt4BOaDbU5yhVmMRf5HA3yVM%2BsAWhN5BEmco6gA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b2291288d4a7d3054f181de5acbb2960?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=azVca55%2BV%2BBhqL4o1yi7kg8Xy%2BHo%2BwmK8C3BL8zjfIbdA%2B%2FE%2FD23lRHsZMDOHchMDvuleVmbIm0rntUN97IPUMkOvqrhfzmQd2Bl7Et8g5cVWkrxnrygOdDcUBGp%2BfAAz32wPlNIuLytKEGChbymfQ8I9hBCKlXDfPachAxC4MzUQFWncvm7B6nHpX3XKtkcfmcSFoePN%2FmNUOefQ%2Bqt3isluTy3d%2FGmfRBCUjxt%2FgxBh9bdSHRd3pEtSOGqiZJmtPtvCVUOj6xPTjYgVEbbDjeQ6%2BRljaAaptdbiSBTC5xFEtxAPxvwHe7e%2BxmEzqeuY94FOc9X0j24%2BpqapyFZog%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/0b7d05fa50414d4b961b167c5fa750aa?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=H9Xg5zkgWlJ2JmVhgKV0bUHBSJNK996IP8SMiWyy9bLRxrfY%2FlhvboPZ2HAI963m8J4t6L%2FSLedomyDMao7iYexNvgWKok5AquT8xuy23y7EHEzfIALDauTLAmRO3C82hJZp4XInGLzZAoaIseau7vjWYLz5CrtV65SLHfrJqGXTeoO4%2Fcg2m2YW0yXZ4miYT1hESJ1GOh3TN2jOSlSTCrBq8xTXcl9bRqeJfYSucgkFg12NynR0KH5U7gIBNiSJJuLnpre9QzrKtElkXbSSc0esSNu52ObSHi1XibDufvz6hWGL%2BJQs4iOdS1niK0JIu3pvszFLJs60Hz6NSi9TfQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3a214e993c89498d7fb02e7f07a3a0f8?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=FFGC8dUcjZp3qEvIeUDpPw2gJEuoZfxCdinBxu4YkZCEBOnBIf5981WsroOBdBFBQbB%2F2Q0dggiUv8PtoMs7beRHBfYH59OCEPRQGaf3dR3Y0H3hPdoGWkkiheIYQWF%2FaAuQK7AZXeFeKxfMplmLGajj9RqVCO1jkcG3ceS9OJfGP6myS%2FchISizwSmg7XYCa%2F7No3Vu3Wnw%2Fhbgv1wi0d6Gl8hglJBhD25lOBx%2Bf4F%2B6a%2F5OKy980viN9PA1MYU1PLUq%2BmAkIh7b%2FMOW5MhhQ2HUbJxTLwMzkGT5jJkpJ60ZlmoncYDA9s8HZR%2BwDAdJk4mt%2BpKclN37VdteXXSUA%3D%3D"
+        ],
+        "bookedDates": [
+            "11/26/2023",
+            "11/30/2023",
+            "11/27/2023",
+            "11/01/2023",
+            "11/26/2023",
+            "11/27/2023",
+            "11/26/2023"
+        ],
+        "tags": [
+            "New"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "65041bb87f759316f9e91f82",
+        "user": {
+            "_id": "641dec58be9429b5afbcd889",
+            "firstName": "Sharon",
+            "lastName": "Chepkirui",
+            "isPhoneNumberVerified": false,
+            "followers": 0,
+            "following": 0,
+            "created": "2023-03-24T12:45:12.517Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 1,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "YVE5NKY8WA",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/image-removebg-preview%20%282%29.png?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=eDdxBJGwBVOP%2BI7hEKNQNOQsDuHvlEGPOUIh4pcoKU9993X6fxdjS6cy9RRCfX1bXmYR0xGnVaxteZApsosRAPbMJB0%2BDUD5LOvDbj4k2r0YKvQcJ6uBHY7grwAeLAvLLkMy7MphFgky1zANzcQpWZVxPRD5V%2BXnd%2BIVHXwnKjMirmkZVy3z%2Fay4Lf1N5v3W3yg6eBB41bJib4VM7ix5P5pz5Xa6BKLQtC7bZyJTrorkZODkVC21GSKTfByXsvriqai0gWEwPbnZKPk2io7W00zFltkFwZ6LAuMRj3U2NMFJfwzqzfjDbM9hX%2BPqomHcX2Y%2BdyDwKBmCrktrItj9Kw%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000010227.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=Wr8pxneVWJYsAj8FdzJ13MPHrfSpwF4rIY9%2FAudkvbZMxR1NggeCGMTSqHiO6e8K2ZV4VEIO7KMwzh6%2BDF9dSee%2BU4ky68HT%2B08mFkANNUMIFX7J0Sl85gUGePZEhNo8J03u4zKRQSDQVUbdosRBCbjkR4x73Dp0qT0p6qXm4OKSjkgdSVKLfbEer2eWW67h2%2F8wG1HKCcHpsz9str0Db4uQ0%2FrLYMs1cdoZJMcCBwm91GOOXCN%2FnIXzRhHnhJo9C5RwNzKdEfzaJMsirfCj2RjRK8rsmrNZDOgC1qZh2gw94SZgYweqcyXgWUUMfVuBUZgMbYfxqpKH2ujX%2FKxl3Q%3D%3D",
+            "hasPassword": false,
+            "interests": "",
+            "bio": "Swimming",
+            "favouriteFoods": "",
+            "gender": "Female"
+        },
+        "name": "TRIPITACA",
+        "created": "2023-09-15T08:54:16.000Z",
+        "price": {
+            "amount": 2,
+            "currency": "KES"
+        },
+        "description": "TRIPITACA",
+        "location": {
+            "lat": -1.8420731,
+            "lng": 36.7918599,
+            "name": "Kajiado, Kenya"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.7918599,
+                -1.8420731
+            ]
+        },
+        "rating": 5,
+        "timeStamp": 1694620661993,
+        "noOfRates": 1,
+        "type": "Unique Home",
+        "uniqueType": "Boat",
+        "space": "An Entire Place",
+        "amenities": [
+            "Pool",
+            "Hot Tub",
+            "BBQ Grill",
+            "Fire Pit",
+            "Pool Table",
+            "Indoor Fireplace",
+            "Extra Blankets",
+            "Iron",
+            "Mosquito Net",
+            "Clothing Storage",
+            "Washing Machine",
+            "Wifi",
+            "Cable TV",
+            "Toiletries",
+            "Hot Water",
+            "Hair Dryer",
+            "Kitchen",
+            "Refrigerator",
+            "Microwave",
+            "Dishes & Silverware",
+            "Stove",
+            "Hot Water Kettle",
+            "Portable Fans",
+            "Heater",
+            "Free Parking",
+            "Paid Parking",
+            "CCTV Security Camera",
+            "Dedicated Workspace",
+            "Smoke Alarm",
+            "First Aid Kit",
+            "Money Vault",
+            "Door Locks",
+            "Fire Extinguisher",
+            "Luggage drop off",
+            "Long term stay"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 5,
+            "bedroom": 5,
+            "beds": 9,
+            "guests": 12
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/e6757e35b4ab8cd4a5fe4d43c652d70b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Ll3j5IdHs26A1vbwOBsBH3UIh7rmBXUHe2jKT%2B%2Fi%2BEQ0xw%2Bmlv8dV%2FYQVLikWKnwWnWrKgcnzFsxzbra5Bb5UDiozhj3hBWWCAqjN3qHiDzK1Yj%2Fa7cdXSVJBXB1ZIBDmJf4JjYUmVHstRsgXhV2AqjQoHRNQtnziISiMRs15AT2xsGgnKsWak256CNkyggVfCcz7ubNirJGVCVg2RWMJFfyoa9HsfG%2FV7MnoBdNZZ%2FBV5Tc5DPAjl9rs4OSx5K6NTcz%2FUoWHNiMQePifK0yd569Xpku8c8FdBN0pyo5vXc5m6SSXzEu4vnLzs5dt0JudLlA8Fo7TjMlZQCxGcLHMw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/f78424b8ceb10d0579bb33ac7ec60b69?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=NL5X7KnebIG5JH6U6XT7HlshlbMi3dKNjrOk1ws7V3x6oOZQ9IN43BG3E5%2FuDAvyq8pR3gsmC9qvb01NK50hYG%2BIQDZo4UihBeYRMFjl8fuTxDY0jZ5dAKHhMIwAL1JC1tQKv9iTVO8aFhp8jOVwQn5y7vVB5RHgg6Qa7anLkEtwos0N3MwHrpYVWXrkHMy7W5IxQe2mxmx6BCmIxKBYXRnfVYfKP4Xau%2BTCn7Bpl6qemMcLJae0p8LJn2EI01cb5gqarfsMl3Fv7b1fgyvum786guR%2FKU0QmTK%2BazrMGxAl0OLUrgj596JJUSBAglrzjC6ZrnOZgwRm6%2FdS2ePqlQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/ec6e45ec33cc85be05e7defeab0e9649?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=sesaj%2BIutbEOxtrgZLMxVs3L4nHfg2xX3bwnEqnuHKOYDQCQjFiQ1OxDj%2FE58EM87VUJGREJRHGo0L9VDY5I2uBlOH1vAHjagkd3X3fOJTidsppSy5zc9H%2BsABXbp4Ymc8ZDxHQevQXse2z8UCsbyQm3T%2BVJEmmojLdQr6KwujLp8kYaIRo1W0MwJSoSaNwUWLc2HPIk%2FAAA6SGnePsjsgBE%2FXVw4Xb6uzHcRV%2Fyt6wcNJEjSYBCZpy5gfDybYXUqUF5wLEINQMFE%2BtP5H1McjKiJKiK%2BgpCxvzDms%2B1YdO4y0CXisN5MsQQ6qajVwT5jxzLL8EOuN5MjHH1SQk5NQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/1c8c0e1e23a6e0dbcdf075dcac1a125f?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=GRVvVUU%2BvBITf%2FrGs04q0gkFoBCSm7ktYCo9ph9vUu7zASl9aPrex0noYRFV3x20arWH1FL8Jd3ho%2BFS%2BUvD8BnDwu7gfaOmYJUg3xXHmiz22KczDSIgvnvPR4Qw7aoLGaGDAKUXcfL5djN4dq8q5Vtr2e6e4jpsmSrZ2WgyMzkCOEoDQypDfCHt4VZg8u%2BO%2BdHPOqhWK3XHipEknWySD7brc7rAzcaWckON14v74RvBjCQsvU%2BBYi%2Fo0dr1H9fpYWEvPJwU51%2FcUg09PPOpsrfFBA3AuXyYrgAPOdpVSkNvZbpuvo7JNbqnsV5jasREG2ybwQYaZJmcqJc%2FDYKPFg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/7670d8eab7fc98a9f240b74f5702d864?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=sJ0tst0YtYwLHq3Fny2U9TwNBz63F0ymfWAORMPCHuet6E8Ek2fv30DjLEE5u5FKkgB728JiFzu4my3bK3kBhnRwfKC%2BbNoszyY6utG56ucAv53kD7EKLskQzOxm%2F16vaPn1sKIR9B081S6YsL%2BEEgzvcdGHx3Ymd7wPhwwNTjuWWmzaSiKg1gvppaoI4%2B%2BJqurMIk3CIFv1DJteGtYDefwAXP%2BM8SOGlJA%2FaPqZcyU8g7MS%2B%2FGxvB%2BIwAivLfOC1yYDFRwkYOtex5EvBFTGHzatx3XUKdc%2FnAmg94Os6CUGPsiXgqpApt2K1lfAQR0wRF%2FttTAmsuKYULH0GOD76w%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/dedb13f63fcf7cd16d30410814da1d14?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=sldYIhtyJL7rdajwkH8oMCsgmE7D0znSr3SHmHWwrrdZ5Q0tOxNd%2Fbeu4qDKD5bHyMBYFcak5OJPwCK27Qk6XlZgq7%2BL8qJXdyiGASIKBJm5X%2BjA6StGgXsp67rqhBsCmKFONqYDoWzDNVtUZkkq9lUxatgKyBVonRQoFhqFfhwb0IsGGvUVutYwhW9YnEUMZ7C0lPpOq4gKRqe2XnoW%2F26NJjxkGLaLYJX9Clr2PHox1RQmrwBJFt%2FlCzuJubIbVjWcl9iJ84FqVID94zK9iGnsGjQAVGTneN8V4UDBT%2B1empJn13ryw8YKUEdR%2BYTFd9zrXY8fuAyH2eTCwdK%2F4w%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [
+            "Food",
+            "Travel",
+            "Wildlife",
+            "New"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6504148a7f759316f9e91e2b",
+        "user": {
+            "_id": "647471ca7669d59120e37ee2",
+            "firstName": "Mel",
+            "lastName": "Mso",
+            "isPhoneNumberVerified": true,
+            "followers": 0,
+            "following": 0,
+            "hasPassword": true,
+            "created": "2023-05-29T08:47:42.544Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 0,
+            "country": "",
+            "hasPaymentMethod": false,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "ZULJ37XJ4A",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "interests": [],
+            "__v": 0,
+            "address": "",
+            "bio": "Happy host\n",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "favouriteFoods": "",
+            "gender": "Female",
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D"
+        },
+        "name": "Final App Listing",
+        "created": "2023-09-15T08:23:38.000Z",
+        "price": {
+            "amount": 800,
+            "currency": "KES"
+        },
+        "description": "Final App Listing",
+        "location": {
+            "lng": 36.8219462,
+            "lat": -1.2920659,
+            "street": "",
+            "city": "",
+            "name": "Nairobi",
+            "country": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.8219462,
+                -1.2920659
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694620661993,
+        "noOfRates": 0,
+        "type": "Unique Home",
+        "uniqueType": "Boat",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Hot Tub",
+            "Fire Pit",
+            "BBQ Grill",
+            "Pool Table",
+            "Indoor Fireplace",
+            "Exercise Equipment",
+            "Outdoor Dining Area",
+            "Wifi",
+            "Cable TV",
+            "Hangers",
+            "Beddings",
+            "Iron",
+            "Extra Blankets",
+            "Mosquito Net",
+            "Clothing Storage",
+            "Washing Machine",
+            "Toiletries",
+            "Hot Water",
+            "Hair Dryer",
+            "Kitchen",
+            "Refrigerator",
+            "Microwave",
+            "Dishes & Silverware",
+            "Stove",
+            "Hot Water Kettle",
+            "Glasses",
+            "Air Conditioning",
+            "Portable Fans",
+            "Heater",
+            "Free Parking",
+            "Paid Parking",
+            "Dedicated Workspace",
+            "CCTV Security Camera",
+            "Money Vault",
+            "Smoke Alarm",
+            "First Aid Kit",
+            "Door Locks"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "checkOut": "12:00",
+            "rules": []
+        },
+        "details": {
+            "bath": 4,
+            "beds": 4,
+            "bedroom": 4,
+            "guests": 5
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/30bf21842db39606acfdf45bb1d918e4?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=h50qQx0tpA8BvisnvT56kt79Iiot7B9BDjpvCkftQfsn0yTc3zuZnmVDR8M6fDI4%2Btr86eRYrQbxUoOiWHAbo9IusVBMumgAH35isMWo0KmvvK7DKgcV7x2AN7SjEqElZYULT%2B0Qi9NhP%2FstkiHBiq97EtS4BJwMy1cZ504zuCk0WSt4Q3yjNwkjf3tqOdYhjJdxoVchCs2Z6jZ9uy7Sh2k0ToUtVuoO1SAQFUhLNoz%2FUrDgcx5Eif5dmhEwknTkjvH29yLxPypYke4U7mBUQe404VwvOxKkbnUDzJpDtbTij7J%2FTdJxzEYKmFcpispTNWQZ92%2FonQjD2TxVFbZY%2Bg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/6d9e5fde18a40b1ff2797abf4aec7524?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=m9RUyYe08JB%2FRkmVQM%2BxMZ3w6mSb7H2Xjs9srbf7ktp5rJf%2FuAqMAn06XhQcYIytEhEXQuzCiac9AMrGK2SkjEK4NTCKAOq9HN%2BlOUZXg8b7BivWmX7hlNWlLR9GPiMvQ%2FnNEcd1UbQLrQeYMEGqQpKMAag6Mw5PHtO4CSK3UDuscttziyYiiVCDYFRyN%2Fk6sndSYXIuzMS6lzeAOikyFf78Jdu3oxSBcCgHNQcgGw3lHgZpOCPMH2hsUNkcmKSA0j6HYyMCLHRN8mfvTsZbZvGro5edN8xsTW9Rf1NAMff3ySd1hhxl%2BA8A4HeoN%2BWlu6obamAGVk0pNwWR%2BjQDmA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/58ccae15c88d9cfdca4845130e27a0b4?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ENrCXJvN54YQgFnCpy7uHN1jwQlgVzb8t%2BqMwa836RTcBKmLJZS9SMflVUnBFKNij1M6HbY2%2BcefmO4krFYTvo4Q2olsr5P7Zte2cJgw3V8me4%2FdEn%2Bzzf9izDxtmhzXyVNCSBnrHzsbz5NU4Xv%2BrXccBPtUhLBKrR01NZa2fz2giY4UurAxmqZBk3N%2FJGNkQUZOh4B%2FLPiH2Fu3gDyEC7n8OK4IK735B%2BZ%2FHPTpJA2tGmSOHC1O0lKOT32kGs58W41eBcHhnwDzAg2qonyTUA5hkggabs0oaAjkQDZzrKEbntOwpyibu%2B70MBjl6DHckQ2PzWIylPyUvyXtYlZq9g%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/428087bb993a5157e67a9401ecd58b0c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=XkL5AwHMUruarhcpZHxrXl3790im117EcgYd%2B3l555KrFcQDCcrKsQCDCuaH9AmfM639r7omKRJATY%2BHAfp0KeYshQ0yvEupLRPD%2F%2BTNOFY7WEoINX3PayxLjLfB2S5Ei2zrW4%2FRQfO3kPMIwc7NNMaMrl9yGW7yVCA6P1IvXIOykXs%2Bvt9lKjw8idQAQClKxhN1NYZeEjJnfSLY8tfavv5XOMPfOuW3bSI5NDGtO9wZXMDu3cvKYWS%2BMZtE6pnMxplMoBw6TvaCtgg6Ay%2BJfWQxb5dHtWCpS%2FkCUJZrts%2BRRroO98VrvZenbMOWnT8v4C9DYtLucv2SRzprmphvfA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/da16da13a76c9224c1e5f0bc766c8af6?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=nu3yHy7Ulah9uD7JSJAiFm5GyPp36u1xyCCjwVYFpqqLcjgc82k%2FXKXuws6P6D3ANmP7hWE4wmBsR3GMF7d51Zr%2FhYrJRa%2FJwHI%2FtDGcj0enVwr7forrz%2FRCuC0N11ew8s8sKUXrA1sjLa9j66AGE2PPtjk%2FPZUh1%2FQTq5cemovX9c2ywXJULd6OSurC6U3%2Fb7vQd90sH3JKQH8d2qdirZKQxmaX5h3CJZo7qYEcdlw3s4Oew1aXAsSAs0Zz2as5Wh%2BzC3CrdwDOarYtyQxlD5NeSo9LyuoXIZ9r5lLxJ7yPPDOusGbOOk90ixQ%2FxeiQfv0aI9%2F7oseFjjATTyGehw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/db21e190bf28fb5522d6e284e854e6e2?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=sxWVmZhPmPEOKi15b7qGCJ%2F545Xbq%2BUB7%2BO69cW0l5KOGOVtT%2FIhhWidKLouJiVM2pIc3Jh6C%2FtQoH%2FCMVPQ5o0XdqOdKdwHIifNzbhwNfks%2B8A5%2FlZedjurmcBNIHadXd3gdLkxgI7OXLxhjnOHD7jAE%2FuP%2F8qAB1xtO9TVDcWtwtUb5TcCTe5SRj2ZpYy8bHVblUZsc24ogyHjpr0wJIHi80jahKI9wnnPlgcTplv3gSLZYUdt59Cy6ZU7sxN9%2BKbtKoqNh47cgStAkN5%2BpRWyKnzUrJ%2B6WHZalOcWZQ9NPallLeXu8f4SWXbBI3qK0ee4vBlKkllYxsCCV7WH7A%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/27c8aad11b7f7d1df40ee282885c7ee0?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=v1Oq6GIuI05KoZt81Vdk6NeDODSTogPtnXS2a1GV1%2BscvRLYvm02Hw2Z8KLYb4YithYkMmK60KfSgn8RPnDFFWzC5%2Br6MHtmUC7JAH1cXQ3azvGFikDBBTnHAyKBCXa1U2nc6kiRrY9GvjNrMxn3Xn4mw0tSmPofMDG73o2oPR33HbjsstSLA3mhgdD5wazeOBU7rnMlhi%2Bf4WyJDHG%2BFvYYXMBgm%2B7ZwNWAB4J3XsxM%2BbSoo5ZL%2FYJyXRw0dMoRUYz1YLAkA27ZAh75HiqdTI0bsPVtRXSsHuWw5dPmeULJ2W1F2KZZnJQfRS9CIpHBtKtMQLzh8knoEoVOghWhLQ%3D%3D"
+        ],
+        "bookedDates": [
+            "11/04/2023",
+            "11/23/2023",
+            "10/26/2023",
+            "11/18/2023",
+            "10/12/2023",
+            "10/23/2023",
+            "11/11/2023"
+        ],
+        "tags": [
+            "Wildlife",
+            "Food",
+            "Tourism",
+            "Travel"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6503f9597f759316f9e91718",
+        "user": {
+            "_id": "640ecfe140716b599b0bcb89",
+            "firstName": "Melissa",
+            "lastName": "Muthoni",
+            "followers": 0,
+            "following": 0,
+            "created": "2023-03-11T15:38:06.562Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 21,
+            "country": "",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "9PWF7RWIZU",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "address": "PO Box 31743",
+            "bio": "Pro Traveller\n",
+            "favouriteFoods": "Fries, Chicken, Eggs",
+            "gender": "Female",
+            "interests": [],
+            "isPhoneNumberVerified": true,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "hasPassword": false,
+            "dateOfBirth": "2000-09-20T00:00:00.000Z",
+            "isBusinessOwner": false,
+            "timeStamp": 1695712531166,
+            "status": "ACTIVE"
+        },
+        "name": "Te home",
+        "created": "2023-09-15T06:27:37.000Z",
+        "price": {
+            "amount": 1,
+            "currency": "KES"
+        },
+        "description": "Te home",
+        "location": {
+            "lng": 36.8219462,
+            "country": "",
+            "street": "",
+            "name": "Nairobi",
+            "city": "",
+            "lat": -1.2920659
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.8219462,
+                -1.2920659
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694620661993,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Fire Pit",
+            "Pool Table",
+            "Beddings",
+            "Wifi",
+            "Extra Blankets",
+            "Clothing Storage",
+            "Washing Machine",
+            "Hair Dryer",
+            "Microwave",
+            "Dishes & Silverware"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkOut": "12:00",
+            "checkIn": "11:00",
+            "rules": []
+        },
+        "details": {
+            "bath": 2,
+            "beds": 2,
+            "guests": 2,
+            "bedroom": 2
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/c0250301427b57e1d8d52dcf94b24481?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=p%2FtknlO6uEDb5X%2FWLkg65tghqKsBD54Hu7PNzmoI4qS6LGayZ8tKFsaeKT8woUW0dlyxlKS8nnlH2lmoxkdhWEF14IYPV6WU9kDkIAxVXe3bZnJIQ6oxRyoXf4UFblhzeL6bNLETvGy5oXEwlIwKsY%2BaIqyp2M3TIvUfGMr1D7%2B1VmHRBGli1afROvVkCxVlE8oYYnDI1dQ%2BFSEXdX6R1WP2IVl%2B%2BpNnhlXAs4Tf1E6bXqwIV3ZOel1oTg%2FwiibMkXPH2DIAN6i5pWCCaoRt9kGV4bLb33P7bQ7YumxRdv4fHJE4ke7lud%2FsNiWcC5s8AkPCQ%2Bgp9biPIa4nLcROxg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/c26b904510ba23dfc49c57f90f205eaa?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=QuPzG%2BNkiWhlVIhqa4FvLTGiHHm5jgUrkEmnMqPylpsxvl1qXGSf1sWUYITwkAJ%2FOnHSMp30zlJ15jsOgOlVNHPQFYRuZLpknO9w4hxmnOzf83S7iQhUCDPJISzKnn6kf29jjb0Mve6UkjYioiGetPJUgVdT0x5m4TEEM4TcngTfnr9%2F%2BQFbwGVZUMratSLjyqCG22tfDJKMK0UF0Nxt%2B%2BM91wI%2FE0hBe%2Fc54vUEE9gMlZ8DRQMzqofcMHKKUkIN19To8xV9IGj6EB1VyN3RuUWuHXxUwfVpnmznrfHXtiKDGOu%2BUqV5ZEjWgiiK7WgH6%2B5tTuK%2FAKge8uo1h6qs%2Fw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/363a7653664d35c695d1ac0643a07744?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=bcR08Y4NlNVHpytKKqLDPrp5ZCsTezCQ9qlexelZdRb%2FU1p8Jw49%2FEV6ZZiWXGIa2JQk9N7LHDPMYKbS%2FrI%2BNmpVivOQey79BUVCMIfPt9yZT%2BasxxOEGK3OHZB9DTjuc0FRtkIcjPM8w9Pv%2Bg82DuDfOD0nvjvAxIrDRsDFrdzVlpZyb1oX8LIf3QUvdeA9Ye%2Fqphoe1P3h7zQaD%2BB5PXTk3EpTovrHQ9PsYBTlQgHJjhsdgmCZDcZAqES6kIiCS0RiOuUlBbBus7QE7Ol%2B%2B0dubz5Or4xusPiIIAAs0HxFChICXFkcTdD5YHb9urVYN2adH4sY865fwmcPkkEDXg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b5d9323ebb9f4ece936871df0d953d68?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=KTLK9cK5k4fuRh1BI1m%2BqVzweB%2FunLSnxC0%2FVIkpYgd%2FDliNfkgK3KgY9eSzjdFJ3%2BqmKnaC6R04iB0IXbAtBlmkW0y9RV%2FQWTfI02wl2ex4v0B0Twy%2FSWqCbikArmaBxpQVi%2BZqTHY2uynkmO42LbwA%2BhBuoPGFgAfMUa4q18khjI5ul%2BWyV5dcyJGdoUrmGoyW6SahAi2If8Y8hdIjPvrGW6eMfqzGPlgEpDpU21w%2FqYdvkl27a3HGRJYTNF4OrBcNBCQVLLvkBfRihaggEoNOwaMlMlD0hhYdGO4nDk3iJmKGDwTEZtTNF7ATEuCJ8vUdnYRU%2B2I%2B%2B1QVagE%2F6g%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/0f482c980ee50e3bab539816d5da4d50?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=mN5gECRib6%2FkRwuX5hSaUuQSiB%2BBi8xn4aUaXO70lqptTRXt%2FUVYdNQLFHyp5LldaaXmbDwcmtc%2Fvc3ualQ3QTJaYWvRywkPghT9shuxekr8vy4ZNgwv0h43nIpRO%2FKbUzRTEcna%2BPyN0xJkAKV87vEE9xgVi4aI7ZGhVaTN9Xd%2BVZXZWp2XOVb9VLYHNEbaAz1XAlDpicF1yvKdBJWlwGYBWVv66QbKwkanZd7ZULI34CL8hz5bPZkof%2BNFUkNQS4xJLHaYMy9Yjh6HlHAxEd59eF3hV5FUfi9gsX3I0PvIdUyMnhhTC2tjCmQrgfVnuP%2BobiXKh2iS%2Bgwi0effzw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/d156170d00b89d384fb3411ec4ae7be0?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=OU7QA2jdJ1PPncFYilvQUuwzDY5LgVFbgTIXYTPjbrgCmf7n6D0j4%2BEb%2BS6%2Fe5opsqRZDod%2F6YOoU%2Bg2gF94j0JmzJqd3WYC6q7ubXgX4QIBq%2Fdze6EYvXi8uDJS6LD4AzTmecClnMvGr1zlsStFmnYgCqeMPW3cN%2BaCtyVNsEKKew%2BRTFbbE%2B1H%2FF0j%2FglaKIJKjxL3BoCtO4HUUxbP5lLxNlDZsHTVJQu768o2MgGGeki18Nai1%2FzsfIF9vMCXsEtnuxHsmcHAXQ21eOfU2YMSXGSwwOBoSxYtpDcuBGx2kiupW1JwtCYBzp5hoxtLDR0waLcaO74ZnUwDSDXZLg%3D%3D"
+        ],
+        "bookedDates": [
+            "11/14/2023",
+            "11/18/2023",
+            "11/06/2023",
+            "11/02/2023",
+            "11/15/2023",
+            "10/19/2023",
+            "10/11/2023"
+        ],
+        "tags": [
+            "Tag 1",
+            "New",
+            "Wildlife"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 2,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6503ee3c7f759316f9e915b3",
+        "user": {
+            "_id": "647471ca7669d59120e37ee2",
+            "firstName": "Mel",
+            "lastName": "Mso",
+            "isPhoneNumberVerified": true,
+            "followers": 0,
+            "following": 0,
+            "hasPassword": true,
+            "created": "2023-05-29T08:47:42.544Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 0,
+            "country": "",
+            "hasPaymentMethod": false,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "ZULJ37XJ4A",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "interests": [],
+            "__v": 0,
+            "address": "",
+            "bio": "Happy host\n",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "favouriteFoods": "",
+            "gender": "Female",
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D"
+        },
+        "name": "Test stays",
+        "created": "2023-09-15T05:40:12.000Z",
+        "price": {
+            "amount": 2000,
+            "currency": "KES"
+        },
+        "description": "Test stays",
+        "location": {
+            "lng": 36.8219462,
+            "lat": -1.2920659,
+            "country": "",
+            "name": "Nairobi",
+            "street": "",
+            "city": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.8219462,
+                -1.2920659
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694620661993,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Exercise Equipment",
+            "Wifi",
+            "Cable TV",
+            "Outdoor Dining Area",
+            "Hangers",
+            "Beddings",
+            "Extra Blankets",
+            "Iron",
+            "Clothing Storage",
+            "Washing Machine",
+            "Toiletries",
+            "Hot Water",
+            "Kitchen",
+            "Refrigerator",
+            "Microwave",
+            "Dishes & Silverware",
+            "Stove",
+            "Hot Water Kettle",
+            "Glasses",
+            "Free Parking",
+            "Dedicated Workspace",
+            "Door Locks",
+            "Fire Extinguisher",
+            "Long Term Stay"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "rules": [],
+            "checkOut": "12:00",
+            "checkIn": "11:00"
+        },
+        "details": {
+            "bath": 1,
+            "beds": 1,
+            "guests": 2,
+            "bedroom": 1
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b8781daed31e8b94d7e0d9eda547e334?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Mgvejt6pRbS%2FjNLAKC426X2PJzK7RCcTQyoidr0OeVQ9PlJRloXSCCW3opXC%2Bp9kk6kUISqGDXlHmiqND%2FhmanIQF3r1J%2F8Ws9iJkn1d0fIu4faVdode%2FNQsHuXTaxjkpXNZiP5wSL5MHabc9iQL7b66zFmODSBp0aCJLI03qVJJJzzU90jn0NLi1s5IeXdzT6ltzYxsRuy8ncQL2EnOOxnbE3Gt%2BZKpJU3aVJEs12a5VTeyosh94lFR1E5VBNF6M3RQGnvDhchDUu5Jposqmuy%2FdsBS%2F9cxYvhM3bHgEGfF8EDps7S2%2BBneDlVFEdOBF2L658hVtXFGfbJPN30Rmw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/7affc3b50d6cb8bac3c193c6c7ebc44b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=hwiSuWHthXV4g%2BQB019k0vMhRfd6%2FyX59bMh20Sl6HPmgdoCyv6Ego94EY8xxXO4G4sPNslG7TMv3x9pwTfoM6jV7G3V1jb6s8r3p4Q0RTaQYHJFJlIPj6X%2By5u3%2FJz%2FdHlTFKybSfC5YcShYymaGy8nE%2F4TXzkFhQwdJXehedNysrZjZ%2BDQiHpBNp%2BKHsK4WTzprls%2FUa1Jpr7imz5tekPgHq7tKPataBAwMDD3g8F7cACAGk4pWI6WsfA%2B5kS8%2FZI5SILPAjwmcVq6C0wGnvZzj%2BAzxqrACvHfKlFa2D37hnxcyCRGgKWPajPdICF4AGsO5w5hi3Vtd0KGCohJdw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/2d318e840dcd7100da3725064f21c956?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Tz3aFaWkZLKx6ifwBRX5ie8L%2F2gt7A7gbrngPCdW8toLp%2BGXXlCH9X7Oe50OIA3kPuBra1uHwYbcGEgFQGLwpI9Vwii200R0Q2HR9MZJaICNkYttUjo2jg9kUVj8B8IUmnVHuKItBAk289T1iGwYRC6HfgvRc1oeO%2F23SNdGtwFdyt1Vx4CPzKCWuH56pzaQluhOa4Sqad%2Bw31uSLUXEUjEcQg74PqHdB%2F0IDfW8nQdw0VLMVQ6x8Wbl%2BZWKy6climqP0ALLB378P%2B8%2BhgKqeeH1VoiU%2B8naDt2NWXx%2B2it5%2FWafyxCfb77gMwRfy8OrJSriBbidBJ2QC00Cjdh3%2FQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/02835c29f6f82db24119987b4ca52063?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=fPDizj4RjQ9wTXPP6iBXLOv3CG5d7REqt%2F5312B9nlMzpAZRv%2FhLnJ5wE41bU0sZsYxvVQg8vSMgxXeIhEB%2BHL%2FQ56ZVg4fqgrLVCtiCrIzxfGEKXBCXCCek8MKFWf86DF39DNmKp8g383RFXBYZ59Pa%2F4whPrRezqO0BmO33aTOpej2goZKGkzqJiUrrja2RECp3T%2Fcf5B9ANMT8onq%2FDjKqe4rNhR%2BXJtaWebzyOdfo544jL4swb17Ac2yN78w2BNbryMpTYNM%2FmPMXzg3NDHQnjbvMH36q4tsu0IoHH%2F6yg0oI4QhC2RftzvKZ8Noq88jqvefJVTRrDlkPEXW%2Bw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/66011674877b203ca225ccb1de53fbc1?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=u503cHhBQPC8GyeolmUKxt8K0zy2zh9TGJ5x1610pvpQjPtcRICcoLIa8cp%2Fwwb1AjrL%2FPiTpc2aUazjyPGXvc92Gvsb3Lpv9GYbp4JRUimaPMa552qvg8dHzuHKw1LDwF0jG7GmuZhN%2BvusDXn6CkLoj%2F4K%2Fm9pEGZxp1MkTEO4xcQPa1HWfFwvSs%2Bfe75kj%2BnLGXxra%2FdpwfokvISLievrmPJvPA1QHu%2Bn2GPVqyNSGaevbTIz8uSuvAGXrPFy44VhbufiF4qM5KpIvkGmdLnc6s0kSmY2hlRY8kkI2ojfGum6LK5ZnpJvzTj4zxytH%2BNqC53i8k3SvQApzMvlpg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/bcbe6217fb74488656cf43f4cd66d77d?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=a04qui8j69YVGdM8P%2FnPyHswmdF15XKD5pul%2Bjvf9VE9PPzKFKlqqk7ekBTfdWv7LSVcHXGI%2FSKRaOn30W2ig2jLD5M5Rn7I79pxJWKu3C8Pn9rS8Sv6POFPNJasngM78yZe%2F%2FMTGJenbmoFN5OmxqB5eI8mN%2BvEw9RDTDG8h0z%2FouHWt%2BjGw054z4bpYK9NmJFgdNCr%2FL32vsl%2Bf35VE4%2FSETkdQszh8aboqs5MT7pM5WGWdUjSFiuUlccnn9wXGhwhxozW9I7DOGdapAd4y7xNmuhyMsWJQPjzduq4dvjYmhlIhVtaNZ4faBJ80SML%2FIbI0OvdwJEMiF36rj%2FQUw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/9f37ae9f55a05c79008823f87b773b89?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=E31FW8qIoGJ1pR0UtQbvJG58%2BqNz9jPMXIQ%2BheqbgyAIt6PJ3E9P4k5%2Fs216rJ5DzLJ7vc9YcA%2FprAGsfby%2Fr%2FCrwxsjyoWxIUMB3Kq%2BSPONQAsneWsDwAXWXnvd7w%2FewEzE96azULrrD1aAx%2FvNCfeM%2FNTrjW2fG6iOk8QUMW7EhNzCLHA6kZR9H%2FEwag9POS51wIDSvCAD88ap7LHbbG2lI83sZQ5fea3f4CAybnyqoAwLAj4oplLGZ1bhJPsGPC9kNwpemMr%2Fzc%2FN4IZ1Qww2XrPQ9AB7ISycNSqOrN5MIG1nQ2yrLBF%2BTLYOe%2FuSI5%2F%2B1l4ttKAE%2B3ul4yES9Q%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/6c283ac5ab9a5adaacef2491a8fd8c84?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=EzshcGRNiJO7q3IQEQwmscNxllqnDQTvLP7B7U6cYDpZ8%2F3WRoYtRAVarN2BQWacoQVo1onmSZXDy36spWX%2BCn9M67KVaYHlLZqWcCWHgM8tU0iMA0bL8VFaYoSSdfey1G16DX%2BxHCiBIqwhac8L%2BBOyMK6HRLBrF7X%2BKgnBPRuQMRr3VTU41%2BGJMVEVCNpchZeQ8QhihhY%2BYA3eMLPuzagppHRBuPSdLrAweRi6fRf%2Bb7GmogrMOm1GEslxDZxw4grVC5izZCDHCbsHw8z2Ac1%2BIf7hW%2BawGGUX%2BEJkE7TCEf4mCdwR%2BvDILNOzMxw9uIrcsXjCaiW1wlxKptc9Pg%3D%3D"
+        ],
+        "bookedDates": [
+            "11/06/2023",
+            "10/28/2023",
+            "11/13/2023",
+            "11/27/2023",
+            "11/04/2023",
+            "10/29/2023",
+            "11/08/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6503f88b7f759316f9e916e3",
+        "user": {
+            "_id": "647471ca7669d59120e37ee2",
+            "firstName": "Mel",
+            "lastName": "Mso",
+            "isPhoneNumberVerified": true,
+            "followers": 0,
+            "following": 0,
+            "hasPassword": true,
+            "created": "2023-05-29T08:47:42.544Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 0,
+            "country": "",
+            "hasPaymentMethod": false,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "ZULJ37XJ4A",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "interests": [],
+            "__v": 0,
+            "address": "",
+            "bio": "Happy host\n",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "favouriteFoods": "",
+            "gender": "Female",
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D"
+        },
+        "name": "Kicks and Homes",
+        "created": "2023-09-15T06:24:11.000Z",
+        "price": {
+            "amount": 3,
+            "currency": "KES"
+        },
+        "description": "Kicks and Homes",
+        "location": {
+            "lng": 36.8219462,
+            "country": "",
+            "street": "",
+            "city": "",
+            "name": "Nairobi",
+            "lat": -1.2920659
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.8219462,
+                -1.2920659
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694620661993,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Indoor Fireplace",
+            "BBQ Grill",
+            "Outdoor Dining Area",
+            "Hangers",
+            "Beddings",
+            "Extra Blankets",
+            "Washing Machine",
+            "Hot Water",
+            "Toiletries",
+            "Microwave",
+            "Dishes & Silverware"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkOut": "12:00",
+            "checkIn": "11:00",
+            "rules": []
+        },
+        "details": {
+            "bath": 6,
+            "beds": 6,
+            "bedroom": 3,
+            "guests": 5
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/46a5496aa7f538071fe1ff7afe2fe63e?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Or7gS7AWp0Mq6Mkeep2qDT022j%2F3p3gMLR8%2BbKOjj8DsKMPPBHgoe7NDFvM3qOZ%2Fz5BsmGf9BG6Ek7%2Bf5BkAJZmJLo5JDxRymOZP%2Bxqm0E3Tni5LgRvK6jZQShdWSWvbWp0B5EXua2yzD85%2F8kL8UcmAnHe0ju84kzCLrY%2FmX0eCUK6sLgEQtHkjK%2BqCey7TGbxGHYUAz47mkNUoG25wXZ1MjRzE68B9V7Pc48vx7CdGCwnr6wEzFntdcBUkEIVCGE0hPzQBRLZtb%2FkoDBKTgtQwmYL9H0X8VcNTNOBeYnqCXV6eQa2sQs1OtyYbUoL2UsMdYK2ldZ1P4S6tlkYmWg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b7bc910d18b35656f1e9f79fe01c78d6?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=uzmgkXs826eDtYhtghUDdBaSRKJjZrBPPd7VXZsCfbHpTH%2FqVhYkNqDr%2BwZS49kXVUgEzVyMpS58zW9OQlKLUwdIyXsh4rbXW8L8%2BxGwVmhbrmSK%2BSYdPDeDR9sEyMKrfFOTNVeE5rAlNgsgAbXmxhaeDOQtbgfhxHc0TCt%2F6TpPjlUM4QJAAZYCTwgQXZQU4DDwexDPc0WIMbrRX8Fowbx5kDdeHFHbWjN%2BwNi9NYiSGgNchLdcJQTCE%2F8nxTj5V4l50Cc7n9mFT2TBXP%2F859Nwrz3pK1INgRTONprGqn7EEqjOgfC5cHbhztHchDpLckwV19Z9ImEofd1Bx%2F3E6A%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/4e77e8c364627c4cd280d645e18af836?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=oCQbN9Yu9wzb%2F7JssXJu57opZ%2FyEJf2bm%2FnRjZJv48IClJcMfcJxF3Ps%2FMmi2GjI278Nd3rj5wWeFGP3B3SYIZ4TohJ9yEkBOUySvDOiridW6M%2Bqr2EDxQxdCWn6ro4f1OtXZvsyT9RFieBKoSAJWoCOrqkZKr19OKIwHrlFElDeChvXA8gealNjnlGIEfkfVr1i19LwR9Ihxt%2F%2BcuaiUY3zQOQ%2F8PI1nekFUUIup7h2UmOgc0LWP788INyo1ge0V9aLYpD%2Bazox7znneBotLB3LGXZ%2FFQBhvI%2FmLLwYwGPjDqoLBp3ObyHuTJs0qctNVZw9lgkL3PSUBZ78YSRccg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/fbf932093af41f18e149ab45f2a38fa8?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=EecLiRFAhfjshvEkaws5nuuEURRZa7EK1Gw2QSdguvhNm0ZBvMKmyzMpKWtOZqo51yyd5ZkzSCDlH5PJGbw%2FLUcG8ZLKvLL1OZAsJ21j%2Fgndwfp8eXdy%2FERzsdLAm3Yh0Tc5psbtDPw%2FLZCH4gn8bhssIQZmgEF7q3x%2BOdhLsUXc1WwEfCqPqLTg6HFcHczRJYbx5j8rHATuGq9DlQTpHNQ6XTAz4%2BY8Oh9I816z9%2FDCStaqK%2FKO5tQbHHiRCvILX6BJ58W9eE6VKgGj%2FT%2FYuQ607X9wq1E%2BUaQb6kokoHs9xGk4nXaNXlCMa6kAfFYuK1AKalxIkwBxw1RnNPbtvg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/c8d828292541925aef8db8f56710df59?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=euNCtPTSg6bUvO5KAFSc6wGfcR5os5ot7fdSccRM1Fq6QvKhXe8%2FKC8QlH92V%2FI54m%2BSF8b7kjHEVKQh47mfFngd%2FJkj55vx6XdaP9CSXRQpDpcTzRafSWziCFypdMiddjHw34GBer7uoBUfXC6SRWuOcU7csLsBOGXajKrsch7wZ%2FB4IbaClnZHez3UypJuVz7IuxUmLAz%2B5Dgkuyk4apXP78GpthuwHDBCEQper1Q3ZQ4HfQGPofcR%2FJc4mVpuNqRks77c6noV3xLwmsm7YctKFsVA38l1pvIt%2BWvxGCsOKeKzJaIirhIdqXpGLVdLt%2Fm3w3pYoqY7XmNLGgOXUw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/51dad6ed7ed64272cde666b3ad146e87?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=GrDD%2B%2Fd4GnIqjGSg1SKtlE2UpkHYzhH5vgoG%2FkQhIGnwI0P1zA9eDAefyUVNn5ISo9WieSMxVR3oB3vA5nMo1WFuIExGEWe0i6TytYmU1dwq8%2FR6XiVXowEspGd3ktB9toNzSVlMizsT%2BJPBDgOfRD0qkvb4Inc1V6n3WRwAbwCR8j7l8Akgm0c9pcszA%2Bf8M%2B8om6oVma%2BXU7YrmQRybH%2BVW3qG%2BtphAv%2BxtTIJpRM5NaXyHUCtcXKIxrMa6SoLgLDfNBuf858DBSAlMY5aQfOpH3hZ1v7q0DIhorJYNSHV4NSYc6CWf8ZG%2BS32tpJtSswiEzVnhxVMuFlOpvI0YA%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [
+            "New",
+            "Food"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "650463387f759316f9e94b14",
+        "user": {
+            "_id": "640ecfe140716b599b0bcb89",
+            "firstName": "Melissa",
+            "lastName": "Muthoni",
+            "followers": 0,
+            "following": 0,
+            "created": "2023-03-11T15:38:06.562Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 21,
+            "country": "",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "9PWF7RWIZU",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "address": "PO Box 31743",
+            "bio": "Pro Traveller\n",
+            "favouriteFoods": "Fries, Chicken, Eggs",
+            "gender": "Female",
+            "interests": [],
+            "isPhoneNumberVerified": true,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "hasPassword": false,
+            "dateOfBirth": "2000-09-20T00:00:00.000Z",
+            "isBusinessOwner": false,
+            "timeStamp": 1695712531166,
+            "status": "ACTIVE"
+        },
+        "name": "Base Homes",
+        "created": "2023-09-15T13:59:20.000Z",
+        "price": {
+            "amount": 2,
+            "currency": "KES"
+        },
+        "description": "Base Homes",
+        "location": {
+            "lat": -1.2892786,
+            "lng": 36.7869311,
+            "name": "Kilimani"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.7869311,
+                -1.2892786
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694620661993,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental",
+        "space": "EntirePlace",
+        "amenities": [
+            "Pool",
+            "HotTub",
+            "PoolTable",
+            "OutdoorDiningArea",
+            "Wifi",
+            "Hangers",
+            "ExtraBlankets",
+            "MosquitoNet",
+            "WashingMachine",
+            "Toiletries",
+            "HairDryer",
+            "Kitchen",
+            "Microwave",
+            "FreeParking",
+            "DedicatedWorkspace",
+            "MoneyVault",
+            "SmokeAlarm",
+            "FireExtinguisher",
+            "LuggageDropoff"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "checkOut": "12:00"
+        },
+        "details": {
+            "bedroom": 1,
+            "beds": 1,
+            "bath": 3,
+            "guests": 3
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/4d0f4b40d2cce9775e7b4c7a8e72768f?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=qIy16MbCN29biJxGjIRFf45XkVy%2BPx4NurES6lSTXEQvCGa3tIad1ZwocZ2mlTj4Vg2pifMgRJvroijTJNO4%2FcP%2FLhKW%2FsqvsJUsOdS8ZIQbgxwCX0RzEkwBx1G6tcF%2Bz7d4U1IWvLRXteN2w5WCClWbD5oUftsj2n1Sq5v1ExmLYak8mRPqA44wRm4iuLMVzA0uA68dwoOF7agS4eT2qasBmq9ExBE2D%2Fwz81%2BgJyZzxIy4Gu0TihXqTGHzi72yHiVKN9ql%2BHKbYHka8%2FepULgh9SyGXU9y%2Bn7PIi8Mop%2FoY3jI9bTt8mkmlX1CyOuCm4eLGps5469qmGijjzlY2w%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/1fcb9af9e491dc939c7e85cd0ea16f54?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=fvDPykn6rxiz1JmXt%2FyCaHr7e96GLzWAUm%2BiUMLuJ4NehRPa1p1uCrgLLDJyHbSnWf6r%2FREAbZ2PWHG5ylREejDCSkMTm6tFejRF8MmKgbyJvU11BCtU%2Bc8bV2s8DTpgXJ%2FpC3n27b8G60xfMCoO7fQTyEdWDJLAGAdMG0ruZTU9WZQ6P55Wqv3S%2FFcGa7Zmdd%2BEopJkkW2OyhzR%2BXIW5eDX5BKymhvXiVDUpRQYOAHPUM%2F9awk5jQATTwy72oVsrNcTnPAqFFYZ4euEWgGCoDqukVXxWnCrvyaiQTvN9x42uUjVHeV8Ed%2F%2Bf60Bfm26AQ7vqFT%2FuTZbo2kBrlz3cw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/602a4f145c36089ccd1f9fae8d2fc548?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=cqm0NodPHVfsGaBaQFt5CD4mzZofz07BIqPLPl54vn8Jz%2B4qtwj2VIhGKDzKtb0JhE3JOx6%2BdmTdQ%2Be0w3R9tx%2BQGd8Ui8QivR9fC97QwZF2mxik2NFRfGTi3mCTX4BeY7LuZgx01SocDPJWqrWYOAgSLBtY5JHSpRagXtNbJ0yWlLcBoV2AV%2BM0kwOOXnDuQLEZUbXbuGZFQFe%2Fq9aDfV4hkik%2BhZRURPZ6DeGXCcYHI87QRCc5QASv6o6q8S4DUbuxiCGngHuWRF3BS0ZV2GFQw7HoDVmhtI5HcfpLdgKRgwvipCgjWuLFdhbE4tv1gAyeHgQT0mRE4VNXOagiFQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/6a0011e3d0702a6c7379198b383eb19b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Dq3jbTRhLDmVrxiVRb1Slj5P%2F%2B4vTNuvhrLrzBzA8nx7toDqEgUlvTcWx0fM8vRjTi7FKLpMhbsih6hh%2BbqAqm1Qk9VWbzHx%2FxaNfTE68BaUVY98nasUKC7YO8AgmKiJ8yXvulW6y7uqY71cbsteMzjWXnZcReTe6lPuLGC5JayWuftA07yTklouRWeXE5l%2B2OXOYnULmS6PEYHMh10U8eW0gq0DcgprDOUjVug%2FHONlI3SXJfqemb2g5YGHKZRcgRAD0Z41dowF4TQ7w2sQDxQZEDSrfpuhVo2nz6rqtRqEAxciUKMb8MdKNmiVXQ0%2Bjp1OZ1Kja5CXyawUYYobgg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/66b9f8222b7d03c845f2e70e4e2eb235?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=fNT%2BRxhvDQYmoLmcWLvBa%2B5OBmFAc9KVMbFIYs14Ms4bzF9bTnEoGZ4UWx3xE2rYVzWKv9QLiZtVPGsVfIVG6ipM4b5LqAJfEpAnleVrjCeoQoJ1EfaJzXuFb3oQupJoLg6f%2F0GIv%2FYJeuPurnLJxJTGAb7rq2JdtIdIMExusCHFI%2Fo4h9S3IWtXNvENsTPm6lMZobL1IZGvY0Kw0%2FVVideVUZOkw57Yz3SXkNFsZuzSwrFpMMS07XKqyQCK3u8IwtIHXda6LUFbUOQ%2B3JtcMBs1TePJsZD%2FwkhNQbgKVEecXZTYZBfHtF2DA3IZV0R%2Fjfp5FPPvqn1nIn%2BYykc7pw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/25ac5c770cae43be213e5b0e047963d2?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=mhpztOgrA5iQKGJPTNryXIay9UHrjR2sVsKz7BqTL5bhEvPk%2Fg0giYIMLrSwxIy%2FE9M8sNlzpSK%2FfRdcz01CL9NvBNfCd41%2Ffkk%2FUfOczAlPJv73pBiP3enH0z3vlph3IuTEjq6KHGhMoeYFNzxGhbUq38zEAJU8DWUkktK3GujCqhbZXmKe0RUPWEaNGeQBubPjUeP1M3hI2BiT9tUdKGllQS0sUwkFgU3bmyqagDBk6BRUhT5prLFcgbrhGg4fmKhEoBBncgUoPz5U4yztiOgX2audqazh%2FGEoJPgGkUeurJwiumrOrTAaKXaN9SFqGUBSkwGSBZIUh%2F8nJ97a9w%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/59f0f224932563af6573cebe9e67713d?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=RoPHCVbyeGNIpt2hAK9n%2BOmBCW6pMNI%2BO8clun3QPqZDxUB87DTfVpQhIb1WTGfEQdzRPiQ%2FHII%2BOQE5%2FyoDCe4DW4VN9qcDaKnt3FDcOompkAYrFE8KrOwjKqSM3gbUqavGJPEKQWnjdqDBPPN%2FKtjncyWQMwszYjj%2F%2BaABBjdFNIsnYKpgqyT5um4KGgu6ej6p0X0RLJaA6LByUS8mFjCll12IBqL21cF6%2Fec%2FHlQpFF5E29xQxdNDrIaKU1j%2F5JoquFSDr2Oe0MIIynctmsJKlLstl5oqvgi%2FPi87ltwd8ldLac%2BF6aHTJLAyS2Pi1UcYH36pmkzeuDDwshlkNw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/5beb20ed854de3a4e056216aac884238?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=f69wT0vMrEdYltF4jdVh%2FEUQ41KtD8GnVmtbH99V%2Bhmx3ay0Qhm87Ee9VbfUWsZtdtOR%2FfO0%2B0gNzGexyEwaeUcmdZvxPEyxd0IfkZcQ8lEEQHL1SOXQnoU6fWODBwWfmcT4JMr1p8us4eCHzqEeelxEnXzHdmafzEnDr3x1CY03PwR0AcQRG3f5oKti6zlc4rBMwIsc7zndZpAwdn9vjXuxyjFYi7ut%2FOXb%2FRMGAvqqDDXe%2Fu3wQ0ggd9RTFC5wFxVJMhqWsieRYJ%2Fn99YYxQZ14W%2Bvh5vKhQmWSzb454jyL5rV6Qz9P0a%2B1t253uXuuBtbz3lro0xcUNHTi9MHpQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/46ce728d225224cd71b3bb1b782b6f8a?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=SL4JR1zJWvE3GX3k0U1RRazQ%2FlQ1FNBGvAiBsduWSv1L87dIn%2FfsSDkDFgGeM0Pm1sJuB7fNp0uPoCE9gGsxvLvWRTNOAZK1h7%2BXAM0fx2IimYw%2B2esowUdkisHNv5SawZW6c3Xx%2BrAFShYoVWH6PtNFrXmA%2BKelkATVoOyMhcfBfkjTD9JpcQU6YarSqefcm9vn2OXZpEE38YivBVDPq980vbqkDxz154Sp%2BBEZvM4GKpSgLvxIKOl3gJSjJNG0prJ4btzxny049EYeWcPgUWztT%2FjuIkPP6uq7p1mwJjbu7jIgh6W50GHVvQUVbkW06NhCe4kWCg7Q2AIE7iy79A%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/cac07b0b1433fecb9de16bc000fef35c?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=k6%2Bnrluvx1M2HKwhPq3iXydcs8XA0cESRn3E9%2FgYWaU7yqOkK3%2F9tEQcdmvi0bu1rfgySKz%2B3ywNHBL7Yku%2BoNBoHq7vYNeH90YaROtU56Dv0yM%2B8qya6wZgJEuqvVh2OvgjyO2p9Y5CsPraRn%2F%2BYkDLOi4IqsGq3ktCQCzf%2BKEp9E%2B2%2F56NKSAFqt3Y8hWJHEAESNrPbo3WTN3I2ZMn7POJujkodeo51jRBsjW8v%2BoT45Yslr0b8C%2Fqek88J%2B4VcLAQv3VMBZPweZq4PE%2Bbrk9Xscawd4P0EOTW3e1K9nsKt%2FL1%2FBOoTzuC4uz992nJCvE5Hw1kYN6D1RR8Ue9Mug%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 0,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6504377e7f759316f9e9334e",
+        "user": {
+            "_id": "647471ca7669d59120e37ee2",
+            "firstName": "Mel",
+            "lastName": "Mso",
+            "isPhoneNumberVerified": true,
+            "followers": 0,
+            "following": 0,
+            "hasPassword": true,
+            "created": "2023-05-29T08:47:42.544Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 0,
+            "country": "",
+            "hasPaymentMethod": false,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "ZULJ37XJ4A",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "interests": [],
+            "__v": 0,
+            "address": "",
+            "bio": "Happy host\n",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "favouriteFoods": "",
+            "gender": "Female",
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D"
+        },
+        "name": "Home",
+        "created": "2023-09-15T10:52:46.000Z",
+        "price": {
+            "currency": "KES",
+            "amount": 2
+        },
+        "description": "Home",
+        "location": {
+            "lng": 36.7869311,
+            "country": "",
+            "lat": -1.2892786,
+            "city": "",
+            "name": "Kilimani",
+            "street": ""
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.7869311,
+                -1.2892786
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694620661993,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Hot Tub",
+            "Pool",
+            "Fire Pit",
+            "Indoor Fireplace",
+            "Pool Table",
+            "BBQ Grill"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "checkOut": "12:00",
+            "rules": []
+        },
+        "details": {
+            "bath": 1,
+            "beds": 1,
+            "guests": 1,
+            "bedroom": 1
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/f8692ae40f35f563f1c6c74fb7735767?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ECJzHAp4wXJRLHkAIZWgf3%2F8aqP6xrWM7ko2UNqQ617xjbSNZfpjoHlL1nWZTfkdS1lMVeOTdZCXNRR2SoImBh%2B72e9o8O9hhb6Zi92%2BFFOmIg0Wbwt7AcIY6r7JKl6SOANmIAOzTqhgBbcdVA8FtUE98bQH0hgm11Z3jM5ls44MRQn3J34hTBcFHaRO4BdhNqknA%2B3De9lOIU%2BM%2B%2Bl3B4LN%2BKKZir%2B0ManLf54Ext4OJNJ6QUs0xZdT6X5FIWmgiPdEXCsVqtxJgWfSdHhkEoKbU12r%2FEWbTKkv1rXVBRUsc7IeaA9bjPO8RM%2Fo5qb9rZ3W0FiP8WZySq%2BATl3D7g%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/9cd5bd186f6cfc3d3e3e5bf3ee001d55?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=s9XUufdtYFeDfk4W6BXFejbrERyBFpwFSHpVILuIV%2Fx2%2BzKKayrn9judFHohBVfe6S4b1Dom1Lvb98Cni4q1KQ9OtFH%2BpKzDrbBRA92ZkC8YP6tUC3P93ysosZumqutOTUMhlCkRVr%2FY3m4Ia%2F%2Bw6NYNMAod3gowq1UI66PfZ3S9g8Rnl3Vi6Jw7cgNg6bBI4HbXCHJaTnYRmMJYaWmeBYBhnpssIKb19GOhBkzVVRvTKLkKC7d55H9VGCSmiGFUzryl3F6dy1M35bC8C4ndyjnvM%2BM8Ai0LVyUcAQtMaaBjAmUhsTUtBTGdecSIzazYonyRjSPD4M%2BeN8eP5iO4dg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b993d78ad92c563d292d8018d5490640?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=Ve8PAAxXx%2BrPPWRwWGJB205WOrMRqKH%2FyCCc3x9k0RB7w%2FYHsGBmcO3%2BerEik6SQiPnVetQuhjjcRIPDEIH3SXklbn8hs2sw%2FpjaSZ9aDK7RuA3wr6DDZpBk2InmhsMiu5DWKMD3To%2BpyFwKr3DLFvi0DvS4gxzFl7nQR2tPsOszN8%2Bgtawlro%2FPSUfRQsOWpV%2FVj%2B27Bf5Re6TXqVSf6H8srfsB4%2FYRfw3yhcasxKIw%2FzHqnYAvAXo%2FOGlmFj0nkcSC5Q7qcko3g4we%2Fwm%2FG1EEgauOVk1OmB3jDx7Fhqvky%2BKwjSQhaCQF3SFr90spAoIm6ozOvCoFQpT9ACSvEQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/bab5c7b59879ada1ffebe6a4831fef00?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=kWf5ftWjSiSnv760szTgMet2UHyAHMELvctbKb6X5mIA2OwXJqWFpoSwh2nxgenGRtf5e2uSk8UX%2B0hXAu3SO3OlngpwcKTxQBIZqqCvduxUtfVyGSuQ%2Fdv7l3DY1v3uANKdzzIhyPFzTL0umhy840idHoAJnuxk5eJ03RDKEBMwSb8vqIw2u4QEqORb37ECAD6CA12FUNvrdxFpSAz54nYl7gv4VMsK%2BXOlV3LKJNP72RrkLdjUIerR1mFcXxRVms2P4jv3tMBwF%2Fw4R1qDhqvmiovdLhw8YVXPjzyKq5ifFo7zIj71nsajym5dRw71161kTkQ5n%2BVY0wDYMaL9ng%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/acd90cd37afeed06a54e7433f46d7942?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=CxGvv7Us%2BPGho%2Fx8xnlSe7ze9TrVyP5LVJYGyyU1yy%2F%2B2dOJ%2BlPN4IMYkMculF5QXdjils8Y2DSlrdojAH0XxpkNhd1lh72syiMUNYJZjNWDBlSHV%2FxwmmwGVEVn%2B1I2LsrYNbgt8BDkc6hS4uB9H43mtxW5DD%2FXjcpIs0Bp%2BDtX2%2F4dbynzvo1hGfowUJGeWobYIW1sNnbSjAVPeoYjNsCcnSwtCASyM2aIoyxam9u0LkmTle2%2FyuMMSanoseSaAodo9hg88ALdRm%2Bqgapou7xd%2FNsoCxyz1rnN0EcATu6n2CS%2FK3MsjkWjiXMtg1iE7cYMC4RZVs3Z66SIgZkLQA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/af5ece4cd86a6ba91182e611aad9b8a9?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=odAWYYh4kYrCZzCV%2FddyBCo6Bo059RZZXMw9RXMgTCmFshFu0ZldnTdtMnRKClPH82%2FhedQYH6b8C0K7SY2D%2FSqLZWyjXxY2sfDCNmfjerLAE3r%2FGJn9qUKnu8BS9vtVmWV%2FPREiViFSpueoNRz4EL4zbQyBIjVuCv3zWZ5UJakONMaFFH%2FsYCmT5P%2FdlFRflEGOw4ImPif81O14m%2BrgzCLN6D79BYU76L6CiO1FNLbH2kSn8JaQ1AYCkVvgLNgAozP8XjwC5GJKZY3Zql0rHz3lCQ5BC4ib3T1Ml6QVHEwgBAqUh0TlvDKNXZZh5mmBrIJo7YCaNeIXyVoD6oJzvA%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [
+            "New",
+            "Travel"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6501c6f485b14d3c395373d3",
+        "user": {
+            "_id": "640ecfe140716b599b0bcb89",
+            "firstName": "Melissa",
+            "lastName": "Muthoni",
+            "followers": 0,
+            "following": 0,
+            "created": "2023-03-11T15:38:06.562Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 21,
+            "country": "",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "NONE",
+            "referralCode": "9PWF7RWIZU",
+            "isProfileIncomplete": true,
+            "isPackageDue": false,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "address": "PO Box 31743",
+            "bio": "Pro Traveller\n",
+            "favouriteFoods": "Fries, Chicken, Eggs",
+            "gender": "Female",
+            "interests": [],
+            "isPhoneNumberVerified": true,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/file.jpeg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=ebwaZmP5tAruvv7nV0FFUkVHHHEALxSA1e984IWlizgd4QyUKQrSNDL%2Fm2DqMq%2BCRqYJgV4a9gkbO9pwqZUCdD3EiFrIlcBr%2BcTKS7wqqFd2LXtoyhwC9DH2l54ezdceyf4XkeWoXV%2FD2rq37rc4sm6LXorqVfVPzRG%2B759E7q21i%2F6KLYa7WJi3RPEhmX%2BkyslI2IVQ47ZIWu%2FIVzy%2FyiX%2FxS%2Bnx0pVM%2FGmL96aFUJfkqdqqflcJKBusoW1VZw%2BtVwyFknE1xkRjDEem0br5292Lx6gnwbVqS8GfMsGeLJQCBbfEvacoiGMPQS3Bjr9IuapwBhnfEErCN5NLUaHWw%3D%3D",
+            "hasPassword": false,
+            "dateOfBirth": "2000-09-20T00:00:00.000Z",
+            "isBusinessOwner": false,
+            "timeStamp": 1695712531166,
+            "status": "ACTIVE"
+        },
+        "name": "Wise homes",
+        "created": "2023-09-13T14:28:04.000Z",
+        "price": {
+            "currency": "KES",
+            "amount": 2
+        },
+        "description": "Wise homes",
+        "location": {
+            "lng": 36.8219462,
+            "country": "",
+            "street": "",
+            "city": "",
+            "name": "Nairobi",
+            "lat": -1.2920659
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                36.8219462,
+                -1.2920659
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694612871577,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "Entire Place",
+        "amenities": [
+            "Pool",
+            "Hot Tub",
+            "BBQ Grill",
+            "Indoor Fireplace",
+            "Exercise Equipment",
+            "Outdoor Dining Area",
+            "Wifi",
+            "Cable TV",
+            "Hangers",
+            "Beddings",
+            "Mosquito Net",
+            "Clothing Storage",
+            "Washing Machine",
+            "Toiletries",
+            "Hot Water",
+            "Kitchen",
+            "Refrigerator"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "11:00",
+            "rules": [],
+            "checkOut": "12:00"
+        },
+        "details": {
+            "bath": 2,
+            "beds": 2,
+            "guests": 2,
+            "bedroom": 2
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/6a06da4c2caf59b803eefb4324413922?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=fUGFDvUqQQ1RXhzYwvRiv40b8iAIeAeDEKOGvf25Szaujo9bgcoWwaQMYU64b9%2BxW%2B1ejSjtBM8S3LLGm1ajkc4Bmvmju6X4kwUQqYjRLD3vdGekhP0l%2BpQmS79CfOu6MoGfkum%2B2hdZB3Ti5JIv991uufnbaChoh8LzKOvsk4CaXZoK0icAZ3APAflX6MS3BLVygJzijd9BClhUEINsndLn5WE7qtPl9Wa6StVvLYhRnJelgK5UEaM%2Ff3xfmueAbDtCSrtgfy0WoySTBPUvJPy4uKlKWk5vkobQ%2Bgf%2Bko3POqwnqZymJuUYMgVSFKNBxX8fXQ8I5rYebdDo4lSwfQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/a933b45abc49be3acff91f5f1e4742f5?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=ksxItZgbvsaGrfwUDiOOkJe%2F%2F1jt5%2B1S2yImbvVbd2DbmhCGc6mb9HBSNufVfQux0mRMw21bsussVx2C0PzrQiV%2Bue0c0luw%2BfQ1zs0%2FauJPXa5F%2FOvG6ZhD%2BbbEIgxqUytM4TU12vYNFZstFSHc5NzMUvTJhD7y9JN6EYSvAVdhUBKHzKjcNa80gcoLYX9iX9xTq5S3Lo0EfG1K4dm4xV9bGQlj9xuM5rlf5aXryvD7SW1dretkR4g0SKtngVXfLW2FLxUbnmWqq4AqtjwBcXcnqXztVa6NOSiFckYtnqMCMrMi865Um7QgZtcoqwF02h5xcNti5ATkR7IKnLRhAQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/97721767f17910a47ab7be87a2683fa2?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=OR%2Boi3Fc6rEed%2Bica49K8HawRUup95oq0w1R9gf3La5umP%2FRealQ24qpjNzQE81wTIs%2B%2FkiQsJrnEVtVVKaoQJJ8ibifc3yOhJfDdqrX1u72Wlxp8J14mAdeANnwSeQNN1%2FSpGCN%2BlIecmJlwC8AldPmcLebFCcjNJz5TWDbqIEjiGBcvjt7PC9SWMUl86bMFNrSUYTE6vvYwWS0BD4w2rYOlnPRakgVNDC0NLw0%2FGl7jFVzHc7NFZLJH4ZvvuM4UX7VZrOcQPbe0YE%2B6rnNAwht9IsuEg%2FzFgHSakJN%2BDNNNVPDp6AGbfrL2Sp97fdEGWS84VKWl2NWMgGN1GrFSA%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/e6b466a4fc1a5f2f8323fe364ddac07b?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=g6db23NNIYnAqBESLBdJQTMZYNE50b%2FYAu5FAV4BEjBgmIoHurSxYev0V1hF1kOJ7WtAgUQLGPJcspdO8UsE4Ikg%2F8KcdmoPsJGwejjZGMC2rVbgZChoyDubC%2BLxIm07KQ%2FoMDsD6ZbvfVYHcy858IqZXea09qpsSaKOPh5FqCbMsIKAkw5DgCrTj4b8S%2BBKIb0s%2FUgwdSlvZpNBiSymxm5X7pNqgmtL0hOhO6xs%2Fa0DmAYkpSRuT0UUnYoMyL9ux9fyJ81ISyZJenaY4gRytUayF5lTxqq6SNrpOR1nHnR1KfHe3YZIXcoe3dHroAr22%2B%2F%2FLr9oc7UAwLSnmA6Wig%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3e4a5ee18dfcd596b22be1bcb0fb16c7?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=DJQGGHYXH1M41sdVG7zgu6XV6HO7W3SKAiOo4eB0Tu%2FuWgiINalwO%2BI%2BFvXKVP0%2FIeGLpXiDWDq8AQ0pJu8TuWe9NBqUK33AQ5Wfi4dAW5LtE5gTktXd%2B6%2BUM8RdRyY4qmUmhyScBIIfhSqyyom7uOEmSem4D%2BzLQ18UE38nDeje2TU1AJrT0QFLpEczEZXPgHv9FadV5UjZW8VoZkbHqt5t%2BTb9yXiWZJ17lmGUj8xc56RYQG%2Fc1nrHRhIstGC6qyN%2BAnJ%2BeDVQyIvSNU%2FKs0ibQvqeVUHMs5CX%2BeziNxfHj7q1pyI3kRywtdDFqeOlRmNMxGIIMIj%2BFxGuP1wEag%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/b6e2acb8f79113d4791a3c49c00b6bec?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=G3NbLYfJiBCsJlSt8YpmKCCUlzaIOi25vqdVRjQpPQtQGKuLVuGgQjQpCR8WUFFH5lrZlGTNwYOnDR8lJKwYmmLkye3ABCi%2FhQiz4Ji46Qea1GKhWVz31xnhNdp9PYTVyINrDNnw%2BL8d2VFPFzwoHgkovjq1Zi%2Bq2GAHwQ57XeZr3l4sxntEfbR6CWoM2gBXvXyDroQ4I53o1yO8grhJY8HzEu6hR5GHTrB8X59Rlpbv0g6L6XFLL1WVP6fmiJD06IxELvl8vqYz02L4scpSnGiMvceUITW3yd5gu1eNlfwEFWu8uXuFmf4EwToHKLfO0UA5weJMIT35H3BfpmEnbg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/3369847df17a2113a415d6a2ce876b47?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=nO4rrLofRZd%2F%2FJk5iibh8biub7D80QsCIFb6WS5nCGA0ZX6wz88jLBdSYM9N2kIMhFD8Md7cqXdLu5awS1YvZNw%2Bs7m88ZOEJ3IbReGYs6Mpa5tS%2B6GHX0O2rE6%2BXKkb84gB4xFG2Qx4KIlUGpcSHVY7cCB4vb3%2B2RY0KcHfyS5medv2bvIaud1DDv%2BjeA%2BzvjlLguf%2F4e4H%2FyI0VED0BOk%2BAqtFQsunx6HhdA04U5MlMMnAzU9TVpfXbM1PxjhmzCadpdM85pAbZ1aca8%2FSrtsVAAkD8%2BQ0TjqC0mbGYXzv7XgjW3cTZOPEPgt9pM8lVqWp3QN4xspFCH2NH82g0A%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [
+            "New",
+            "Travel"
+        ],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    },
+    {
+        "_id": "6501cd8185b14d3c39537db5",
+        "user": {
+            "_id": "6413eda57d098758ab5323f2",
+            "firstName": "Felix",
+            "lastName": "Kariuki",
+            "isPhoneNumberVerified": true,
+            "followers": 3,
+            "following": 0,
+            "created": "2023-03-16T14:55:16.912Z",
+            "rating": 0,
+            "noOfRates": 0,
+            "reviews": 3,
+            "country": "Kenya",
+            "hasPaymentMethod": true,
+            "type": "HOST",
+            "package": "PREMIUM",
+            "referralCode": "L7QE7S9LQY",
+            "isProfileIncomplete": true,
+            "isPackageDue": true,
+            "isFollowing": false,
+            "count": 0,
+            "__v": 0,
+            "profilePictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000211774.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=SUFsaQ3P8fs9L0ICdPHYeDjyRSU0UWd6ujzgmhWvYD6Dp67yS6YiVXQSx%2Bd844ubLupQqn7NFTB1CxU1AZ1uiWjwa88xHehQApg1bDrhkknHyBrOQRoMCaswQYxvywiw8VcYtx%2FI1ZP%2BuErJOLRVxzzZLGowXt1L86BPJv3ZJXJ2H8IefSnzaVPPjJJ%2FnwAMFdvsH48CdFSsz6e1zKrPKJhBeSoSwXqe4848xCps7FVxzq4H3OA62xAVl2Fs3lhQYARV%2BetqqUZ%2FbKvqMs4EPxrGGkAvwiU9%2FfcpV0evPUkxskQpXRicAtkTKPfETZvWriSq04IO5kv2ifhYyINOlA%3D%3D",
+            "coverPictureURL": "https://storage.googleapis.com/leizen-frontend.appspot.com/users/1000000018.jpg?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=4126982400&Signature=RE9KDAbHJpLIRygGsKG9dCtvWHU5rpPkGjAquApdac3e%2BAIgDrxtLjq0aMUCV5onkMDQy9hmuWWqH2hl8Dmg1WgCBA6%2F6f79iy0Fev2N31KZZJF8CmMnZcNg93rvFm6RXRDIYYKRvrcQIL76Px8HIXT4l3NJ%2FXInjNxm04W0o%2BHrl1g50O1%2BBOs38GnFtkLDM86pQDaBzqWFfpd8bl8EtRZoJHWW%2FYT6arHCdia%2FFIC0kNUKNf%2Br35lN7IEKqBhxPF5kAWpJR2x4YEQvBVWWG0w3N3oXDk5Z4oytGl3X0JUGYB%2FHJCCiuQf5eDwWR7NtQIxBenAr403HSHp90OGv3A%3D%3D",
+            "bio": "loves travelling alot and enjoying the world. lorem ipsium lorem ipsium lorem ipsium",
+            "favouriteFoods": "",
+            "gender": "Male",
+            "interests": "",
+            "packageDueDate": "05/19/2023",
+            "hasPassword": true,
+            "isBusinessOwner": false
+        },
+        "name": "tt",
+        "created": "2023-09-13T14:56:01.000Z",
+        "price": {
+            "amount": 1,
+            "currency": "KES"
+        },
+        "description": "tt",
+        "location": {
+            "lat": 0,
+            "lng": 0,
+            "name": "kilimani"
+        },
+        "point": {
+            "type": "Point",
+            "coordinates": [
+                0,
+                0
+            ]
+        },
+        "rating": 4,
+        "timeStamp": 1694612871577,
+        "noOfRates": 0,
+        "type": "Apartment",
+        "uniqueType": "Rental Unit",
+        "space": "An Entire Place",
+        "amenities": [
+            "Pool",
+            "Exercise Equipment",
+            "Wifi",
+            "Cable TV",
+            "Long term stay"
+        ],
+        "status": "UNDER_REVIEW",
+        "rules": {
+            "checkIn": "18:00",
+            "checkOut": "08:00"
+        },
+        "details": {
+            "bath": 1,
+            "bedroom": 1,
+            "beds": 1,
+            "guests": 2
+        },
+        "emergencyBooking": {
+            "selfCheckin": false,
+            "discountPercentage": 10,
+            "bookable": false
+        },
+        "reviews": [],
+        "photos": [
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/568753e99a8dd263dc0e56a52ce5609e?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=uqyYlM3%2BHcZJhUWdVV%2Fz073kDpNnEv8SXzGDJkXHathrRmQxVOBFRQPDiqIhSFD7Lth5FccBq0TrXTS9fu9CczmSnHgH35ji%2FxUueL%2BJAKcnmQdrHCSI%2FFH%2FnhfudWvGdzjXV7MLBs%2FKkgUb5qFagyOua6sFS4aijzJ19g52afIdBM%2FPuN%2BU3xyWAIXypuy9%2F5atU52DENQ6d%2FNt8PulfSHpJPNV033WBFxO023v45CN6G58AKViXcopKgO08yOFtPBuHZ%2FPVJLkzVGrRlOd4%2BeO%2BlSNNnvvPJyWwNK4vRmIMLXb1qZZIbBs9efcbiM4UZnbjflQPd7sVKvUDBoMvQ%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/f2dd5a90dbf7292067731e5459589f65?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=V%2B8QRgbBSJFl7uSC0mod1CqGGU7vpBkaYFZJT%2FBSt8jkygeS306SGWJgspMx%2B7gP4Y4KTv93kHmkhIXFOXE5FyCUBoRbgPSgWH2msTuPnYoWGzUss8F4Eaxl373pn7cBmF%2Fn9AQzSnuD5V01SB0yOI4bKvSweoNAfNW%2BZzsBL56%2F%2FXeIuvYkBRkrcqVrBcAlvch08BrJk9ZLCYd7mInWAEADhGE%2BEfC7llgfN0hJfAedOE%2B4qzvdy68QWPmkwyarv8f3dH0ysDpt9bWI5uYE4gdWPDOvMwGE6F%2FIgUdVk8S5HfXVy0cYbamIUxHlbsQj6NnoRW4UbsXUaTIkBCKWuw%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/dbaef88b2461e5aa9d4ee61b3857f095?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=r9WsyaOsRsmpnbYmKxAfjkf8MzQjhz1HbttHPc0xa5SdTpXAeBjGt2G%2B51GYVC1YUgKOEZgub%2B5Gj0V0iVCNvNXExTyw7QBOyE%2Ff2d%2FZZBAdXGF0n0dhPYBhMxqC41q4eZ2GwEzLEqvj2eibEqSK2rhDjQ44dRlsSctrF4Ito7DUwPZSyyiEFEbpNgS%2FINexfUkpRKg5N%2BhzjysWgNK8dbMNYuS%2FZzIxpL6m0kYdY4Tw3uoewrltXSQdCPj14TV1lYXZYI0yB7edx0y4eyQQmWbMP0Q9K6Fw5QjcLFxB5gtLLHmfW3T%2Frnjq%2BdxacaZstS%2B5wUMK8%2BD1y8ZF4b%2BX%2Fg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/2f641e500b102281fb378afd526d3520?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=xi4ZkhVkoZ00d6S47dH1ErNVnJ%2FowcCWdeiEZBip92qMgWbeN9Ri99YMmF%2BsNKPDWmbrBVC83%2BHzfKYw%2F3pOmQD3mYmQ3wlZ6LDufw9DEKI0%2BU6XBvK%2B7nMeMineQsxSTHaH33CQtfEzhK3vz8pftkW9nkosA5UNdCqPf4cr%2BMCqSsDUdIWuGNZn3h1AO9HthMbSqjiKV8jFThh2lMiY6m4vFGBvmInMnlhZfyJcR0tS84M6pduE3qT2L4HEJ1yE%2Fge%2FfB%2BQAflLfSBfScgqDHl2jN3DvIQjW9VWRcL5WJddKrlQ9aSYrWNgwCIAxlX1kKLlqrN6Csa8QuGw5qFY7g%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/a0ed20ef59f91329f2d628f438869ed4?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=KQy3asBw2dR1qQ57kBwhE%2FcxagtOj%2BW4ckN68N4dGOj3sulnBUXe2WheDHB%2BVhN2AoYgchPuycIEUAijmNDMfvaGGwFoO5Ku3Vu1DrthVTqJj6bwGDPc%2FMO0ABsLPIIlSscF75jKfZQqDkKTC4URmeLbIrFdZA1mpICP06zO1XbjCJhOWDT4G0rgNw59D4X4jni6VabMDFjsPtN7O6MxiLZfWZYfv2zlpbJX%2F20QfDKDEOTPhyHlNB%2B5tZcYL3pRywNl0HrwM7gP4reEI%2F%2FhI8cGwRxL%2F2L78lOc1WohR6WBfWaHSipOCnO6%2BZluHU60vYba7ob12EIQtLRzXJKlWg%3D%3D",
+            "https://storage.googleapis.com/leizen-frontend.appspot.com/hotel/24776efe3dd87b9d7f77e0ed73d24e3f?GoogleAccessId=firebase-adminsdk-pe7p9%40leizen-frontend.iam.gserviceaccount.com&Expires=16749763200&Signature=YXjxfuTNyFB%2FGdbnq6%2BkDZNzkedJhkNM0fzC23VRg%2FQRzO%2Fgu62RLaWnRQVkjPfQxu7IKZPuTT5eVjr6tUrb179kXs4p3%2F3%2Bkz%2BXRRrb5xDCWQYTwQ%2BcaEaZqwpX3fDf5554p4GwOGqRBswtUUBE1cDE0bTgPl5KXMxEkECgjOaxZelpZe1%2FUzx3s1edeU2nJz4P8Cg%2Fi0V0R0Ew9XkI7a%2BCNY7vHYxittvKuqCvHkrf2zH7N3KQbKIlr2p8YQUiCowWTX8aoNcd0WxzzY8chYxeXR6OFTty2sv%2F0F9QZnIYWfV2VJpvpZDZjHO0nLmSmg5ozjj8X3XIf5AU4ifB6A%3D%3D"
+        ],
+        "bookedDates": [
+            "10/17/2023",
+            "11/29/2023",
+            "11/11/2023",
+            "11/26/2023",
+            "11/09/2023",
+            "10/27/2023",
+            "11/21/2023"
+        ],
+        "tags": [],
+        "cancellationPolicy": "FLEXIBLE",
+        "bookings": 1,
+        "recommendations": 0,
+        "__v": 0
+    }
+]
