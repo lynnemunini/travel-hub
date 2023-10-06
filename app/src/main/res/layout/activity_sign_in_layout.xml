@@ -168,6 +168,30 @@
                         android:textSize="15sp" />
                 </LinearLayout>
 
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/sign_in_google_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="2dp"
+                    android:layout_marginTop="70dp"
+                    android:layout_marginEnd="2dp"
+                    android:backgroundTint="@color/white"
+                    android:fontFamily="@font/samsungsans_medium"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:text="@string/sign_in_with_google"
+                    android:textAlignment="center"
+                    android:textAllCaps="false"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="15sp"
+                    android:textStyle="bold"
+                    app:cornerRadius="15dp"
+                    app:elevation="0dp"
+                    app:icon="@drawable/googleg_standard_color_18"
+                    app:iconGravity="textStart"
+                    app:iconPadding="11dp"
+                    app:iconTint="@null" />
+
             </LinearLayout>
 
         </ScrollView>
