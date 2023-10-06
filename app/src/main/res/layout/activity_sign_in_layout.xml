@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:id="@+id/activity_register_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/primaryBackgroundColor"
+    android:background="@drawable/cottage"
     android:paddingStart="10dp"
     android:paddingEnd="10dp">
 
@@ -12,20 +11,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="2dp"
         android:orientation="vertical">
 
-        <com.google.android.material.appbar.MaterialToolbar
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="?attr/actionBarSize"
-            android:layout_marginTop="16dp" />
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:gravity="center_horizontal"
+            android:text="@string/travel_hub"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/samsungsans_medium"
+            android:gravity="center_horizontal"
+            android:text="@string/your_ultimate_companion_for_seamless_travel_experiences"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
 
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="60dp"
             android:paddingStart="10dp"
             android:paddingEnd="10dp"
-            android:scrollbarThumbVertical="@null"
-            android:scrollbarTrackVertical="@null">
+            android:scrollbars="none">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,7 +66,7 @@
                     android:fontFamily="@font/segoe_ui_bold"
                     android:gravity="center_horizontal"
                     android:text="@string/sign_in"
-                    android:textColor="@color/primaryTextColor"
+                    android:textColor="@color/white"
                     android:textSize="26sp" />
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -54,13 +77,14 @@
                     android:layout_marginStart="2dp"
                     android:layout_marginEnd="2dp"
                     android:layout_marginBottom="20dp"
+                    app:boxBackgroundColor="@color/white"
                     app:boxCornerRadiusBottomEnd="15dp"
                     app:boxCornerRadiusBottomStart="15dp"
                     app:boxCornerRadiusTopEnd="15dp"
                     app:boxCornerRadiusTopStart="15dp"
-                    app:boxStrokeColor="@color/secondaryTextColor"
-                    app:boxStrokeWidth="0.05dp"
-                    app:boxStrokeWidthFocused="1dp"
+                    app:boxStrokeColor="@color/white"
+                    app:boxStrokeWidth="0.5dp"
+                    app:boxStrokeWidthFocused="0.5dp"
                     app:hintEnabled="false">
 
                     <com.google.android.material.textfield.TextInputEditText
@@ -85,13 +109,14 @@
                     android:layout_marginStart="2dp"
                     android:layout_marginEnd="2dp"
                     android:layout_marginBottom="20dp"
+                    app:boxBackgroundColor="@color/white"
                     app:boxCornerRadiusBottomEnd="15dp"
                     app:boxCornerRadiusBottomStart="15dp"
                     app:boxCornerRadiusTopEnd="15dp"
                     app:boxCornerRadiusTopStart="15dp"
-                    app:boxStrokeColor="@color/secondaryTextColor"
-                    app:boxStrokeWidth="0.05dp"
-                    app:boxStrokeWidthFocused="1dp"
+                    app:boxStrokeColor="@color/white"
+                    app:boxStrokeWidth="0.5dp"
+                    app:boxStrokeWidthFocused="0.5dp"
                     app:endIconMode="password_toggle"
                     app:endIconTint="@color/secondaryTextColor"
                     app:hintEnabled="false">
@@ -128,7 +153,7 @@
                     android:layout_marginStart="2dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginEnd="2dp"
-                    android:layout_marginBottom="15dp"
+                    android:layout_marginBottom="4dp"
                     android:backgroundTint="?attr/colorAccent"
                     android:fontFamily="@font/samsungsans_medium"
                     android:paddingTop="15dp"
@@ -154,7 +179,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/segoe_ui"
                         android:text="@string/don_t_have_an_account"
-                        android:textColor="@color/secondaryTextColor"
+                        android:textColor="@color/white"
                         android:textSize="15sp" />
 
                     <TextView
@@ -164,7 +189,7 @@
                         android:layout_marginStart="2dp"
                         android:fontFamily="@font/segoe_ui_bold"
                         android:text="@string/sign_up"
-                        android:textColor="?attr/colorAccent"
+                        android:textColor="@color/white"
                         android:textSize="15sp" />
                 </LinearLayout>
 
@@ -173,7 +198,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="2dp"
-                    android:layout_marginTop="70dp"
+                    android:layout_marginTop="30dp"
                     android:layout_marginEnd="2dp"
                     android:backgroundTint="@color/white"
                     android:fontFamily="@font/samsungsans_medium"

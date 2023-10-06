@@ -18,10 +18,8 @@ class SignInViewModel : ViewModel() {
      * @return LiveData containing the result of the sign-in process.
      */
     fun signInUser(email: String, password: String): LiveData<SignInResult> {
-        // Create a LiveData instance to hold the sign-in result.
         val resultLiveData = MutableLiveData<SignInResult>()
 
-        // Sign-in using Firebase Authentication.
         FirebaseAuth.getInstance().signInWithEmailAndPassword(email, password)
             .addOnCompleteListener { task ->
                 // Check if the sign-in was successful.
@@ -38,7 +36,7 @@ class SignInViewModel : ViewModel() {
 }
 
 /**
- * Sealed class representing the possible results of user sign-in.
+ * Sealed class representing the possible results of user sign-in
  */
 sealed class SignInResult {
     data object Success : SignInResult()
