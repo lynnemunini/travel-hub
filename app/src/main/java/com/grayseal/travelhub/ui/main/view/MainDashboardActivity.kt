@@ -1,23 +1,27 @@
 package com.grayseal.travelhub.ui.main.view
 
 import android.os.Bundle
-import android.util.Log
+import android.text.Editable
+import android.text.TextWatcher
 import android.view.View
 import android.widget.EditText
 import android.widget.ProgressBar
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
+import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.grayseal.travelhub.R
 import com.grayseal.travelhub.data.model.TravelItem
+import com.grayseal.travelhub.ui.main.adapter.EntryListAdapter
 import com.grayseal.travelhub.ui.main.viewmodel.EntriesViewModel
 
-class MainDashboardActivity : AppCompatActivity() {
+class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClickedListener {
     private lateinit var entriesRecyclerView: RecyclerView
+    private lateinit var entriesAdapter: EntryListAdapter
     private lateinit var progressBar: ProgressBar
     private lateinit var searchEditText: EditText
     private val entriesViewModel: EntriesViewModel by viewModels()
-    private var entries: MutableList<TravelItem> = ArrayList()
+    private var entriesList: MutableList<TravelItem> = ArrayList()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -29,13 +33,29 @@ class MainDashboardActivity : AppCompatActivity() {
         entriesRecyclerView = findViewById(R.id.entries_recycler_view)
         progressBar = findViewById(R.id.list_loading_progress)
         searchEditText = findViewById(R.id.search_edit_text)
+        entriesAdapter = EntryListAdapter(this@MainDashboardActivity, entriesList, this)
+        entriesRecyclerView.adapter = entriesAdapter
+        entriesRecyclerView.layoutManager = LinearLayoutManager(applicationContext)
+        searchEditText.addTextChangedListener(object : TextWatcher {
+            override fun beforeTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
+            override fun onTextChanged(charSequence: CharSequence, i: Int, i1: Int, i2: Int) {}
+            override fun afterTextChanged(editable: Editable) {
+                if (searchEditText.text.isNotEmpty()) entriesAdapter.search(searchEditText.text.toString()) else loadData()
+            }
+        })
     }
 
     private fun loadData() {
         progressBar.visibility = View.VISIBLE
         entriesViewModel.getAllEntries(applicationContext) { entries ->
-            // Handle the retrieved entries here (e.g., update UI or pass data to your adapter)
-            Log.d("SIZE", "${entries.size}")
+            progressBar.visibility = View.GONE
+            entriesList.clear()
+            entriesList.addAll(entries)
+            entriesAdapter.notifyDataSetChanged()
         }
+    }
+
+    override fun onEntryClicked(position: Int) {
+        TODO("Not yet implemented")
     }
 }
