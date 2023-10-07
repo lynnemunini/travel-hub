@@ -74,13 +74,11 @@ class RegisterActivity : AppCompatActivity() {
                     }
 
                     is RegistrationResult.InvalidEmail -> {
-                        // Show error message for invalid email
                         Toast.makeText(applicationContext, "Invalid email", Toast.LENGTH_LONG)
                             .show()
                     }
 
                     is RegistrationResult.InvalidPassword -> {
-                        // Show error message for invalid password
                         Toast.makeText(
                             applicationContext,
                             "Password must be atleast 6 characters long",
