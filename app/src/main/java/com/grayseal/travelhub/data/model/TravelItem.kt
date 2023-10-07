@@ -27,6 +27,5 @@ data class TravelItem(
     val timeStamp: Long,
     val type: String,
     val uniqueType: String,
-    val user: User,
     val video: String
 )

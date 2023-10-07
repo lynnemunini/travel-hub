@@ -53,20 +53,20 @@ dependencies {
     // Dependency injection with Hilt
     implementation("com.google.dagger:hilt-android:2.44.2")
     kapt("com.google.dagger:hilt-android-compiler:2.44")
-
     // Splash Screen
     implementation("androidx.core:core-splashscreen:1.1.0-alpha02")
-
     // Import the Firebase BoM
     implementation(platform("com.google.firebase:firebase-bom:32.3.1"))
     // Analytics
     implementation("com.google.firebase:firebase-analytics-ktx")
     // Add Firebase Authentication
-    implementation ("com.google.firebase:firebase-auth-ktx")
-
+    implementation("com.google.firebase:firebase-auth-ktx")
     implementation("com.google.android.gms:play-services-auth:20.7.0")
+    implementation("androidx.activity:activity-ktx:1.8.0")
+    implementation("com.google.code.gson:gson:2.10.1")
+    // For ViewModelScope
+    implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
 
-    implementation ("androidx.activity:activity-ktx:1.8.0")
 }
 
 // Allow references to generated code
