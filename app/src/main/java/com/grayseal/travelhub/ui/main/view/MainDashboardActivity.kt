@@ -13,7 +13,10 @@ import androidx.recyclerview.widget.RecyclerView
 import com.grayseal.travelhub.R
 import com.grayseal.travelhub.data.model.TravelItem
 import com.grayseal.travelhub.ui.main.adapter.EntryListAdapter
+import com.grayseal.travelhub.ui.main.eventbus.SearchResultEvent
 import com.grayseal.travelhub.ui.main.viewmodel.EntriesViewModel
+import org.greenrobot.eventbus.EventBus
+import org.greenrobot.eventbus.Subscribe
 
 class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClickedListener {
     private lateinit var entriesRecyclerView: RecyclerView
@@ -27,6 +30,24 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
         setContentView(R.layout.activity_main)
         initializeResources()
         loadData()
+    }
+
+    override fun onStart() {
+        super.onStart()
+        try {
+            EventBus.getDefault().register(this)
+        } catch (e: Exception) {
+            e.printStackTrace()
+        }
+    }
+
+    override fun onDestroy() {
+        super.onDestroy()
+        try {
+            EventBus.getDefault().unregister(this)
+
+        } catch (ex: Exception) {
+        }
     }
 
     private fun initializeResources() {
@@ -52,10 +73,21 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
             entriesList.clear()
             entriesList.addAll(entries)
             entriesAdapter.notifyDataSetChanged()
+            entriesAdapter.updateSearchableList(entriesList)
         }
     }
 
     override fun onEntryClicked(position: Int) {
         TODO("Not yet implemented")
     }
+
+    @Subscribe
+    fun emptySearchResultEvent(event: SearchResultEvent) {
+        if (event.isEmpty) {
+            entriesRecyclerView.visibility = View.GONE
+        } else {
+            entriesRecyclerView.visibility = View.VISIBLE
+        }
+    }
+
 }

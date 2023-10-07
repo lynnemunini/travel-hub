@@ -66,6 +66,8 @@ dependencies {
     implementation("com.google.code.gson:gson:2.10.1")
     // For ViewModelScope
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
+    // EventBus
+    implementation ("org.greenrobot:eventbus:3.3.1")
 
 }
 
