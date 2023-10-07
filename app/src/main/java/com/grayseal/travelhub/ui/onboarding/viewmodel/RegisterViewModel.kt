@@ -7,9 +7,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.grayseal.travelhub.utils.isEmailValid
 import com.grayseal.travelhub.utils.isPasswordValid
 
-/**
- * ViewModel class for handling user registration.
- */
 class RegisterViewModel : ViewModel() {
 
     /**

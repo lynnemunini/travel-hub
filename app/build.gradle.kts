@@ -64,6 +64,8 @@ dependencies {
     // Add Firebase Authentication
     implementation ("com.google.firebase:firebase-auth-ktx")
 
+    implementation("com.google.android.gms:play-services-auth:20.7.0")
+
     implementation ("androidx.activity:activity-ktx:1.8.0")
 }
 
