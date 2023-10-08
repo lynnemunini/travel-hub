@@ -26,6 +26,8 @@
 
         <activity android:name=".ui.main.view.MainDashboardActivity" />
         <activity android:name=".ui.onboarding.view.SignInActivity" />
+        <activity android:name=".ui.details.view.DetailsActivity" />
+
     </application>
 
 </manifest>

@@ -25,4 +25,21 @@ class EntriesViewModel : ViewModel() {
             callback(entries)
         }
     }
+
+    fun getEntryById(id: String, context: Context, callback: (TravelItem?) -> Unit) {
+        viewModelScope.launch {
+            val entries = withContext(Dispatchers.IO) {
+                val jsonFile = context.resources.openRawResource(R.raw.listings)
+                val reader = InputStreamReader(jsonFile)
+
+                val listType = object : TypeToken<List<TravelItem>>() {}.type
+                Gson().fromJson<List<TravelItem>>(reader, listType)
+            }
+
+            // Find the entry with the specified id
+            val entry = entries.find { it._id == id }
+
+            callback(entry)
+        }
+    }
 }

@@ -1,5 +1,6 @@
 package com.grayseal.travelhub.ui.main.view
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
@@ -12,6 +13,8 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.grayseal.travelhub.R
 import com.grayseal.travelhub.data.model.TravelItem
+import com.grayseal.travelhub.ui.details.view.DetailsActivity
+import com.grayseal.travelhub.ui.details.view.DetailsActivity.Companion.ENTRY_ID
 import com.grayseal.travelhub.ui.main.adapter.EntryListAdapter
 import com.grayseal.travelhub.ui.main.eventbus.SearchResultEvent
 import com.grayseal.travelhub.ui.main.viewmodel.EntriesViewModel
@@ -78,7 +81,10 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
     }
 
     override fun onEntryClicked(position: Int) {
-        TODO("Not yet implemented")
+        val intent = Intent(this@MainDashboardActivity, DetailsActivity::class.java)
+        intent.putExtra(ENTRY_ID, entriesList[position]._id)
+        startActivity(intent)
+        finish()
     }
 
     @Subscribe
