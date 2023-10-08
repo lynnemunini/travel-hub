@@ -14,4 +14,5 @@
     <string name="your_ultimate_companion_for_seamless_travel_experiences">Your Ultimate Companion for Seamless Travel experiences</string>
     <string name="authentication_failed_error_msg">Authentication with google failed!</string>
     <string name="kilimani_nairobi">Kilimani, Nairobi</string>
+    <string name="recommended">Recommended</string>
 </resources>
