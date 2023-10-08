@@ -35,15 +35,15 @@
                 android:layout_height="wrap_content"
                 android:drawableEnd="@drawable/search"
                 android:drawableTint="@color/secondaryTextColor"
-                android:fontFamily="@font/poppins_regular"
-                android:hint="@string/kilimani_nairobi"
+                android:fontFamily="@font/segoe_ui"
+                android:hint="@string/search"
                 android:imeOptions="actionDone"
                 android:inputType="text"
                 android:maxLines="1"
                 android:paddingTop="8dp"
                 android:paddingBottom="8dp"
                 android:textColor="@color/primaryTextColor"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
