@@ -4,10 +4,10 @@
     <string name="server_client_id">787860199462-hn8c94bmo76kharadfml0q2nomnlupiu.apps.googleusercontent.com</string>
     <string name="enter_email_address">Enter email address</string>
     <string name="enter_password">Enter password</string>
-    <string name="don_t_have_an_account">Don\'t have an account</string>
+    <string name="don_t_have_an_account">Don\'t have an account? </string>
     <string name="sign_up">Sign up</string>
     <string name="create_account">Create account</string>
-    <string name="already_have_an_account">Already have an account?</string>
+    <string name="already_have_an_account">Already have an account? </string>
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="sign_up_with_google">Sign up with Google</string>
     <string name="travel_hub">Travel Hub</string>

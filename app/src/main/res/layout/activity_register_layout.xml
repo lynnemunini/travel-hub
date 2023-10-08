@@ -3,9 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/cottage"
-    android:paddingStart="10dp"
-    android:paddingEnd="10dp">
+    android:background="@drawable/cottage">
+
+    <View
+        android:id="@+id/dark_overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#80000000" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,7 +32,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/samsungsans_medium"
+            android:fontFamily="@font/segoe_ui"
             android:gravity="center_horizontal"
             android:text="@string/your_ultimate_companion_for_seamless_travel_experiences"
             android:textColor="@color/white"
@@ -46,8 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="60dp"
-            android:paddingStart="10dp"
-            android:paddingEnd="10dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
             android:scrollbars="none">
 
             <LinearLayout
