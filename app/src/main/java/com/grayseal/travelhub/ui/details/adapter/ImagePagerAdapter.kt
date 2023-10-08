@@ -12,6 +12,7 @@ import java.util.Locale
 
 class ImagePagerAdapter(private var imageUrls: List<String>) :
     RecyclerView.Adapter<ImagePagerAdapter.ImageViewHolder>() {
+    private var isFavorite = false
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ImageViewHolder {
         val inflater = LayoutInflater.from(parent.context)
@@ -21,6 +22,11 @@ class ImagePagerAdapter(private var imageUrls: List<String>) :
 
     override fun onBindViewHolder(holder: ImageViewHolder, position: Int) {
         val imageUrl = imageUrls[position]
+        holder.favouriteContainer.setOnClickListener {
+            isFavorite = !isFavorite
+            val drawableRes = if (isFavorite) R.drawable.round_favorite_24 else R.drawable.favorite
+            holder.favourite.setImageResource(drawableRes)
+        }
         Picasso.get()
             .load(imageUrl)
             .placeholder(R.drawable.placeholder)
@@ -48,6 +54,8 @@ class ImagePagerAdapter(private var imageUrls: List<String>) :
     inner class ImageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val imageView: ImageView =
             itemView.findViewById(R.id.image_view)
+        val favourite: ImageView = itemView.findViewById(R.id.favourite)
+        val favouriteContainer: View = itemView.findViewById(R.id.favourite_container)
         val imageCountText: TextView = itemView.findViewById(R.id.image_count_text)
     }
 }

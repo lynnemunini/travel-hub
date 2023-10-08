@@ -19,19 +19,6 @@
         android:layout_alignParentTop="true" />
 
     <LinearLayout
-        android:id="@+id/stepper_layout"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/bottom_layout"
-        android:gravity="center"
-        android:orientation="horizontal">
-
-        <!-- Add RecyclerView for stepper dots here -->
-        <!-- You can customize the stepper dots as you like -->
-
-    </LinearLayout>
-
-    <LinearLayout
         android:id="@+id/bottom_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
