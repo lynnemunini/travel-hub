@@ -4,11 +4,13 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
 import com.grayseal.travelhub.R
 import com.grayseal.travelhub.data.model.TravelItem
 import com.grayseal.travelhub.ui.main.eventbus.SearchResultEvent
+import com.squareup.picasso.Picasso
 import org.greenrobot.eventbus.EventBus
 import java.util.Locale
 
@@ -31,6 +33,11 @@ class EntryListAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val travelItem = entryList[position]
+        Picasso.get()
+            .load(travelItem.photos[0])
+            .placeholder(R.drawable.placeholder)
+            .error(R.drawable.placeholder)
+            .into(holder.backgroundImage)
     }
 
     fun search(searchTerm: String) {
@@ -66,11 +73,13 @@ class EntryListAdapter(
 
     inner class ViewHolder(itemView: View, entryClickedListener: OnEntryClickedListener) :
         RecyclerView.ViewHolder(itemView), View.OnClickListener {
-        private val container: MaterialCardView
+        val container: MaterialCardView
+        val backgroundImage: ImageView
         private val entryClickedListener: OnEntryClickedListener
 
         init {
             container = itemView.findViewById(R.id.item_listing_container)
+            backgroundImage = itemView.findViewById(R.id.background_image)
             this.entryClickedListener = entryClickedListener
             container.setOnClickListener(this)
         }

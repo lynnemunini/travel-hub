@@ -68,7 +68,8 @@ dependencies {
     implementation ("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2")
     // EventBus
     implementation ("org.greenrobot:eventbus:3.3.1")
-
+    // Picasso
+    implementation ("com.squareup.picasso:picasso:2.71828")
 }
 
 // Allow references to generated code
