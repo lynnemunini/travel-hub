@@ -60,6 +60,8 @@ class EntryListAdapter(
             .load(travelItem.photos[0])
             .placeholder(R.drawable.placeholder)
             .error(R.drawable.placeholder)
+            .fit()
+            .centerCrop()
             .into(holder.backgroundImage)
     }
 
