@@ -64,7 +64,6 @@ class EntryListAdapter(
     }
 
     fun search(searchTerm: String) {
-        // Clear the current entry list
         entryList.clear()
 
         if (searchTerm.isEmpty()) {
@@ -96,10 +95,7 @@ class EntryListAdapter(
                 }
             }
         }
-        // Post an event to notify about the search result
         EventBus.getDefault().post(SearchResultEvent(entryList.isEmpty()))
-
-        // Notify the adapter about the data change
         notifyDataSetChanged()
     }
 
@@ -121,7 +117,7 @@ class EntryListAdapter(
 
     inner class ViewHolder(itemView: View, entryClickedListener: OnEntryClickedListener) :
         RecyclerView.ViewHolder(itemView), View.OnClickListener {
-        val container: MaterialCardView
+        private val container: MaterialCardView
         val backgroundImage: ImageView
         val uniqueTypeTextView: TextView
         val favourite: ImageView
