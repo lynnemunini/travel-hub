@@ -21,6 +21,7 @@ class EntryListAdapter(
     private val onEntryClickedListener: OnEntryClickedListener
 ) : RecyclerView.Adapter<EntryListAdapter.ViewHolder>() {
     private val searchableCopy: MutableList<TravelItem> = ArrayList()
+    private var isFavorite = false
 
     init {
         searchableCopy.addAll(entryList)
@@ -49,6 +50,11 @@ class EntryListAdapter(
             travelItem.price.currency,
             travelItem.price.amount
         )
+        holder.favouriteContainer.setOnClickListener {
+            isFavorite = !isFavorite
+            val drawableRes = if (isFavorite) R.drawable.round_favorite_24 else R.drawable.favorite
+            holder.favourite.setImageResource(drawableRes)
+        }
         Picasso.get()
             .load(travelItem.photos[0])
             .placeholder(R.drawable.placeholder)
@@ -100,6 +106,8 @@ class EntryListAdapter(
         val container: MaterialCardView
         val backgroundImage: ImageView
         val uniqueTypeTextView: TextView
+        val favourite: ImageView
+        val favouriteContainer: View
         val locationTextView: TextView
         val ratingTextView: TextView
         val nameTextView: TextView
@@ -110,6 +118,8 @@ class EntryListAdapter(
             container = itemView.findViewById(R.id.item_listing_container)
             backgroundImage = itemView.findViewById(R.id.background_image)
             uniqueTypeTextView = itemView.findViewById(R.id.unique_type)
+            favourite = itemView.findViewById(R.id.favourite)
+            favouriteContainer = itemView.findViewById(R.id.favourite_container)
             locationTextView = itemView.findViewById(R.id.location)
             ratingTextView = itemView.findViewById(R.id.rating)
             nameTextView = itemView.findViewById(R.id.name)
