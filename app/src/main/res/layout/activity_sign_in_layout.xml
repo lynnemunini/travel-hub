@@ -1,58 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@drawable/cottage">
+    android:layout_height="wrap_content"
+    android:paddingStart="10dp"
+    android:paddingEnd="10dp"
+    android:scrollbars="none">
 
-    <View
-        android:id="@+id/dark_overlay"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#80000000" />
-
-    <LinearLayout
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="2dp"
-        android:orientation="vertical">
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp">
 
-        <TextView
+        <LinearLayout
+            android:id="@+id/intro"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/segoe_ui_bold"
-            android:gravity="center_horizontal"
-            android:text="@string/travel_hub"
-            android:textColor="@color/white"
-            android:textSize="26sp" />
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="2dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:orientation="vertical">
 
-        <TextView
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui_bold"
+                android:gravity="center_horizontal"
+                android:text="@string/travel_hub"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="26sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:gravity="center_horizontal"
+                android:text="@string/your_ultimate_companion_for_seamless_travel_experiences"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/segoe_ui"
-            android:gravity="center_horizontal"
-            android:text="@string/your_ultimate_companion_for_seamless_travel_experiences"
-            android:textColor="@color/white"
-            android:textSize="16sp" />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="vertical">
-
-        <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="60dp"
-            android:paddingStart="20dp"
-            android:paddingEnd="20dp"
-            android:scrollbars="none">
+            android:layout_below="@+id/intro"
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -60,18 +55,13 @@
                 android:layout_marginTop="6dp"
                 android:orientation="vertical">
 
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="2dp"
-                    android:layout_marginTop="6dp"
-                    android:layout_marginEnd="2dp"
-                    android:layout_marginBottom="22dp"
-                    android:fontFamily="@font/segoe_ui_bold"
-                    android:gravity="center_horizontal"
-                    android:text="@string/sign_in"
-                    android:textColor="@color/white"
-                    android:textSize="26sp" />
+                <ImageView
+                    android:layout_width="400dp"
+                    android:layout_height="240dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="30dp"
+                    android:src="@drawable/travel" />
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:id="@+id/signin_email_address_field"
@@ -86,7 +76,7 @@
                     app:boxCornerRadiusBottomStart="15dp"
                     app:boxCornerRadiusTopEnd="15dp"
                     app:boxCornerRadiusTopStart="15dp"
-                    app:boxStrokeColor="@color/white"
+                    app:boxStrokeColor="@color/accentColor"
                     app:boxStrokeWidth="0.5dp"
                     app:boxStrokeWidthFocused="0.5dp"
                     app:hintEnabled="false">
@@ -98,8 +88,8 @@
                         android:fontFamily="@font/segoe_ui"
                         android:hint="@string/enter_email_address"
                         android:maxLines="1"
-                        android:paddingTop="15dp"
-                        android:paddingBottom="15dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
                         android:textColor="@color/primaryTextColor"
                         android:textSize="15sp" />
 
@@ -118,7 +108,7 @@
                     app:boxCornerRadiusBottomStart="15dp"
                     app:boxCornerRadiusTopEnd="15dp"
                     app:boxCornerRadiusTopStart="15dp"
-                    app:boxStrokeColor="@color/white"
+                    app:boxStrokeColor="@color/accentColor"
                     app:boxStrokeWidth="0.5dp"
                     app:boxStrokeWidthFocused="0.5dp"
                     app:endIconMode="password_toggle"
@@ -133,8 +123,8 @@
                         android:hint="@string/enter_password"
                         android:inputType="textPassword"
                         android:maxLines="1"
-                        android:paddingTop="15dp"
-                        android:paddingBottom="15dp"
+                        android:paddingTop="16dp"
+                        android:paddingBottom="16dp"
                         android:textColor="@color/primaryTextColor"
                         android:textSize="15sp" />
                 </com.google.android.material.textfield.TextInputLayout>
@@ -183,7 +173,7 @@
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/segoe_ui"
                         android:text="@string/don_t_have_an_account"
-                        android:textColor="@color/white"
+                        android:textColor="@color/primaryTextColor"
                         android:textSize="15sp" />
 
                     <TextView
@@ -193,7 +183,7 @@
                         android:layout_marginStart="2dp"
                         android:fontFamily="@font/segoe_ui_bold"
                         android:text="@string/sign_up"
-                        android:textColor="@color/white"
+                        android:textColor="@color/accentColor"
                         android:textSize="15sp" />
                 </LinearLayout>
 
@@ -223,8 +213,8 @@
 
             </LinearLayout>
 
-        </ScrollView>
+        </LinearLayout>
 
-    </LinearLayout>
+    </RelativeLayout>
 
-</RelativeLayout>
+</ScrollView>
