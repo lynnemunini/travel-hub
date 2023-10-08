@@ -12,7 +12,7 @@ import com.grayseal.travelhub.ui.main.view.MainDashboardActivity
 import com.grayseal.travelhub.ui.main.viewmodel.EntriesViewModel
 import com.grayseal.travelhub.utils.ZoomOutPageTransformer
 
-class DetailsActivity : AppCompatActivity() {
+class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickListener {
     private lateinit var imageViewPager: ViewPager2
     private lateinit var imageViewPagerAdapter: ImagePagerAdapter
     private var entry: TravelItem? = null
@@ -26,16 +26,9 @@ class DetailsActivity : AppCompatActivity() {
 
     private fun initializeResources() {
         imageViewPager = findViewById(R.id.image_view_pager)
-        imageViewPagerAdapter = ImagePagerAdapter(emptyList())
+        imageViewPagerAdapter = ImagePagerAdapter(emptyList(), this)
         imageViewPager.adapter = imageViewPagerAdapter
         imageViewPager.setPageTransformer(ZoomOutPageTransformer())
-
-
-        imageViewPager.registerOnPageChangeCallback(object : ViewPager2.OnPageChangeCallback() {
-            override fun onPageSelected(position: Int) {
-                super.onPageSelected(position)
-            }
-        })
     }
 
     private fun loadData() {
@@ -46,6 +39,10 @@ class DetailsActivity : AppCompatActivity() {
                 imageViewPagerAdapter.updateData(entry?.photos ?: emptyList())
             }
         }
+    }
+
+    override fun onBackArrowClicked() {
+        onBackPressed()
     }
 
     override fun onBackPressed() {

@@ -10,7 +10,10 @@ import com.grayseal.travelhub.R
 import com.squareup.picasso.Picasso
 import java.util.Locale
 
-class ImagePagerAdapter(private var imageUrls: List<String>) :
+class ImagePagerAdapter(
+    private var imageUrls: List<String>,
+    private val backArrowClickListener: BackArrowClickListener
+) :
     RecyclerView.Adapter<ImagePagerAdapter.ImageViewHolder>() {
     private var isFavorite = false
 
@@ -40,6 +43,9 @@ class ImagePagerAdapter(private var imageUrls: List<String>) :
             "${position + 1}",
             "${imageUrls.size}"
         )
+        holder.backContainer.setOnClickListener {
+            backArrowClickListener.onBackArrowClicked()
+        }
     }
 
     fun updateData(newData: List<String>) {
@@ -56,6 +62,12 @@ class ImagePagerAdapter(private var imageUrls: List<String>) :
             itemView.findViewById(R.id.image_view)
         val favourite: ImageView = itemView.findViewById(R.id.favourite)
         val favouriteContainer: View = itemView.findViewById(R.id.favourite_container)
+        val back: ImageView = itemView.findViewById(R.id.back)
+        val backContainer: View = itemView.findViewById(R.id.back_container)
         val imageCountText: TextView = itemView.findViewById(R.id.image_count_text)
+    }
+
+    interface BackArrowClickListener {
+        fun onBackArrowClicked()
     }
 }

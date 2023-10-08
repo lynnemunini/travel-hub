@@ -15,12 +15,34 @@
         android:src="@drawable/placeholder" />
 
     <FrameLayout
+        android:id="@+id/back_container"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_gravity="top|start"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="12dp"
+        android:background="@drawable/circle_background">
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:src="@drawable/arrow_back"
+            app:tint="@color/primaryTextColor" />
+
+    </FrameLayout>
+
+    <FrameLayout
         android:id="@+id/favourite_container"
         android:layout_width="40dp"
         android:layout_height="40dp"
         android:layout_alignParentEnd="true"
         android:layout_gravity="top|end"
-        android:layout_margin="12dp"
+        android:layout_marginVertical="20dp"
+        android:layout_marginHorizontal="12dp"
         android:background="@drawable/circle_background">
 
         <ImageView

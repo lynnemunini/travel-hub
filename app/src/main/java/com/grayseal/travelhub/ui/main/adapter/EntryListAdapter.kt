@@ -57,7 +57,7 @@ class EntryListAdapter(
             holder.favourite.setImageResource(drawableRes)
         }
         Picasso.get()
-            .load(travelItem.photos[0])
+            .load(travelItem.photos[1])
             .placeholder(R.drawable.placeholder)
             .error(R.drawable.placeholder)
             .fit()
