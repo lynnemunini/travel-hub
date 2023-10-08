@@ -1,6 +1,7 @@
 package com.grayseal.travelhub.ui.main.adapter
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -74,7 +75,24 @@ class EntryListAdapter(
                         searchTerm.lowercase(Locale.getDefault())
                     )
                 ) {
-                    entryList.add(entry)
+                    if (entryList.isEmpty()) {
+                        // If the entry list is empty, directly add the matched entry
+                        entryList.add(entry)
+                    } else {
+                        var alreadyExists = false
+                        // Check if the entry already exists in the entry list
+                        for (item in entryList) {
+                            if (entry._id == item._id) {
+                                Log.d("ENTRY", "${entryList}")
+                                alreadyExists = true
+                                break
+                            }
+                        }
+                        // Add the entry to the list if it doesn't already exist
+                        if (!alreadyExists) {
+                            entryList.add(entry)
+                        }
+                    }
                 }
             }
         }

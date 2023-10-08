@@ -1,8 +1,8 @@
 package com.grayseal.travelhub.data.model
 
 data class TravelItem(
-    val v: Int,
-    val id: String,
+    val __v: Int,
+    val _id: String,
     val amenities: List<String>,
     val bookedDates: List<String>,
     val bookings: Int,

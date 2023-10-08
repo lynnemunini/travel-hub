@@ -1,8 +1,8 @@
 package com.grayseal.travelhub.data.model
 
 data class User(
-    val v: Int,
-    val id: String,
+    val __v: Int,
+    val _id: String,
     val address: String,
     val bio: String,
     val count: Int,
