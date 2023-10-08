@@ -141,12 +141,24 @@
                             android:id="@+id/price"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
                             android:layout_centerInParent="true"
                             android:layout_marginStart="4dp"
                             android:fontFamily="@font/segoe_ui_bold"
                             android:text="KSH 100"
                             android:textColor="@color/primaryTextColor"
                             android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/price"
+                            android:layout_marginStart="4dp"
+                            android:layout_toEndOf="@+id/price"
+                            android:fontFamily="@font/segoe_ui"
+                            android:text="/night"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp" />
 
                     </RelativeLayout>
 
