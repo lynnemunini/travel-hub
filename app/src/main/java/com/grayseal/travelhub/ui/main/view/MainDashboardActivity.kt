@@ -71,7 +71,7 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
         entriesViewModel.getAllEntries(applicationContext) { entries ->
             progressBar.visibility = View.GONE
             entriesList.clear()
-            entriesList.addAll(entries)
+            entriesList.addAll(entries.shuffled())
             entriesAdapter.notifyDataSetChanged()
             entriesAdapter.updateSearchableList(entriesList)
         }

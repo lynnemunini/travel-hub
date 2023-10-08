@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
+import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.card.MaterialCardView
 import com.grayseal.travelhub.R
@@ -33,6 +34,21 @@ class EntryListAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         val travelItem = entryList[position]
+        holder.uniqueTypeTextView.text = travelItem.uniqueType
+        holder.nameTextView.text = toTitleCase(travelItem.name)
+        holder.locationTextView.text = travelItem.location.name
+        holder.ratingTextView.text = String.format(
+            Locale.getDefault(),
+            "%s %s",
+            travelItem.rating,
+            context.getString(R.string.rating)
+        )
+        holder.priceTextView.text = String.format(
+            Locale.getDefault(),
+            "%s %s",
+            travelItem.price.currency,
+            travelItem.price.amount
+        )
         Picasso.get()
             .load(travelItem.photos[0])
             .placeholder(R.drawable.placeholder)
@@ -71,15 +87,33 @@ class EntryListAdapter(
         searchableCopy.addAll(items)
     }
 
+    private fun toTitleCase(input: String): String {
+        val words = input.split(" ")
+        val titleCaseWords = words.map { word ->
+            word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase()
+        }
+        return titleCaseWords.joinToString(" ") // Join the words back together with spaces
+    }
+
     inner class ViewHolder(itemView: View, entryClickedListener: OnEntryClickedListener) :
         RecyclerView.ViewHolder(itemView), View.OnClickListener {
         val container: MaterialCardView
         val backgroundImage: ImageView
+        val uniqueTypeTextView: TextView
+        val locationTextView: TextView
+        val ratingTextView: TextView
+        val nameTextView: TextView
+        val priceTextView: TextView
         private val entryClickedListener: OnEntryClickedListener
 
         init {
             container = itemView.findViewById(R.id.item_listing_container)
             backgroundImage = itemView.findViewById(R.id.background_image)
+            uniqueTypeTextView = itemView.findViewById(R.id.unique_type)
+            locationTextView = itemView.findViewById(R.id.location)
+            ratingTextView = itemView.findViewById(R.id.rating)
+            nameTextView = itemView.findViewById(R.id.name)
+            priceTextView = itemView.findViewById(R.id.price)
             this.entryClickedListener = entryClickedListener
             container.setOnClickListener(this)
         }
