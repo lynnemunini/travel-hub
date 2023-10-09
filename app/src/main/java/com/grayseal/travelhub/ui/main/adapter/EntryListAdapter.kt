@@ -12,6 +12,7 @@ import com.google.android.material.card.MaterialCardView
 import com.grayseal.travelhub.R
 import com.grayseal.travelhub.data.model.TravelItem
 import com.grayseal.travelhub.ui.main.eventbus.SearchResultEvent
+import com.grayseal.travelhub.utils.toTitleCase
 import com.squareup.picasso.Picasso
 import org.greenrobot.eventbus.EventBus
 import java.util.Locale
@@ -107,14 +108,6 @@ class EntryListAdapter(
 
     fun updateSearchableList(items: List<TravelItem>) {
         searchableCopy.addAll(items)
-    }
-
-    private fun toTitleCase(input: String): String {
-        val words = input.split(" ")
-        val titleCaseWords = words.map { word ->
-            word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase()
-        }
-        return titleCaseWords.joinToString(" ") // Join the words back together with spaces
     }
 
     inner class ViewHolder(itemView: View, entryClickedListener: OnEntryClickedListener) :

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -22,8 +23,184 @@
         android:id="@+id/bottom_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:orientation="vertical">
+        android:layout_below="@+id/image_view_pager"
+        android:orientation="vertical"
+        android:paddingHorizontal="18dp"
+        android:paddingTop="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:elevation="0dp"
+                app:cardBackgroundColor="@color/primaryTextColor"
+                app:cardCornerRadius="20dp">
+
+                <TextView
+                    android:id="@+id/unique_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="3dp"
+                    android:text="Rental unit"
+                    android:textColor="@color/white"
+                    android:textSize="14sp" />
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:src="@drawable/calendar"
+                app:tint="@color/primaryTextColor" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/segoe_ui_bold"
+            android:text="Forest Haven Estate - Modern Villa"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="21sp" />
+
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/segoe_ui"
+            android:text="Misty Brook, United States"
+            android:textColor="@color/secondaryTextColor"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RelativeLayout
+                android:id="@+id/rating_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true">
+
+                <ImageView
+                    android:id="@+id/star"
+                    android:layout_width="26dp"
+                    android:layout_height="26dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/star" />
+
+                <TextView
+                    android:id="@+id/rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/star"
+                    android:fontFamily="@font/samsungsans_medium"
+                    android:text="4.5 Rating"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toStartOf="@+id/reviews_layout"
+                android:layout_toEndOf="@+id/rating_layout"
+                android:fontFamily="@font/samsungsans_medium"
+                android:gravity="center"
+                android:text="•"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/reviews_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/review"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/reviews"
+                    app:tint="@color/primaryTextColor" />
+
+                <TextView
+                    android:id="@+id/reviews"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/review"
+                    android:fontFamily="@font/samsungsans_medium"
+                    android:text="4.5 Rating"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_toStartOf="@+id/price_layout"
+                android:layout_toEndOf="@+id/reviews_layout"
+                android:fontFamily="@font/samsungsans_medium"
+                android:gravity="center"
+                android:text="•"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14sp" />
+
+            <RelativeLayout
+                android:id="@+id/price_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="4dp"
+                    android:fontFamily="@font/segoe_ui_bold"
+                    android:text="KSH 100"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="19sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/price"
+                    android:layout_marginStart="4dp"
+                    android:layout_toEndOf="@+id/price"
+                    android:fontFamily="@font/segoe_ui"
+                    android:text="/night"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="12sp" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
 
     </LinearLayout>
 

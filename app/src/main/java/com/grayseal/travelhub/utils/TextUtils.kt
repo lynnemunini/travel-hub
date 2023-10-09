@@ -20,3 +20,11 @@ fun isEmailValid(email: String): Boolean {
 fun isPasswordValid(password: String): Boolean {
     return password.length >= 6
 }
+
+fun toTitleCase(input: String): String {
+    val words = input.split(" ")
+    val titleCaseWords = words.map { word ->
+        word.substring(0, 1).toUpperCase() + word.substring(1).toLowerCase()
+    }
+    return titleCaseWords.joinToString(" ") // Join the words back together with spaces
+}

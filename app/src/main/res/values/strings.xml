@@ -15,5 +15,6 @@
     <string name="authentication_failed_error_msg">Authentication with google failed!</string>
     <string name="search">Kilimani, Nairobi</string>
     <string name="recommended">Recommended</string>
-    <string name="rating">Rating</string>
+    <string name="rating">Ratings</string>
+    <string name="reviews">Reviews</string>
 </resources>
