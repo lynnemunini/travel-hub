@@ -1,9 +1,9 @@
-# Travel Hub - Explore Your Next Adventure 
+# Travel Hub - Explore Your Next Adventure 🌍✈️
 Travel Hub is an Android application that allows users to discover and preview potential host places while traveling. It offers a seamless experience for exploring accommodation options, restaurants, and attractions. Users can also save their favorite places and view them on a map. 
 
-![Travel Hub in Action](link_to_gif.gif)
+<img src="assets/demo.gif" width="20%" alt="Travel Hub in Action">
 
-## Features
+## Features 🚀
 
 - **User Authentication:** Securely authenticate users using Firebase email/password authentication and Google Sign-In.
 
@@ -16,18 +16,21 @@ Travel Hub is an Android application that allows users to discover and preview p
 - **Booking Availability:** Use the built-in calendar component to visualize booked dates for each listing.
 
 
-## Screenshots
-A few screenshots of the app in action.
+## Screenshots 📷
 
+A few screenshots of the app in action. 
 
-## Usage
+<img src="assets/app1.png">
+<img src="assets/app2.png">
 
-**Step 1:** Sign in or create an account to start exploring.
-**Step 2:** Browse through the listings and select one to view more details.
-**Step 3:** View the listing on a map and check the availability calendar.
+## Usage 📝
+
+**Step 1:** Sign in or create an account to start exploring. <br>
+**Step 2:** Browse through the listings and select one to view more details. <br>
+**Step 3:** View the listing on a map and check the availability calendar. <br>
 **Step 4:** Favouite the listing if you like it.
 
-## Technologies Used
+## Technologies Used 🛠️
 
 - **Android Studio:** The official integrated development environment (IDE) for Android app development.
 
@@ -64,6 +67,6 @@ A few screenshots of the app in action.
 Contributions are welcome! Feel free to submit a pull request or open an issue if you have any questions.
 
 ## License
-Distributed under the MIT License. See `LICENSE` for more information.
+Licensed under the MIT License. See `LICENSE` for more information.
 
 Made by Lynne🌸
