@@ -28,6 +28,10 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var ratingTextView: TextView
     private lateinit var amenitiesTextView: TextView
     private lateinit var reviewsTextView: TextView
+    private lateinit var bathTextView: TextView
+    private lateinit var bedTextView: TextView
+    private lateinit var bedroomTextView: TextView
+    private lateinit var guestTextView: TextView
     private lateinit var priceTextView: TextView
     private lateinit var loadingProgressBar: ProgressBar
     private var entry: TravelItem? = null
@@ -47,6 +51,10 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         ratingTextView = findViewById(R.id.rating)
         amenitiesTextView = findViewById(R.id.amenities)
         reviewsTextView = findViewById(R.id.reviews)
+        bathTextView = findViewById(R.id.bath)
+        bedTextView = findViewById(R.id.bed)
+        bedroomTextView = findViewById(R.id.bedroom)
+        guestTextView = findViewById(R.id.guests)
         priceTextView = findViewById(R.id.price)
         imageViewPager = findViewById(R.id.image_view_pager)
         imageViewPagerAdapter = ImagePagerAdapter(emptyList(), this)
@@ -92,6 +100,30 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     "%s: %s",
                     getString(R.string.amenities),
                     travelItem?.amenities?.joinToString(", ")
+                )
+                bedTextView.text = String.format(
+                    Locale.getDefault(),
+                    "%s %s",
+                    travelItem?.details?.beds,
+                    "bed"
+                )
+                bathTextView.text = String.format(
+                    Locale.getDefault(),
+                    "%s %s",
+                    travelItem?.details?.bath,
+                    "bathroom"
+                )
+                bedroomTextView.text = String.format(
+                    Locale.getDefault(),
+                    "%s %s",
+                    travelItem?.details?.bedroom,
+                    "bedroom"
+                )
+                guestTextView.text = String.format(
+                    Locale.getDefault(),
+                    "%s %s",
+                    travelItem?.details?.beds,
+                    "guest"
                 )
             }
         }
