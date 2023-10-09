@@ -10,6 +10,14 @@ import android.widget.TextView
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.gms.maps.CameraUpdateFactory
+import com.google.android.gms.maps.GoogleMap
+import com.google.android.gms.maps.MapView
+import com.google.android.gms.maps.OnMapReadyCallback
+import com.google.android.gms.maps.SupportMapFragment
+import com.google.android.gms.maps.model.CameraPosition
+import com.google.android.gms.maps.model.LatLng
+import com.google.android.gms.maps.model.MarkerOptions
 import com.grayseal.travelhub.R
 import com.grayseal.travelhub.data.model.TravelItem
 import com.grayseal.travelhub.ui.details.adapter.ImagePagerAdapter
@@ -19,7 +27,8 @@ import com.grayseal.travelhub.utils.ZoomOutPageTransformer
 import com.grayseal.travelhub.utils.toTitleCase
 import java.util.Locale
 
-class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickListener {
+class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickListener,
+    OnMapReadyCallback {
     private lateinit var imageViewPager: ViewPager2
     private lateinit var imageViewPagerAdapter: ImagePagerAdapter
     private lateinit var uniqueTypeTextView: TextView
@@ -34,6 +43,9 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var guestTextView: TextView
     private lateinit var priceTextView: TextView
     private lateinit var loadingProgressBar: ProgressBar
+    private lateinit var myMap: GoogleMap
+    private lateinit var mapView: MapView
+    private lateinit var mapFragment: SupportMapFragment
     private var entry: TravelItem? = null
     private val entriesViewModel: EntriesViewModel by viewModels()
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -41,6 +53,9 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         setContentView(R.layout.activity_details_layout)
         initializeResources()
         loadData()
+
+        mapFragment = supportFragmentManager
+            .findFragmentById(R.id.map) as SupportMapFragment
     }
 
     private fun initializeResources() {
@@ -125,7 +140,30 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     travelItem?.details?.beds,
                     "Guest"
                 )
+                mapFragment.getMapAsync(this)
             }
+        }
+    }
+
+    override fun onMapReady(googleMap: GoogleMap) {
+        myMap = googleMap
+
+        val location = entry?.location
+        val latitude = location?.lat
+        val longitude = location?.lng
+
+        if (latitude != null && longitude != null) {
+            val markerOptions = MarkerOptions()
+                .position(LatLng(latitude, longitude))
+                .title(toTitleCase(location.name))
+
+            myMap.addMarker(markerOptions)
+            val cameraPosition = CameraPosition.Builder()
+                .target(LatLng(latitude, longitude))
+                .zoom(15.0f)
+                .build()
+
+            myMap.animateCamera(CameraUpdateFactory.newCameraPosition(cameraPosition), 1000, null)
         }
     }
 
@@ -137,7 +175,6 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         super.onBackPressed()
         startActivity(Intent(this@DetailsActivity, MainDashboardActivity::class.java))
         finish()
-
     }
 
     companion object {
