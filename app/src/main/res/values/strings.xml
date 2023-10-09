@@ -6,7 +6,6 @@
     <string name="enter_password">Enter password</string>
     <string name="don_t_have_an_account">Don\'t have an account? </string>
     <string name="sign_up">Sign up</string>
-    <string name="create_account">Create account</string>
     <string name="already_have_an_account">Already have an account? </string>
     <string name="sign_in_with_google">Sign in with Google</string>
     <string name="sign_up_with_google">Sign up with Google</string>
@@ -14,7 +13,6 @@
     <string name="your_ultimate_companion_for_seamless_travel_experiences">Your Ultimate Companion for Seamless Travel experiences</string>
     <string name="authentication_failed_error_msg">Authentication with google failed!</string>
     <string name="search">Kilimani, Nairobi</string>
-    <string name="recommended">Recommended</string>
     <string name="rating">Ratings</string>
     <string name="reviews">Reviews</string>
     <string name="amenities">Amenities</string>
