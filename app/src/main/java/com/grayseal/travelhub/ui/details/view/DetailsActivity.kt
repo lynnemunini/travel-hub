@@ -12,7 +12,6 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
 import com.google.android.gms.maps.CameraUpdateFactory
 import com.google.android.gms.maps.GoogleMap
-import com.google.android.gms.maps.MapView
 import com.google.android.gms.maps.OnMapReadyCallback
 import com.google.android.gms.maps.SupportMapFragment
 import com.google.android.gms.maps.model.CameraPosition
@@ -42,9 +41,9 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var bedroomTextView: TextView
     private lateinit var guestTextView: TextView
     private lateinit var priceTextView: TextView
+    private lateinit var locationAddress: TextView
     private lateinit var loadingProgressBar: ProgressBar
     private lateinit var myMap: GoogleMap
-    private lateinit var mapView: MapView
     private lateinit var mapFragment: SupportMapFragment
     private var entry: TravelItem? = null
     private val entriesViewModel: EntriesViewModel by viewModels()
@@ -65,6 +64,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         locationTextView = findViewById(R.id.location)
         ratingTextView = findViewById(R.id.rating)
         amenitiesTextView = findViewById(R.id.amenities)
+        locationAddress = findViewById(R.id.location_name)
         reviewsTextView = findViewById(R.id.reviews)
         bathTextView = findViewById(R.id.bath)
         bedTextView = findViewById(R.id.bed)
@@ -140,6 +140,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     travelItem?.details?.beds,
                     "Guest"
                 )
+                locationAddress.text = toTitleCase(entry?.location?.name.toString())
                 mapFragment.getMapAsync(this)
             }
         }
