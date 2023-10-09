@@ -1,7 +1,9 @@
 # Travel Hub - Explore Your Next Adventure 🌍✈️
 Travel Hub is an Android application that allows users to discover and preview potential host places while traveling. It offers a seamless experience for exploring accommodation options, restaurants, and attractions. Users can also save their favorite places and view them on a map. 
 
-<img src="assets/demo.gif" width="20%" alt="Travel Hub in Action">
+## 📱
+Gif of the app in action.
+<img src="assets/demo.gif" alt="Travel Hub in Action">
 
 ## Features 🚀
 
