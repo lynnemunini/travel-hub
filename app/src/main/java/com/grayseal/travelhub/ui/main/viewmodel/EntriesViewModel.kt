@@ -12,7 +12,19 @@ import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
 import java.io.InputStreamReader
 
+/**
+ * ViewModel class for managing travel entries.
+ * This class provides methods to fetch travel entries from a JSON file and retrieve
+ * entries by their IDs.
+ */
 class EntriesViewModel : ViewModel() {
+
+    /**
+     * Retrieves all travel entries.
+     *
+     * @param context The Android application context.
+     * @param callback A callback function to handle the list of travel entries once fetched.
+     */
     fun getAllEntries(context: Context, callback: (List<TravelItem>) -> Unit) {
         viewModelScope.launch {
             val entries = withContext(Dispatchers.IO) {
@@ -26,6 +38,13 @@ class EntriesViewModel : ViewModel() {
         }
     }
 
+    /**
+     * Retrieves a travel entry by its unique ID.
+     *
+     * @param id The ID of the travel entry to retrieve.
+     * @param context The Android application context.
+     * @param callback A callback function to handle the retrieved travel entry.
+     */
     fun getEntryById(id: String, context: Context, callback: (TravelItem?) -> Unit) {
         viewModelScope.launch {
             val entries = withContext(Dispatchers.IO) {

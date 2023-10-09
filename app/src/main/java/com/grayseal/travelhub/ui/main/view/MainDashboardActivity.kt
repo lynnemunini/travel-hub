@@ -21,6 +21,12 @@ import com.grayseal.travelhub.ui.main.viewmodel.EntriesViewModel
 import org.greenrobot.eventbus.EventBus
 import org.greenrobot.eventbus.Subscribe
 
+/**
+ * The main dashboard activity of the TravelHub app.
+ *
+ * This activity displays a list of travel entries, allows searching, and handles click events
+ * to view details of a selected entry.
+ */
 class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClickedListener {
     private lateinit var entriesRecyclerView: RecyclerView
     private lateinit var entriesAdapter: EntryListAdapter
@@ -28,6 +34,7 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
     private lateinit var searchEditText: EditText
     private val entriesViewModel: EntriesViewModel by viewModels()
     private var entriesList: MutableList<TravelItem> = ArrayList()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -80,6 +87,11 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
         }
     }
 
+    /**
+     * Handle the click event when a travel entry is clicked.
+     *
+     * @param position The position of the clicked entry in the list.
+     */
     override fun onEntryClicked(position: Int) {
         val intent = Intent(this@MainDashboardActivity, DetailsActivity::class.java)
         intent.putExtra(ENTRY_ID, entriesList[position]._id)
@@ -87,6 +99,11 @@ class MainDashboardActivity : AppCompatActivity(), EntryListAdapter.OnEntryClick
         finish()
     }
 
+    /**
+     * Event handler for the empty search result event.
+     *
+     * @param event The search result event indicating whether the search result is empty.
+     */
     @Subscribe
     fun emptySearchResultEvent(event: SearchResultEvent) {
         if (event.isEmpty) {

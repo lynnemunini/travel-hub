@@ -3,10 +3,20 @@ package com.grayseal.travelhub.utils
 import android.view.View
 import androidx.viewpager2.widget.ViewPager2
 
+/**
+ * ZoomOutPageTransformer is a ViewPager2 PageTransformer that provides a zoom-out effect
+ * during page transitions.
+ */
 private const val MIN_SCALE = 0.85f
 private const val MIN_ALPHA = 0.5f
 
 class ZoomOutPageTransformer : ViewPager2.PageTransformer {
+    /**
+     * Transforms a page's view during a page transition.
+     *
+     * @param view The View of the page to be transformed.
+     * @param position The position of the page relative to the current center of the screen.
+     */
     override fun transformPage(view: View, position: Float) {
         view.apply {
             val pageWidth = width

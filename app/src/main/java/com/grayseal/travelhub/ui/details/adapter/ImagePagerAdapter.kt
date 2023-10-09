@@ -10,6 +10,12 @@ import com.grayseal.travelhub.R
 import com.squareup.picasso.Picasso
 import java.util.Locale
 
+/**
+ * Adapter for displaying a list of images in a ViewPager with favorite and back arrow functionality.
+ *
+ * @param imageUrls List of image URLs to display.
+ * @param backArrowClickListener Listener for back arrow click events.
+ */
 class ImagePagerAdapter(
     private var imageUrls: List<String>,
     private val backArrowClickListener: BackArrowClickListener
@@ -62,11 +68,13 @@ class ImagePagerAdapter(
             itemView.findViewById(R.id.image_view)
         val favourite: ImageView = itemView.findViewById(R.id.favourite)
         val favouriteContainer: View = itemView.findViewById(R.id.favourite_container)
-        val back: ImageView = itemView.findViewById(R.id.back)
         val backContainer: View = itemView.findViewById(R.id.back_container)
         val imageCountText: TextView = itemView.findViewById(R.id.image_count_text)
     }
 
+    /**
+     * Listener interface for handling back arrow click events.
+     */
     interface BackArrowClickListener {
         fun onBackArrowClicked()
     }

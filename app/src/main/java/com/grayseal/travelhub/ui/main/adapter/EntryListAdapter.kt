@@ -17,6 +17,17 @@ import com.squareup.picasso.Picasso
 import org.greenrobot.eventbus.EventBus
 import java.util.Locale
 
+/**
+ * Adapter for displaying a list of travel entries in a RecyclerView.
+ *
+ * This adapter is responsible for displaying a list of travel entries, including their details
+ * such as name, location, rating, and price. It also provides search functionality to filter
+ * entries based on a search term.
+ *
+ * @param context The context of the application.
+ * @param entryList The list of travel items to display.
+ * @param onEntryClickedListener Listener for handling click events on entries.
+ */
 class EntryListAdapter(
     private val context: Context,
     private val entryList: MutableList<TravelItem>,
@@ -29,6 +40,13 @@ class EntryListAdapter(
         searchableCopy.addAll(entryList)
     }
 
+    /**
+     * Called when a new ViewHolder is created.
+     *
+     * @param parent The parent ViewGroup into which the new View will be added.
+     * @param viewType The type of the new View.
+     * @return A new ViewHolder that holds a View of the given view type.
+     */
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(parent.context)
             .inflate(R.layout.item_listing_view_layout, parent, false)
@@ -66,6 +84,11 @@ class EntryListAdapter(
             .into(holder.backgroundImage)
     }
 
+    /**
+     * Perform a search operation to filter entries based on a search term.
+     *
+     * @param searchTerm The term to search for within entry locations.
+     */
     fun search(searchTerm: String) {
         entryList.clear()
 
@@ -142,6 +165,9 @@ class EntryListAdapter(
         }
     }
 
+    /**
+     * Listener interface for handling entry click events.
+     */
     interface OnEntryClickedListener {
         fun onEntryClicked(position: Int)
     }

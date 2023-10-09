@@ -30,6 +30,9 @@ import com.prolificinteractive.materialcalendarview.CalendarDay
 import com.prolificinteractive.materialcalendarview.MaterialCalendarView
 import java.util.Locale
 
+/**
+ * Activity for displaying details of a travel item, including images, information, and a map.
+ */
 class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickListener,
     OnMapReadyCallback {
     private lateinit var imageViewPager: ViewPager2
@@ -93,6 +96,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     }
 
     private fun loadData() {
+        // Load data for the travel item and populate UI elements.
         loadingProgressBar.visibility = View.VISIBLE
         val entryId = intent.getStringExtra(ENTRY_ID)
         entryId?.let { id ->
