@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:scrollbars="none"
-    android:fillViewport="true">
+    android:fillViewport="true"
+    android:scrollbars="none">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -61,6 +61,7 @@
                 </com.google.android.material.card.MaterialCardView>
 
                 <ImageView
+                    android:id="@+id/calendar_icon"
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_alignParentEnd="true"
@@ -390,17 +391,24 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="12dp"
                 android:layout_marginBottom="12dp"
-                android:paddingHorizontal="18dp"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:paddingHorizontal="18dp">
 
                 <fragment
                     android:id="@+id/map"
                     android:name="com.google.android.gms.maps.SupportMapFragment"
                     android:layout_width="match_parent"
-                    android:background="@drawable/rounded_corner_background"
-                    android:layout_height="300dp" />
+                    android:layout_height="300dp"
+                    android:background="@drawable/rounded_corner_background" />
 
             </LinearLayout>
+
+            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                android:id="@+id/calendarView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:mcv_showOtherDates="all"
+                app:mcv_selectionColor="#00F" />
 
         </LinearLayout>
 

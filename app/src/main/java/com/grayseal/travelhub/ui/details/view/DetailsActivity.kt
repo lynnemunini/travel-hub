@@ -1,10 +1,12 @@
 package com.grayseal.travelhub.ui.details.view
 
 import android.content.Intent
+import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Typeface
 import android.os.Bundle
 import android.view.View
+import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.activity.viewModels
@@ -22,8 +24,11 @@ import com.grayseal.travelhub.data.model.TravelItem
 import com.grayseal.travelhub.ui.details.adapter.ImagePagerAdapter
 import com.grayseal.travelhub.ui.main.view.MainDashboardActivity
 import com.grayseal.travelhub.ui.main.viewmodel.EntriesViewModel
+import com.grayseal.travelhub.utils.CalendarDecorator
 import com.grayseal.travelhub.utils.ZoomOutPageTransformer
 import com.grayseal.travelhub.utils.toTitleCase
+import com.prolificinteractive.materialcalendarview.CalendarDay
+import com.prolificinteractive.materialcalendarview.MaterialCalendarView
 import java.util.Locale
 
 class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickListener,
@@ -42,7 +47,9 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var guestTextView: TextView
     private lateinit var priceTextView: TextView
     private lateinit var locationAddress: TextView
+    private lateinit var calendarIcon: ImageView
     private lateinit var loadingProgressBar: ProgressBar
+    private lateinit var calendarView: MaterialCalendarView
     private lateinit var myMap: GoogleMap
     private lateinit var mapFragment: SupportMapFragment
     private var entry: TravelItem? = null
@@ -60,6 +67,8 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private fun initializeResources() {
         loadingProgressBar = findViewById(R.id.loading_progress)
         uniqueTypeTextView = findViewById(R.id.unique_type)
+        calendarIcon = findViewById(R.id.calendar_icon)
+        calendarView = findViewById(R.id.calendarView)
         nameTextView = findViewById(R.id.name)
         locationTextView = findViewById(R.id.location)
         ratingTextView = findViewById(R.id.rating)
@@ -142,6 +151,22 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                 )
                 locationAddress.text = toTitleCase(entry?.location?.name.toString())
                 mapFragment.getMapAsync(this)
+
+                val dateFormat = org.threeten.bp.format.DateTimeFormatter.ofPattern("MM/dd/yyyy")
+
+                val bookedDates = entry?.bookedDates?.mapNotNull { dateString ->
+                    try {
+                        org.threeten.bp.LocalDate.parse(dateString, dateFormat)
+                    } catch (e: Exception) {
+                        null
+                    }
+                }
+
+                val bookedDays: List<CalendarDay> = bookedDates?.mapNotNull { localDate ->
+                    CalendarDay.from(localDate)
+                } ?: emptyList()
+
+                calendarView.addDecorator(CalendarDecorator(Color.RED, bookedDays))
             }
         }
     }

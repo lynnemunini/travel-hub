@@ -16,7 +16,7 @@ android {
 
     defaultConfig {
         applicationId = "com.grayseal.travelhub"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -74,7 +74,9 @@ dependencies {
     implementation("com.squareup.picasso:picasso:2.71828")
     // Maps SDK for Android
     implementation("com.google.android.gms:play-services-maps:18.1.0")
-
+    // Calendar Component
+    implementation ("com.github.prolificinteractive:material-calendarview:2.0.1")
+    implementation ("com.jakewharton.threetenabp:threetenabp:1.3.0")
 }
 
 // Allow references to generated code
