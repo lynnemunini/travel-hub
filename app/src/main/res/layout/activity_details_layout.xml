@@ -1,442 +1,471 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true"
-    android:scrollbars="none">
+    android:layout_height="wrap_content">
 
-    <RelativeLayout
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        android:scrollbars="none">
 
-        <ProgressBar
-            android:id="@+id/loading_progress"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_centerHorizontal="true"
-            android:layout_centerVertical="true"
-            android:layout_gravity="center_horizontal|center_vertical"
-            android:visibility="gone" />
+            android:layout_height="wrap_content">
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/image_view_pager"
-            android:layout_width="match_parent"
-            android:layout_height="220dp"
-            android:layout_alignParentTop="true" />
-
-        <LinearLayout
-            android:id="@+id/bottom_layout"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/image_view_pager"
-            android:orientation="vertical"
-            android:paddingTop="12dp">
-
-            <RelativeLayout
+            <ProgressBar
+                android:id="@+id/loading_progress"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:paddingHorizontal="18dp">
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:visibility="gone" />
 
-                <com.google.android.material.card.MaterialCardView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true"
-                    android:layout_centerInParent="true"
-                    android:elevation="0dp"
-                    app:cardBackgroundColor="@color/primaryTextColor"
-                    app:cardCornerRadius="20dp">
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/image_view_pager"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_alignParentTop="true" />
 
-                    <TextView
-                        android:id="@+id/unique_type"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/segoe_ui"
-                        android:paddingHorizontal="16dp"
-                        android:paddingVertical="3dp"
-                        android:text="Rental unit"
-                        android:textColor="@color/white"
-                        android:textSize="14sp" />
-
-                </com.google.android.material.card.MaterialCardView>
-
-            </RelativeLayout>
-
-            <TextView
-                android:id="@+id/name"
+            <LinearLayout
+                android:id="@+id/bottom_layout"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:fontFamily="@font/segoe_ui_bold"
-                android:paddingHorizontal="18dp"
-                android:text="Forest Haven Estate - Modern Villa"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="21sp" />
-
-            <TextView
-                android:id="@+id/location"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingHorizontal="18dp"
-                android:text="Misty Brook, United States"
-                android:textColor="@color/secondaryTextColor"
-                android:textSize="14sp" />
-
-            <TextView
-                android:id="@+id/description"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingHorizontal="18dp"
-                android:text="Misty Brook, United States"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="13sp" />
-
-            <TextView
-                android:id="@+id/amenities"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="6dp"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingHorizontal="18dp"
-                android:text="Misty Brook, United States"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="12sp" />
-
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:paddingHorizontal="18dp">
+                android:layout_below="@+id/image_view_pager"
+                android:orientation="vertical"
+                android:paddingTop="12dp">
 
                 <RelativeLayout
-                    android:id="@+id/rating_layout"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentStart="true">
+                    android:paddingHorizontal="18dp">
 
-                    <ImageView
-                        android:id="@+id/star"
-                        android:layout_width="26dp"
-                        android:layout_height="26dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_centerInParent="true"
-                        android:src="@drawable/star" />
-
-                    <TextView
-                        android:id="@+id/rating"
+                    <com.google.android.material.card.MaterialCardView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
                         android:layout_centerInParent="true"
-                        android:layout_marginStart="4dp"
-                        android:layout_toEndOf="@+id/star"
-                        android:fontFamily="@font/samsungsans_medium"
-                        android:text="4.5 Rating"
-                        android:textColor="@color/primaryTextColor"
-                        android:textSize="14sp" />
+                        android:elevation="0dp"
+                        app:cardBackgroundColor="@color/primaryTextColor"
+                        app:cardCornerRadius="20dp">
+
+                        <TextView
+                            android:id="@+id/unique_type"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/segoe_ui"
+                            android:paddingHorizontal="16dp"
+                            android:paddingVertical="3dp"
+                            android:text="Rental unit"
+                            android:textColor="@color/white"
+                            android:textSize="14sp" />
+
+                    </com.google.android.material.card.MaterialCardView>
+
                 </RelativeLayout>
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:layout_toStartOf="@+id/reviews_layout"
-                    android:layout_toEndOf="@+id/rating_layout"
-                    android:fontFamily="@font/samsungsans_medium"
-                    android:gravity="center"
-                    android:text="•"
-                    android:textColor="@color/secondaryTextColor"
-                    android:textSize="14sp" />
-
-                <RelativeLayout
-                    android:id="@+id/reviews_layout"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerInParent="true">
-
-                    <ImageView
-                        android:id="@+id/review"
-                        android:layout_width="19dp"
-                        android:layout_height="19dp"
-                        android:layout_alignParentStart="true"
-                        android:layout_centerInParent="true"
-                        android:src="@drawable/reviews"
-                        app:tint="@color/primaryTextColor" />
-
-                    <TextView
-                        android:id="@+id/reviews"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerInParent="true"
-                        android:layout_marginStart="4dp"
-                        android:layout_toEndOf="@+id/review"
-                        android:fontFamily="@font/samsungsans_medium"
-                        android:text="4.5 Rating"
-                        android:textColor="@color/primaryTextColor"
-                        android:textSize="14sp" />
-                </RelativeLayout>
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/segoe_ui_bold"
+                    android:paddingHorizontal="18dp"
+                    android:text="Forest Haven Estate - Modern Villa"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="21sp" />
 
                 <TextView
-                    android:layout_width="wrap_content"
+                    android:id="@+id/location"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_centerInParent="true"
-                    android:layout_toStartOf="@+id/price_layout"
-                    android:layout_toEndOf="@+id/reviews_layout"
-                    android:fontFamily="@font/samsungsans_medium"
-                    android:gravity="center"
-                    android:text="•"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingHorizontal="18dp"
+                    android:text="Misty Brook, United States"
                     android:textColor="@color/secondaryTextColor"
                     android:textSize="14sp" />
 
+                <TextView
+                    android:id="@+id/description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingHorizontal="18dp"
+                    android:text="Misty Brook, United States"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/amenities"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingHorizontal="18dp"
+                    android:text="Misty Brook, United States"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="12sp" />
+
                 <RelativeLayout
-                    android:id="@+id/price_layout"
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentEnd="true">
+                    android:layout_marginTop="8dp"
+                    android:paddingHorizontal="18dp">
 
-                    <TextView
-                        android:id="@+id/price"
+                    <RelativeLayout
+                        android:id="@+id/rating_layout"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentStart="true"
-                        android:layout_centerInParent="true"
-                        android:layout_marginStart="4dp"
-                        android:fontFamily="@font/segoe_ui_bold"
-                        android:text="KSH 100"
-                        android:textColor="@color/primaryTextColor"
-                        android:textSize="19sp" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_alignBaseline="@+id/price"
-                        android:layout_marginStart="4dp"
-                        android:layout_toEndOf="@+id/price"
-                        android:fontFamily="@font/segoe_ui"
-                        android:text="/night"
-                        android:textColor="@color/secondaryTextColor"
-                        android:textSize="12sp" />
-
-                </RelativeLayout>
-
-            </RelativeLayout>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/samsungsans_medium"
-                android:paddingHorizontal="18dp"
-                android:text="@string/details"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="16sp" />
-
-            <HorizontalScrollView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:scrollbars="none">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="18dp"
-                        android:layout_marginEnd="14dp"
-                        android:background="@drawable/rounded_corner_background"
-                        android:orientation="vertical"
-                        android:padding="12dp">
+                        android:layout_alignParentStart="true">
 
                         <ImageView
+                            android:id="@+id/star"
                             android:layout_width="26dp"
                             android:layout_height="26dp"
-                            android:layout_gravity="start"
-                            android:src="@drawable/shower"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/star" />
+
+                        <TextView
+                            android:id="@+id/rating"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="4dp"
+                            android:layout_toEndOf="@+id/star"
+                            android:fontFamily="@font/samsungsans_medium"
+                            android:text="4.5 Rating"
+                            android:textColor="@color/primaryTextColor"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toStartOf="@+id/reviews_layout"
+                        android:layout_toEndOf="@+id/rating_layout"
+                        android:fontFamily="@font/samsungsans_medium"
+                        android:gravity="center"
+                        android:text="•"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/reviews_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true">
+
+                        <ImageView
+                            android:id="@+id/review"
+                            android:layout_width="19dp"
+                            android:layout_height="19dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:src="@drawable/reviews"
                             app:tint="@color/primaryTextColor" />
 
                         <TextView
-                            android:id="@+id/bath"
+                            android:id="@+id/reviews"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="start"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="20dp"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="4dp"
+                            android:layout_toEndOf="@+id/review"
                             android:fontFamily="@font/samsungsans_medium"
-                            android:text="2 bath"
+                            android:text="4.5 Rating"
                             android:textColor="@color/primaryTextColor"
-                            android:textSize="13sp" />
+                            android:textSize="14sp" />
+                    </RelativeLayout>
 
-                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_toStartOf="@+id/price_layout"
+                        android:layout_toEndOf="@+id/reviews_layout"
+                        android:fontFamily="@font/samsungsans_medium"
+                        android:gravity="center"
+                        android:text="•"
+                        android:textColor="@color/secondaryTextColor"
+                        android:textSize="14sp" />
+
+                    <RelativeLayout
+                        android:id="@+id/price_layout"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true">
+
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="4dp"
+                            android:fontFamily="@font/segoe_ui_bold"
+                            android:text="KSH 100"
+                            android:textColor="@color/primaryTextColor"
+                            android:textSize="19sp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignBaseline="@+id/price"
+                            android:layout_marginStart="4dp"
+                            android:layout_toEndOf="@+id/price"
+                            android:fontFamily="@font/segoe_ui"
+                            android:text="/night"
+                            android:textColor="@color/secondaryTextColor"
+                            android:textSize="12sp" />
+
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/samsungsans_medium"
+                    android:paddingHorizontal="18dp"
+                    android:text="@string/details"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="16sp" />
+
+                <HorizontalScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:scrollbars="none">
 
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="14dp"
-                        android:background="@drawable/rounded_corner_background"
-                        android:orientation="vertical"
-                        android:padding="12dp">
+                        android:orientation="horizontal">
 
-                        <ImageView
-                            android:layout_width="22dp"
-                            android:layout_height="22dp"
-                            android:layout_gravity="start"
-                            android:src="@drawable/bed"
-                            app:tint="@color/primaryTextColor" />
-
-                        <TextView
-                            android:id="@+id/bed"
+                        <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="start"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:fontFamily="@font/samsungsans_medium"
-                            android:text="2 bath"
-                            android:textColor="@color/primaryTextColor"
-                            android:textSize="13sp" />
+                            android:layout_marginStart="18dp"
+                            android:layout_marginEnd="14dp"
+                            android:background="@drawable/rounded_corner_background"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="26dp"
+                                android:layout_height="26dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/shower"
+                                app:tint="@color/primaryTextColor" />
+
+                            <TextView
+                                android:id="@+id/bath"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/samsungsans_medium"
+                                android:text="2 bath"
+                                android:textColor="@color/primaryTextColor"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="14dp"
+                            android:background="@drawable/rounded_corner_background"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/bed"
+                                app:tint="@color/primaryTextColor" />
+
+                            <TextView
+                                android:id="@+id/bed"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/samsungsans_medium"
+                                android:text="2 bath"
+                                android:textColor="@color/primaryTextColor"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="14dp"
+                            android:background="@drawable/rounded_corner_background"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/bedroom"
+                                app:tint="@color/primaryTextColor" />
+
+                            <TextView
+                                android:id="@+id/bedroom"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/samsungsans_medium"
+                                android:text="2 bath"
+                                android:textColor="@color/primaryTextColor"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginEnd="14dp"
+                            android:background="@drawable/rounded_corner_background"
+                            android:orientation="vertical"
+                            android:padding="12dp">
+
+                            <ImageView
+                                android:layout_width="22dp"
+                                android:layout_height="22dp"
+                                android:layout_gravity="start"
+                                android:src="@drawable/guests"
+                                app:tint="@color/primaryTextColor" />
+
+                            <TextView
+                                android:id="@+id/guests"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginEnd="20dp"
+                                android:fontFamily="@font/samsungsans_medium"
+                                android:text="2 bath"
+                                android:textColor="@color/primaryTextColor"
+                                android:textSize="13sp" />
+
+                        </LinearLayout>
 
                     </LinearLayout>
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="14dp"
-                        android:background="@drawable/rounded_corner_background"
-                        android:orientation="vertical"
-                        android:padding="12dp">
+                </HorizontalScrollView>
 
-                        <ImageView
-                            android:layout_width="22dp"
-                            android:layout_height="22dp"
-                            android:layout_gravity="start"
-                            android:src="@drawable/bedroom"
-                            app:tint="@color/primaryTextColor" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/samsungsans_medium"
+                    android:paddingHorizontal="18dp"
+                    android:text="@string/location_address"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="16sp" />
 
-                        <TextView
-                            android:id="@+id/bedroom"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="start"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:fontFamily="@font/samsungsans_medium"
-                            android:text="2 bath"
-                            android:textColor="@color/primaryTextColor"
-                            android:textSize="13sp" />
+                <TextView
+                    android:id="@+id/location_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingHorizontal="18dp"
+                    android:text="Misty Brook, United States"
+                    android:textColor="@color/secondaryTextColor"
+                    android:textSize="14sp" />
 
-                    </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/map_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginBottom="12dp"
+                    android:orientation="vertical"
+                    android:paddingHorizontal="18dp">
 
-                    <LinearLayout
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginEnd="14dp"
-                        android:background="@drawable/rounded_corner_background"
-                        android:orientation="vertical"
-                        android:padding="12dp">
-
-                        <ImageView
-                            android:layout_width="22dp"
-                            android:layout_height="22dp"
-                            android:layout_gravity="start"
-                            android:src="@drawable/guests"
-                            app:tint="@color/primaryTextColor" />
-
-                        <TextView
-                            android:id="@+id/guests"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="start"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginEnd="20dp"
-                            android:fontFamily="@font/samsungsans_medium"
-                            android:text="2 bath"
-                            android:textColor="@color/primaryTextColor"
-                            android:textSize="13sp" />
-
-                    </LinearLayout>
+                    <fragment
+                        android:id="@+id/map"
+                        android:name="com.google.android.gms.maps.SupportMapFragment"
+                        android:layout_width="match_parent"
+                        android:layout_height="300dp"
+                        android:background="@drawable/rounded_corner_background" />
 
                 </LinearLayout>
 
-            </HorizontalScrollView>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/samsungsans_medium"
-                android:paddingHorizontal="18dp"
-                android:text="@string/location_address"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/location_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingHorizontal="18dp"
-                android:text="Misty Brook, United States"
-                android:textColor="@color/secondaryTextColor"
-                android:textSize="14sp" />
-
-            <LinearLayout
-                android:id="@+id/map_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:layout_marginBottom="12dp"
-                android:orientation="vertical"
-                android:paddingHorizontal="18dp">
-
-                <fragment
-                    android:id="@+id/map"
-                    android:name="com.google.android.gms.maps.SupportMapFragment"
+                <TextView
                     android:layout_width="match_parent"
-                    android:layout_height="300dp"
-                    android:background="@drawable/rounded_corner_background" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:fontFamily="@font/samsungsans_medium"
+                    android:paddingHorizontal="18dp"
+                    android:text="@string/booking_availability"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/cancellation_policy"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:fontFamily="@font/segoe_ui"
+                    android:paddingHorizontal="18dp"
+                    android:text="@string/booking_availability"
+                    android:textColor="@color/primaryTextColor"
+                    android:textSize="14sp" />
+
+                <com.prolificinteractive.materialcalendarview.MaterialCalendarView
+                    android:id="@+id/calendarView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginBottom="12dp"
+                    android:paddingHorizontal="6dp"
+                    app:mcv_selectionColor="@color/colorPrimary" />
 
             </LinearLayout>
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="12dp"
-                android:fontFamily="@font/samsungsans_medium"
-                android:paddingHorizontal="18dp"
-                android:text="@string/booking_availability"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="16sp" />
+        </RelativeLayout>
 
-            <TextView
-                android:id="@+id/cancellation_policy"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:fontFamily="@font/segoe_ui"
-                android:paddingHorizontal="18dp"
-                android:text="@string/booking_availability"
-                android:textColor="@color/primaryTextColor"
-                android:textSize="14sp" />
+    </ScrollView>
 
-            <com.prolificinteractive.materialcalendarview.MaterialCalendarView
-                android:id="@+id/calendarView"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="2dp"
-                android:layout_marginBottom="12dp"
-                android:paddingHorizontal="6dp"
-                app:mcv_selectionColor="@color/colorPrimary" />
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:elevation="0dp"
+        android:paddingHorizontal="18dp"
+        android:paddingVertical="12dp">
 
-        </LinearLayout>
-
-    </RelativeLayout>
-
-</ScrollView>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/reserve_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="18dp"
+            android:backgroundTint="@color/colorPrimary"
+            android:fontFamily="@font/samsungsans_medium"
+            android:paddingVertical="12dp"
+            android:text="@string/reserve"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            app:cornerRadius="16dp" />
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>
