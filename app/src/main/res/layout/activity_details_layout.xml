@@ -467,5 +467,7 @@
             android:textColor="@android:color/white"
             android:textSize="16sp"
             app:cornerRadius="16dp" />
+
     </com.google.android.material.card.MaterialCardView>
+
 </RelativeLayout>
