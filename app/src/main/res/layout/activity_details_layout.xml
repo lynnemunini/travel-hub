@@ -84,6 +84,16 @@
             android:textColor="@color/secondaryTextColor"
             android:textSize="14sp" />
 
+        <TextView
+            android:id="@+id/amenities"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:fontFamily="@font/segoe_ui"
+            android:text="Misty Brook, United States"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="12sp" />
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

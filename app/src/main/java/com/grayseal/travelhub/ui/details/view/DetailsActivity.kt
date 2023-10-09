@@ -2,6 +2,7 @@ package com.grayseal.travelhub.ui.details.view
 
 import android.content.Intent
 import android.graphics.Paint
+import android.graphics.Typeface
 import android.os.Bundle
 import android.view.View
 import android.widget.ProgressBar
@@ -25,6 +26,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var nameTextView: TextView
     private lateinit var locationTextView: TextView
     private lateinit var ratingTextView: TextView
+    private lateinit var amenitiesTextView: TextView
     private lateinit var reviewsTextView: TextView
     private lateinit var priceTextView: TextView
     private lateinit var loadingProgressBar: ProgressBar
@@ -43,6 +45,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         nameTextView = findViewById(R.id.name)
         locationTextView = findViewById(R.id.location)
         ratingTextView = findViewById(R.id.rating)
+        amenitiesTextView = findViewById(R.id.amenities)
         reviewsTextView = findViewById(R.id.reviews)
         priceTextView = findViewById(R.id.price)
         imageViewPager = findViewById(R.id.image_view_pager)
@@ -52,6 +55,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
 
         reviewsTextView.paintFlags = Paint.UNDERLINE_TEXT_FLAG
         ratingTextView.paintFlags = Paint.UNDERLINE_TEXT_FLAG
+        amenitiesTextView.setTypeface(null, Typeface.ITALIC)
     }
 
     private fun loadData() {
@@ -82,6 +86,12 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     "%s %s",
                     travelItem?.price?.currency,
                     travelItem?.price?.amount
+                )
+                amenitiesTextView.text = String.format(
+                    Locale.getDefault(),
+                    "%s: %s",
+                    getString(R.string.amenities),
+                    travelItem?.amenities?.joinToString(", ")
                 )
             }
         }
