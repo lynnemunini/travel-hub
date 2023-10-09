@@ -6,7 +6,6 @@ import android.graphics.Paint
 import android.graphics.Typeface
 import android.os.Bundle
 import android.view.View
-import android.widget.ImageView
 import android.widget.ProgressBar
 import android.widget.TextView
 import androidx.activity.viewModels
@@ -47,7 +46,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var guestTextView: TextView
     private lateinit var priceTextView: TextView
     private lateinit var locationAddress: TextView
-    private lateinit var calendarIcon: ImageView
+    private lateinit var cancellationPolicy: TextView
     private lateinit var loadingProgressBar: ProgressBar
     private lateinit var calendarView: MaterialCalendarView
     private lateinit var myMap: GoogleMap
@@ -67,12 +66,12 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private fun initializeResources() {
         loadingProgressBar = findViewById(R.id.loading_progress)
         uniqueTypeTextView = findViewById(R.id.unique_type)
-        calendarIcon = findViewById(R.id.calendar_icon)
         calendarView = findViewById(R.id.calendarView)
         nameTextView = findViewById(R.id.name)
         locationTextView = findViewById(R.id.location)
         ratingTextView = findViewById(R.id.rating)
         amenitiesTextView = findViewById(R.id.amenities)
+        cancellationPolicy = findViewById(R.id.cancellation_policy)
         locationAddress = findViewById(R.id.location_name)
         reviewsTextView = findViewById(R.id.reviews)
         bathTextView = findViewById(R.id.bath)
@@ -88,6 +87,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         reviewsTextView.paintFlags = Paint.UNDERLINE_TEXT_FLAG
         ratingTextView.paintFlags = Paint.UNDERLINE_TEXT_FLAG
         amenitiesTextView.setTypeface(null, Typeface.ITALIC)
+        cancellationPolicy.setTypeface(null, Typeface.ITALIC)
     }
 
     private fun loadData() {
@@ -150,6 +150,12 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     "Guest"
                 )
                 locationAddress.text = toTitleCase(entry?.location?.name.toString())
+                cancellationPolicy.text = String.format(
+                    Locale.getDefault(),
+                    "%s %s",
+                    "Cancellation Policy: ",
+                    travelItem?.cancellationPolicy
+                )
                 mapFragment.getMapAsync(this)
 
                 val dateFormat = org.threeten.bp.format.DateTimeFormatter.ofPattern("MM/dd/yyyy")

@@ -20,4 +20,5 @@
     <string name="amenities">Amenities</string>
     <string name="details">Details</string>
     <string name="location_address">Location address</string>
+    <string name="booking_availability">Booking Availability</string>
 </resources>

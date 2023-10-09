@@ -60,15 +60,6 @@
 
                 </com.google.android.material.card.MaterialCardView>
 
-                <ImageView
-                    android:id="@+id/calendar_icon"
-                    android:layout_width="30dp"
-                    android:layout_height="30dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_centerInParent="true"
-                    android:src="@drawable/calendar"
-                    app:tint="@color/primaryTextColor" />
-
             </RelativeLayout>
 
             <TextView
@@ -403,12 +394,35 @@
 
             </LinearLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/samsungsans_medium"
+                android:paddingHorizontal="18dp"
+                android:text="@string/booking_availability"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/cancellation_policy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingHorizontal="18dp"
+                android:layout_marginTop="2dp"
+                android:text="@string/booking_availability"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="14sp" />
+
             <com.prolificinteractive.materialcalendarview.MaterialCalendarView
                 android:id="@+id/calendarView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                app:mcv_showOtherDates="all"
-                app:mcv_selectionColor="#00F" />
+                android:layout_marginTop="2dp"
+                android:paddingHorizontal="6dp"
+                android:layout_marginBottom="12dp"
+                app:mcv_selectionColor="@color/colorPrimary" />
 
         </LinearLayout>
 
