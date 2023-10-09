@@ -156,8 +156,8 @@
 
                     <ImageView
                         android:id="@+id/review"
-                        android:layout_width="21dp"
-                        android:layout_height="21dp"
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
                         android:layout_alignParentStart="true"
                         android:layout_centerInParent="true"
                         android:src="@drawable/reviews"
