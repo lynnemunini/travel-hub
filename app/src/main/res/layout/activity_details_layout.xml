@@ -85,6 +85,17 @@
                 android:textSize="14sp" />
 
             <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingHorizontal="18dp"
+                android:text="Misty Brook, United States"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="13sp" />
+
+            <TextView
                 android:id="@+id/amenities"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -408,9 +419,9 @@
                 android:id="@+id/cancellation_policy"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
                 android:fontFamily="@font/segoe_ui"
                 android:paddingHorizontal="18dp"
-                android:layout_marginTop="2dp"
                 android:text="@string/booking_availability"
                 android:textColor="@color/primaryTextColor"
                 android:textSize="14sp" />
@@ -420,8 +431,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="2dp"
-                android:paddingHorizontal="6dp"
                 android:layout_marginBottom="12dp"
+                android:paddingHorizontal="6dp"
                 app:mcv_selectionColor="@color/colorPrimary" />
 
         </LinearLayout>

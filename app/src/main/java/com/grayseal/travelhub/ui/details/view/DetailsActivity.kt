@@ -44,6 +44,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
     private lateinit var bedTextView: TextView
     private lateinit var bedroomTextView: TextView
     private lateinit var guestTextView: TextView
+    private lateinit var descriptionTextView: TextView
     private lateinit var priceTextView: TextView
     private lateinit var locationAddress: TextView
     private lateinit var cancellationPolicy: TextView
@@ -74,6 +75,7 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
         cancellationPolicy = findViewById(R.id.cancellation_policy)
         locationAddress = findViewById(R.id.location_name)
         reviewsTextView = findViewById(R.id.reviews)
+        descriptionTextView = findViewById(R.id.description)
         bathTextView = findViewById(R.id.bath)
         bedTextView = findViewById(R.id.bed)
         bedroomTextView = findViewById(R.id.bedroom)
@@ -124,6 +126,12 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     "%s: %s",
                     getString(R.string.amenities),
                     travelItem?.amenities?.joinToString(", ")
+                )
+                descriptionTextView.text = String.format(
+                    Locale.getDefault(),
+                    "%s: %s",
+                    "Description",
+                    travelItem?.description
                 )
                 bedTextView.text = String.format(
                     Locale.getDefault(),
