@@ -5,6 +5,8 @@ plugins {
     id("com.google.dagger.hilt.android")
     // Add the Google services Gradle plugin
     id("com.google.gms.google-services")
+    id("com.google.android.libraries.mapsplatform.secrets-gradle-plugin")
+
 
 }
 
@@ -70,6 +72,9 @@ dependencies {
     implementation("org.greenrobot:eventbus:3.3.1")
     // Picasso
     implementation("com.squareup.picasso:picasso:2.71828")
+    // Maps SDK for Android
+    implementation("com.google.android.gms:play-services-maps:18.1.0")
+
 }
 
 // Allow references to generated code

@@ -244,8 +244,8 @@
                     <LinearLayout
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_marginEnd="14dp"
                         android:layout_marginStart="18dp"
+                        android:layout_marginEnd="14dp"
                         android:background="@drawable/rounded_corner_background"
                         android:orientation="vertical"
                         android:padding="12dp">
@@ -361,6 +361,27 @@
                 </LinearLayout>
 
             </HorizontalScrollView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/samsungsans_medium"
+                android:paddingHorizontal="18dp"
+                android:text="@string/location_address"
+                android:textColor="@color/primaryTextColor"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/location_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:fontFamily="@font/segoe_ui"
+                android:paddingHorizontal="18dp"
+                android:text="Misty Brook, United States"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="14sp" />
 
         </LinearLayout>
 

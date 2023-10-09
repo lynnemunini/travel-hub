@@ -105,25 +105,25 @@ class DetailsActivity : AppCompatActivity(), ImagePagerAdapter.BackArrowClickLis
                     Locale.getDefault(),
                     "%s %s",
                     travelItem?.details?.beds,
-                    "bed"
+                    "Bed"
                 )
                 bathTextView.text = String.format(
                     Locale.getDefault(),
                     "%s %s",
                     travelItem?.details?.bath,
-                    "bathroom"
+                    "Bathroom"
                 )
                 bedroomTextView.text = String.format(
                     Locale.getDefault(),
                     "%s %s",
                     travelItem?.details?.bedroom,
-                    "bedroom"
+                    "Bedroom"
                 )
                 guestTextView.text = String.format(
                     Locale.getDefault(),
                     "%s %s",
                     travelItem?.details?.beds,
-                    "guest"
+                    "Guest"
                 )
             }
         }
