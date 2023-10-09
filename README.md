@@ -3,7 +3,7 @@ Travel Hub is an Android application that allows users to discover and preview p
 
 ## 📱
 Gif of the app in action.
-<img src="assets/demo.gif" alt="Travel Hub in Action">
+<img src="assets/demo.gif" width="60%" alt="Travel Hub in Action">
 
 ## Features 🚀
 
